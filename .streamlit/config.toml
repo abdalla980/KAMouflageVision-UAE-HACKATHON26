@@ -15,6 +15,7 @@ primaryColor = "#D8B66A"
 [server]
 maxUploadSize = 500
 address = "localhost"
+runOnSave = true
 
 [browser]
 gatherUsageStats = false

@@ -8,7 +8,8 @@ import streamlit as st
 
 from lib import LOGO
 
-st.set_page_config(page_title="KAMouflage Vision", page_icon=str(LOGO), layout="wide")
+st.set_page_config(page_title="KAMouflage Vision", page_icon=str(LOGO), layout="wide",
+                   initial_sidebar_state="expanded")
 
 pages = st.navigation({
     "Workflow": [
