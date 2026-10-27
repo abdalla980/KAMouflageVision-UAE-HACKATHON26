@@ -1,0 +1,601 @@
+image_id,seq_id,detection,det_conf,bbox,species,species_conf,top3,seq_species,seq_conf,status,enhanced_path,model_version
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0173,KAR_S1#B02#1#69,animal,0.851,,Tortoise,0.851,Tortoise:0.93|Bird of Prey:0.04|Secretarybird:0.02,Tortoise,0.935,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0174,KAR_S1#B02#1#69,animal,0.829,,Tortoise,0.829,Tortoise:0.93|Bird of Prey:0.04|Secretarybird:0.02,Tortoise,0.935,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0175,KAR_S1#B02#1#69,empty,0.069,,,0.0,Tortoise:0.93|Bird of Prey:0.04|Secretarybird:0.02,Tortoise,0.935,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG1596,KAR_S1#E02#1#534,animal,0.968,,Reptile,0.968,Reptile:0.98|Springbok:0.01|Mountain Reedbuck:0.00,Reptile,0.981,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG1597,KAR_S1#E02#1#534,animal,0.96,,Reptile,0.96,Reptile:0.98|Springbok:0.01|Mountain Reedbuck:0.00,Reptile,0.981,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG1598,KAR_S1#E02#1#534,empty,0.019,,,0.0,Reptile:0.98|Springbok:0.01|Mountain Reedbuck:0.00,Reptile,0.981,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG6643,KAR_S1#B01#1#2675,animal,0.866,,Hare,0.866,Hare:0.93|Springbok:0.04|Cape Fox:0.02,Hare,0.934,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG6644,KAR_S1#B01#1#2675,animal,0.952,,Hare,0.952,Hare:0.93|Springbok:0.04|Cape Fox:0.02,Hare,0.934,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG6645,KAR_S1#B01#1#2675,animal,0.844,,Hare,0.844,Hare:0.93|Springbok:0.04|Cape Fox:0.02,Hare,0.934,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0672,KAR_S1#D04#1#232,animal,0.925,,Ludwig's Bustard,0.925,Ludwig's Bustard:0.94|Caracal:0.04|Kudu:0.01,Ludwig's Bustard,0.94,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0673,KAR_S1#D04#1#232,animal,0.905,,Ludwig's Bustard,0.905,Ludwig's Bustard:0.94|Caracal:0.04|Kudu:0.01,Ludwig's Bustard,0.94,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0674,KAR_S1#D04#1#232,animal,0.911,,Ludwig's Bustard,0.911,Ludwig's Bustard:0.94|Caracal:0.04|Kudu:0.01,Ludwig's Bustard,0.94,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0295,KAR_S1#E03#1#113,animal,0.501,,Leopard,0.501,Leopard:0.57|Common Duiker:0.26|Cape Porcupine:0.11,Leopard,0.57,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0063,KAR_S1#D04#1#23,animal,0.835,,Yellow Mongoose,0.835,Yellow Mongoose:0.88|Klipspringer:0.07|Mountain Zebra:0.03,Yellow Mongoose,0.884,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0064,KAR_S1#D04#1#23,empty,0.116,,,0.0,Yellow Mongoose:0.88|Klipspringer:0.07|Mountain Zebra:0.03,Yellow Mongoose,0.884,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0065,KAR_S1#D04#1#23,animal,0.79,,Yellow Mongoose,0.79,Yellow Mongoose:0.88|Klipspringer:0.07|Mountain Zebra:0.03,Yellow Mongoose,0.884,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG1806,KAR_S1#B03#1#648,empty,0.059,,,0.0,Bird:0.86|Springbok:0.08|Steenbok:0.03,Bird,0.863,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG1807,KAR_S1#B03#1#648,empty,0.08,,,0.0,Bird:0.86|Springbok:0.08|Steenbok:0.03,Bird,0.863,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG1808,KAR_S1#B03#1#648,animal,0.879,,Bird,0.879,Bird:0.86|Springbok:0.08|Steenbok:0.03,Bird,0.863,needs_review,,DEMO-mock-0.1
+KAR_S1/A01/A01_R1/KAR_S1_A01_R1_IMAG00105,KAR_S1#A01#1#98,animal,0.944,,Eland,0.944,Eland:0.95|Black-backed Jackal:0.03|Grey Rhebok:0.01,Eland,0.951,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0098,KAR_S1#E03#1#38,animal,0.99,,Brown Hyena,0.99,Brown Hyena:0.97|Ostrich:0.02|Hare:0.01,Brown Hyena,0.967,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG0190,KAR_S1#C03#1#64,animal,0.99,,Cape Grey Mongoose,0.99,Cape Grey Mongoose:0.98|Red Hartebeest:0.01|Kudu:0.00,Cape Grey Mongoose,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG0191,KAR_S1#C03#1#64,animal,0.887,,Cape Grey Mongoose,0.887,Cape Grey Mongoose:0.98|Red Hartebeest:0.01|Kudu:0.00,Cape Grey Mongoose,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG0192,KAR_S1#C03#1#64,animal,0.907,,Cape Grey Mongoose,0.907,Cape Grey Mongoose:0.98|Red Hartebeest:0.01|Kudu:0.00,Cape Grey Mongoose,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG2378,KAR_S1#C04#1#890,animal,0.816,,Klipspringer,0.816,Klipspringer:0.79|Ostrich:0.13|Ludwig's Bustard:0.05,Klipspringer,0.786,needs_review,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0196,KAR_S1#B02#1#80,animal,0.506,,Springbok,0.506,Springbok:0.56|Cape Fox:0.26|Mountain Reedbuck:0.11,Springbok,0.561,needs_review,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG0010,KAR_S1#E02#1#4,animal,0.863,,Bat-eared Fox,0.863,Bat-eared Fox:0.88|Eland:0.07|Aardvark:0.03,Bat-eared Fox,0.883,needs_review,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG0050,KAR_S1#C02#1#26,animal,0.848,,Cape Porcupine,0.848,Cape Porcupine:0.90|Aardvark:0.06|Cape Grey Mongoose:0.02,Cape Porcupine,0.905,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0949,KAR_S1#B03#1#353,animal,0.74,,Caracal,0.74,Caracal:0.74|Rodent:0.15|Bird:0.06,Caracal,0.744,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0950,KAR_S1#B03#1#353,empty,0.088,,,0.0,Caracal:0.74|Rodent:0.15|Bird:0.06,Caracal,0.744,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0951,KAR_S1#B03#1#353,empty,0.066,,,0.0,Caracal:0.74|Rodent:0.15|Bird:0.06,Caracal,0.744,needs_review,,DEMO-mock-0.1
+KGA_S1/A04/A04_R1/KGA_S1_A04_R1_IMAG0062,KGA_S1#A04#1#24,animal,0.797,,Bird,0.797,Bird:0.89|Reptile:0.07|Ludwig's Bustard:0.03,Bird,0.89,needs_review,,DEMO-mock-0.1
+KGA_S1/A04/A04_R1/KGA_S1_A04_R1_IMAG0063,KGA_S1#A04#1#24,animal,0.828,,Bird,0.828,Bird:0.89|Reptile:0.07|Ludwig's Bustard:0.03,Bird,0.89,needs_review,,DEMO-mock-0.1
+KGA_S1/A04/A04_R1/KGA_S1_A04_R1_IMAG0064,KGA_S1#A04#1#24,animal,0.779,,Bird,0.779,Bird:0.89|Reptile:0.07|Ludwig's Bustard:0.03,Bird,0.89,needs_review,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0034,KGA_S1#A07#1#16,animal,0.83,,Blue Wildebeest,0.83,Blue Wildebeest:0.91|Leopard:0.05|African Wildcat:0.02,Blue Wildebeest,0.914,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0475,KGA_S1#A06#1#175,animal,0.841,,Red Hartebeest,0.841,Red Hartebeest:0.88|Empty:0.07|Kori Bustard:0.03,Red Hartebeest,0.88,needs_review,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0215,KGA_S1#A11#1#75,animal,0.664,,Reptile,0.664,Reptile:0.64|Leopard:0.21|Black-backed Jackal:0.09,Reptile,0.644,needs_review,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0216,KGA_S1#A11#1#75,animal,0.551,,Reptile,0.551,Reptile:0.64|Leopard:0.21|Black-backed Jackal:0.09,Reptile,0.644,needs_review,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0217,KGA_S1#A11#1#75,animal,0.527,,Reptile,0.527,Reptile:0.64|Leopard:0.21|Black-backed Jackal:0.09,Reptile,0.644,needs_review,,DEMO-mock-0.1
+KGA_S1/B03/B03_R1/KGA_S1_B03_R1_IMAG0037,KGA_S1#B03#1#15,animal,0.641,,Secretarybird,0.641,Secretarybird:0.59|Aardvark:0.24|Springbok:0.10,Secretarybird,0.595,needs_review,,DEMO-mock-0.1
+KGA_S1/A05/A05_R1/KGA_S1_A05_R1_IMAG0285,KGA_S1#A05#1#101,animal,0.858,,Eland,0.858,Eland:0.94|Leopard:0.04|Cape Hare:0.01,Eland,0.941,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG2904,KAR_S1#E02#1#972,animal,0.889,,Springbok,0.889,Springbok:0.88|Riverine Rabbit:0.07|Klipspringer:0.03,Springbok,0.88,needs_review,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG2905,KAR_S1#E02#1#972,animal,0.793,,Springbok,0.793,Springbok:0.88|Riverine Rabbit:0.07|Klipspringer:0.03,Springbok,0.88,needs_review,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG2906,KAR_S1#E02#1#972,empty,0.044,,,0.0,Springbok:0.88|Riverine Rabbit:0.07|Klipspringer:0.03,Springbok,0.88,needs_review,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0230,KAR_S1#E03#1#86,animal,0.822,,Gemsbok,0.822,Gemsbok:0.86|Riverine Rabbit:0.08|Kudu:0.03,Gemsbok,0.862,needs_review,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0231,KAR_S1#E03#1#86,empty,0.037,,,0.0,Gemsbok:0.86|Riverine Rabbit:0.08|Kudu:0.03,Gemsbok,0.862,needs_review,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0232,KAR_S1#E03#1#86,empty,0.095,,,0.0,Gemsbok:0.86|Riverine Rabbit:0.08|Kudu:0.03,Gemsbok,0.862,needs_review,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1147,KAR_S1#C03#1#383,animal,0.922,,Bird of Prey,0.922,Bird of Prey:0.98|Kudu:0.01|Leopard:0.00,Bird of Prey,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1148,KAR_S1#C03#1#383,animal,0.947,,Bird of Prey,0.947,Bird of Prey:0.98|Kudu:0.01|Leopard:0.00,Bird of Prey,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1149,KAR_S1#C03#1#383,animal,0.99,,Bird of Prey,0.99,Bird of Prey:0.98|Kudu:0.01|Leopard:0.00,Bird of Prey,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0035,KGA_S1#A07#1#17,empty,0.134,,,0.0,Kudu:0.77|Black-backed Jackal:0.14|Blue Wildebeest:0.06,Kudu,0.77,needs_review,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0036,KGA_S1#A07#1#17,animal,0.724,,Kudu,0.724,Kudu:0.77|Black-backed Jackal:0.14|Blue Wildebeest:0.06,Kudu,0.77,needs_review,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0037,KGA_S1#A07#1#17,empty,0.099,,,0.0,Kudu:0.77|Black-backed Jackal:0.14|Blue Wildebeest:0.06,Kudu,0.77,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0249,KGA_S1#A01#1#99,animal,0.857,,Ostrich,0.857,Ostrich:0.95|Lion:0.03|Red Hartebeest:0.01,Ostrich,0.948,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0250,KGA_S1#A01#1#99,empty,0.028,,,0.0,Ostrich:0.95|Lion:0.03|Red Hartebeest:0.01,Ostrich,0.948,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0251,KGA_S1#A01#1#99,animal,0.853,,Ostrich,0.853,Ostrich:0.95|Lion:0.03|Red Hartebeest:0.01,Ostrich,0.948,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0760,KGA_S1#A01#1#278,animal,0.887,,Bird,0.887,Bird:0.98|Yellow Mongoose:0.01|Reptile:0.00,Bird,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0761,KGA_S1#A01#1#278,animal,0.867,,Bird,0.867,Bird:0.98|Yellow Mongoose:0.01|Reptile:0.00,Bird,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0762,KGA_S1#A01#1#278,animal,0.99,,Bird,0.99,Bird:0.98|Yellow Mongoose:0.01|Reptile:0.00,Bird,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0076,KGA_S1#B07#1#28,animal,0.805,,Bird,0.805,Bird:0.89|Secretarybird:0.07|Cape Grey Mongoose:0.03,Bird,0.889,needs_review,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0077,KGA_S1#B07#1#28,empty,0.045,,,0.0,Bird:0.89|Secretarybird:0.07|Cape Grey Mongoose:0.03,Bird,0.889,needs_review,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0078,KGA_S1#B07#1#28,empty,0.051,,,0.0,Bird:0.89|Secretarybird:0.07|Cape Grey Mongoose:0.03,Bird,0.889,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0401,KGA_S1#A01#1#153,animal,0.947,,Bird,0.947,Bird:0.95|Mountain Reedbuck:0.03|Cape Grey Mongoose:0.01,Bird,0.955,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0402,KGA_S1#A01#1#153,animal,0.973,,Bird,0.973,Bird:0.95|Mountain Reedbuck:0.03|Cape Grey Mongoose:0.01,Bird,0.955,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0403,KGA_S1#A01#1#153,empty,0.082,,,0.0,Bird:0.95|Mountain Reedbuck:0.03|Cape Grey Mongoose:0.01,Bird,0.955,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A04/A04_R1/KGA_S1_A04_R1_IMAG0182,KGA_S1#A04#1#68,animal,0.94,,Bird,0.94,Bird:0.98|Rodent:0.01|Cape Grey Mongoose:0.00,Bird,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A04/A04_R1/KGA_S1_A04_R1_IMAG0183,KGA_S1#A04#1#68,animal,0.896,,Bird,0.896,Bird:0.98|Rodent:0.01|Cape Grey Mongoose:0.00,Bird,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A04/A04_R1/KGA_S1_A04_R1_IMAG0184,KGA_S1#A04#1#68,animal,0.866,,Bird,0.866,Bird:0.98|Rodent:0.01|Cape Grey Mongoose:0.00,Bird,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/A02/A02_R1/KAR_S1_A02_R1_IMAG0500,KAR_S1#A02#1#186,animal,0.923,,Springbok,0.923,Springbok:0.96|Brown Hyena:0.02|Spotted Hyena:0.01,Springbok,0.961,auto_accepted,,DEMO-mock-0.1
+KAR_S1/A02/A02_R1/KAR_S1_A02_R1_IMAG0501,KAR_S1#A02#1#186,animal,0.973,,Springbok,0.973,Springbok:0.96|Brown Hyena:0.02|Spotted Hyena:0.01,Springbok,0.961,auto_accepted,,DEMO-mock-0.1
+KAR_S1/A02/A02_R1/KAR_S1_A02_R1_IMAG0502,KAR_S1#A02#1#186,animal,0.99,,Springbok,0.99,Springbok:0.96|Brown Hyena:0.02|Spotted Hyena:0.01,Springbok,0.961,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1687,KGA_S1#B06#1#563,animal,0.8,,Bird,0.8,Bird:0.91|Chacma Baboon:0.05|Grey Rhebok:0.02,Bird,0.915,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1688,KGA_S1#B06#1#563,animal,0.947,,Bird,0.947,Bird:0.91|Chacma Baboon:0.05|Grey Rhebok:0.02,Bird,0.915,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1689,KGA_S1#B06#1#563,animal,0.806,,Bird,0.806,Bird:0.91|Chacma Baboon:0.05|Grey Rhebok:0.02,Bird,0.915,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0878,KGA_S1#A01#1#322,animal,0.916,,Bird,0.916,Bird:0.88|Chacma Baboon:0.07|Grey Rhebok:0.03,Bird,0.876,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0879,KGA_S1#A01#1#322,animal,0.875,,Bird,0.875,Bird:0.88|Chacma Baboon:0.07|Grey Rhebok:0.03,Bird,0.876,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0880,KGA_S1#A01#1#322,animal,0.905,,Bird,0.905,Bird:0.88|Chacma Baboon:0.07|Grey Rhebok:0.03,Bird,0.876,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0410,KGA_S1#A01#1#156,empty,0.135,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0411,KGA_S1#A01#1#156,empty,0.038,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0412,KGA_S1#A01#1#156,empty,0.073,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A08/A08_R1/KGA_S1_A08_R1_IMAG0007,KGA_S1#A08#1#3,animal,0.979,,Lion,0.979,Lion:0.98|Ludwig's Bustard:0.01|Ostrich:0.00,Lion,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B08/B08_R1/KGA_S1_B08_R1_IMAG0092,KGA_S1#B08#1#32,animal,0.747,,Black-backed Jackal,0.747,Black-backed Jackal:0.84|Cape Fox:0.09|Cape Hare:0.04,Black-backed Jackal,0.843,needs_review,,DEMO-mock-0.1
+KGA_S1/A09/A09_R1/KGA_S1_A09_R1_IMAG0201,KGA_S1#A09#1#71,animal,0.586,,Red Hartebeest,0.586,Red Hartebeest:0.54|Ostrich:0.28|Blue Wildebeest:0.12,Red Hartebeest,0.538,needs_review,,DEMO-mock-0.1
+KGA_S1/A02/A02_R1/KGA_S1_A02_R1_IMAG0089,KGA_S1#A02#1#33,animal,0.97,,Gemsbok,0.97,Gemsbok:0.97|Rodent:0.02|Ludwig's Bustard:0.01,Gemsbok,0.968,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A02/A02_R1/KGA_S1_A02_R1_IMAG0090,KGA_S1#A02#1#33,animal,0.851,,Gemsbok,0.851,Gemsbok:0.97|Rodent:0.02|Ludwig's Bustard:0.01,Gemsbok,0.968,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A02/A02_R1/KGA_S1_A02_R1_IMAG0091,KGA_S1#A02#1#33,animal,0.942,,Gemsbok,0.942,Gemsbok:0.97|Rodent:0.02|Ludwig's Bustard:0.01,Gemsbok,0.968,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0239,KGA_S1#A11#1#85,animal,0.81,,Common Duiker,0.81,Common Duiker:0.92|African Wildcat:0.05|Lion:0.02,Common Duiker,0.919,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0240,KGA_S1#A11#1#85,animal,0.967,,Common Duiker,0.967,Common Duiker:0.92|African Wildcat:0.05|Lion:0.02,Common Duiker,0.919,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0241,KGA_S1#A11#1#85,animal,0.933,,Common Duiker,0.933,Common Duiker:0.92|African Wildcat:0.05|Lion:0.02,Common Duiker,0.919,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B01/B01_R1/KGA_S1_B01_R1_IMAG0025,KGA_S1#B01#1#15,animal,0.81,,African Wildcat,0.81,African Wildcat:0.91|Bird:0.06|Caracal:0.02,African Wildcat,0.908,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0715,KGA_S1#B06#1#239,animal,0.874,,Kori Bustard,0.874,Kori Bustard:0.88|Empty:0.07|Ludwig's Bustard:0.03,Kori Bustard,0.875,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0716,KGA_S1#B06#1#239,empty,0.023,,,0.0,Kori Bustard:0.88|Empty:0.07|Ludwig's Bustard:0.03,Kori Bustard,0.875,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0717,KGA_S1#B06#1#239,animal,0.765,,Kori Bustard,0.765,Kori Bustard:0.88|Empty:0.07|Ludwig's Bustard:0.03,Kori Bustard,0.875,needs_review,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0133,KGA_S1#A07#1#55,animal,0.839,,Cape Fox,0.839,Cape Fox:0.86|African Wildcat:0.09|Black-backed Jackal:0.04,Cape Fox,0.856,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3218,KGA_S1#B06#1#1078,animal,0.759,,Brown Hyena,0.759,Brown Hyena:0.82|Gemsbok:0.11|Cape Fox:0.04,Brown Hyena,0.822,needs_review,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0352,KGA_S1#B09#1#120,animal,0.671,,Steenbok,0.671,Steenbok:0.75|Cape Fox:0.15|Bat-eared Fox:0.06,Steenbok,0.75,needs_review,,DEMO-mock-0.1
+KGA_S1/A02/A02_R1/KGA_S1_A02_R1_IMAG0043,KGA_S1#A02#1#15,animal,0.837,,Gemsbok,0.837,Gemsbok:0.91|Cape Hare:0.06|Empty:0.02,Gemsbok,0.905,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A02/A02_R1/KGA_S1_A02_R1_IMAG0044,KGA_S1#A02#1#15,animal,0.914,,Gemsbok,0.914,Gemsbok:0.91|Cape Hare:0.06|Empty:0.02,Gemsbok,0.905,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A02/A02_R1/KGA_S1_A02_R1_IMAG0045,KGA_S1#A02#1#15,animal,0.834,,Gemsbok,0.834,Gemsbok:0.91|Cape Hare:0.06|Empty:0.02,Gemsbok,0.905,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A10/A10_R1/KGA_S1_A10_R1_IMAG0036,KGA_S1#A10#1#16,animal,0.726,,Common Duiker,0.726,Common Duiker:0.84|African Wildcat:0.09|Gemsbok:0.04,Common Duiker,0.842,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0474,KAR_S1#D04#1#166,animal,0.969,,Bat-eared Fox,0.969,Bat-eared Fox:0.95|Chacma Baboon:0.03|Rodent:0.01,Bat-eared Fox,0.95,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0475,KAR_S1#D04#1#166,empty,0.071,,,0.0,Bat-eared Fox:0.95|Chacma Baboon:0.03|Rodent:0.01,Bat-eared Fox,0.95,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0476,KAR_S1#D04#1#166,animal,0.914,,Bat-eared Fox,0.914,Bat-eared Fox:0.95|Chacma Baboon:0.03|Rodent:0.01,Bat-eared Fox,0.95,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0859,KAR_S1#B02#1#323,animal,0.932,,Cape Porcupine,0.932,Cape Porcupine:0.91|Common Duiker:0.05|Eland:0.02,Cape Porcupine,0.91,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0020,KGA_S1#A11#1#8,animal,0.851,,Caracal,0.851,Caracal:0.83|Cape Fox:0.10|Ludwig's Bustard:0.04,Caracal,0.828,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0827,KAR_S1#B03#1#309,animal,0.978,,Cape Porcupine,0.978,Cape Porcupine:0.98|Mountain Zebra:0.01|Cape Hare:0.00,Cape Porcupine,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG2134,KAR_S1#F02#1#896,animal,0.869,,Reptile,0.869,Reptile:0.96|Rodent:0.03|Grey Rhebok:0.01,Reptile,0.958,auto_accepted,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG2135,KAR_S1#F02#1#896,animal,0.883,,Reptile,0.883,Reptile:0.96|Rodent:0.03|Grey Rhebok:0.01,Reptile,0.958,auto_accepted,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG2136,KAR_S1#F02#1#896,animal,0.838,,Reptile,0.838,Reptile:0.96|Rodent:0.03|Grey Rhebok:0.01,Reptile,0.958,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0757,KAR_S1#B02#1#285,animal,0.428,,Klipspringer,0.428,Klipspringer:0.55|Hare:0.27|Honey Badger:0.11,Klipspringer,0.548,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0561,KAR_S1#D04#1#195,animal,0.866,,Ludwig's Bustard,0.866,Ludwig's Bustard:0.98|Reptile:0.01|Gemsbok:0.00,Ludwig's Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0562,KAR_S1#D04#1#195,animal,0.91,,Ludwig's Bustard,0.91,Ludwig's Bustard:0.98|Reptile:0.01|Gemsbok:0.00,Ludwig's Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0563,KAR_S1#D04#1#195,animal,0.88,,Ludwig's Bustard,0.88,Ludwig's Bustard:0.98|Reptile:0.01|Gemsbok:0.00,Ludwig's Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0102,KAR_S1#E03#1#42,animal,0.909,,Common Duiker,0.909,Common Duiker:0.87|Honey Badger:0.08|Eland:0.03,Common Duiker,0.866,needs_review,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0008,KAR_S1#E03#1#6,animal,0.677,,Cape Grey Mongoose,0.677,Cape Grey Mongoose:0.71|Steenbok:0.17|Lion:0.07,Cape Grey Mongoose,0.713,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0471,KAR_S1#D04#1#165,animal,0.901,,Kori Bustard,0.901,Kori Bustard:0.93|Rodent:0.04|Mountain Zebra:0.02,Kori Bustard,0.932,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0472,KAR_S1#D04#1#165,empty,0.081,,,0.0,Kori Bustard:0.93|Rodent:0.04|Mountain Zebra:0.02,Kori Bustard,0.932,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0473,KAR_S1#D04#1#165,animal,0.954,,Kori Bustard,0.954,Kori Bustard:0.93|Rodent:0.04|Mountain Zebra:0.02,Kori Bustard,0.932,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0330,KAR_S1#D01#1#120,animal,0.99,,Caracal,0.99,Caracal:0.98|Tortoise:0.01|Eland:0.00,Caracal,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0331,KAR_S1#D01#1#120,animal,0.929,,Caracal,0.929,Caracal:0.98|Tortoise:0.01|Eland:0.00,Caracal,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0332,KAR_S1#D01#1#120,animal,0.942,,Caracal,0.942,Caracal:0.98|Tortoise:0.01|Eland:0.00,Caracal,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG2654,KAR_S1#E02#1#888,animal,0.99,,Springbok,0.99,Springbok:0.96|Eland:0.02|Reptile:0.01,Springbok,0.961,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG2655,KAR_S1#E02#1#888,animal,0.99,,Springbok,0.99,Springbok:0.96|Eland:0.02|Reptile:0.01,Springbok,0.961,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG2656,KAR_S1#E02#1#888,animal,0.857,,Springbok,0.857,Springbok:0.96|Eland:0.02|Reptile:0.01,Springbok,0.961,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0191,KAR_S1#E03#1#73,empty,0.116,,,0.0,Gemsbok:0.95|Reptile:0.03|Empty:0.01,Gemsbok,0.954,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0192,KAR_S1#E03#1#73,empty,0.042,,,0.0,Gemsbok:0.95|Reptile:0.03|Empty:0.01,Gemsbok,0.954,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0193,KAR_S1#E03#1#73,animal,0.944,,Gemsbok,0.944,Gemsbok:0.95|Reptile:0.03|Empty:0.01,Gemsbok,0.954,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0483,KAR_S1#D04#1#169,animal,0.743,,Bird,0.743,Bird:0.84|Hare:0.10|Bat-eared Fox:0.04,Bird,0.838,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0484,KAR_S1#D04#1#169,animal,0.761,,Bird,0.761,Bird:0.84|Hare:0.10|Bat-eared Fox:0.04,Bird,0.838,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0485,KAR_S1#D04#1#169,animal,0.844,,Bird,0.844,Bird:0.84|Hare:0.10|Bat-eared Fox:0.04,Bird,0.838,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0761,KAR_S1#D04#1#263,animal,0.973,,Eland,0.973,Eland:0.98|Steenbok:0.01|Cape Fox:0.01,Eland,0.979,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0762,KAR_S1#D04#1#263,animal,0.976,,Eland,0.976,Eland:0.98|Steenbok:0.01|Cape Fox:0.01,Eland,0.979,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0763,KAR_S1#D04#1#263,animal,0.973,,Eland,0.973,Eland:0.98|Steenbok:0.01|Cape Fox:0.01,Eland,0.979,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0383,KGA_S1#B09#1#131,empty,0.022,,,0.0,Secretarybird:0.93|Ostrich:0.04|Brown Hyena:0.02,Secretarybird,0.932,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0384,KGA_S1#B09#1#131,animal,0.892,,Secretarybird,0.892,Secretarybird:0.93|Ostrich:0.04|Brown Hyena:0.02,Secretarybird,0.932,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0385,KGA_S1#B09#1#131,animal,0.861,,Secretarybird,0.861,Secretarybird:0.93|Ostrich:0.04|Brown Hyena:0.02,Secretarybird,0.932,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0903,KGA_S1#A01#1#331,empty,0.14,,,0.0,Bird:0.98|Rodent:0.01|Ostrich:0.00,Bird,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0904,KGA_S1#A01#1#331,animal,0.878,,Bird,0.878,Bird:0.98|Rodent:0.01|Ostrich:0.00,Bird,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0905,KGA_S1#A01#1#331,empty,0.023,,,0.0,Bird:0.98|Rodent:0.01|Ostrich:0.00,Bird,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1760,KGA_S1#B06#1#588,animal,0.914,,Bird,0.914,Bird:0.95|Yellow Mongoose:0.03|Rodent:0.01,Bird,0.949,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1761,KGA_S1#B06#1#588,animal,0.978,,Bird,0.978,Bird:0.95|Yellow Mongoose:0.03|Rodent:0.01,Bird,0.949,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1762,KGA_S1#B06#1#588,animal,0.896,,Bird,0.896,Bird:0.95|Yellow Mongoose:0.03|Rodent:0.01,Bird,0.949,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3760,KGA_S1#B06#1#1260,empty,0.067,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3761,KGA_S1#B06#1#1260,empty,0.112,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3762,KGA_S1#B06#1#1260,empty,0.068,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1618,KGA_S1#B06#1#540,empty,0.01,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1619,KGA_S1#B06#1#540,empty,0.115,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1620,KGA_S1#B06#1#540,empty,0.127,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1988,KGA_S1#B06#1#664,empty,0.136,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1989,KGA_S1#B06#1#664,empty,0.051,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1990,KGA_S1#B06#1#664,empty,0.062,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3188,KGA_S1#B06#1#1068,empty,0.06,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3189,KGA_S1#B06#1#1068,empty,0.07,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3190,KGA_S1#B06#1#1068,empty,0.049,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG2126,KGA_S1#B06#1#710,animal,0.045,,Blue Wildebeest,0.0,Blue Wildebeest:0.31|Hare:0.25|Cape Hare:0.13,Blue Wildebeest,0.313,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG2127,KGA_S1#B06#1#710,animal,0.047,,Blue Wildebeest,0.0,Blue Wildebeest:0.31|Hare:0.25|Cape Hare:0.13,Blue Wildebeest,0.313,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG2128,KGA_S1#B06#1#710,animal,0.082,,Blue Wildebeest,0.0,Blue Wildebeest:0.31|Hare:0.25|Cape Hare:0.13,Blue Wildebeest,0.313,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3318,KGA_S1#B06#1#1112,empty,0.134,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3319,KGA_S1#B06#1#1112,empty,0.124,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3320,KGA_S1#B06#1#1112,empty,0.098,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG2008,KAR_S1#C02#1#738,empty,0.029,,,0.0,Springbok:0.67|Bat-eared Fox:0.20|Blue Wildebeest:0.08,Springbok,0.67,needs_review,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG2009,KAR_S1#C02#1#738,animal,0.698,,Springbok,0.698,Springbok:0.67|Bat-eared Fox:0.20|Blue Wildebeest:0.08,Springbok,0.67,needs_review,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG2010,KAR_S1#C02#1#738,animal,0.632,,Springbok,0.632,Springbok:0.67|Bat-eared Fox:0.20|Blue Wildebeest:0.08,Springbok,0.67,needs_review,,DEMO-mock-0.1
+KGA_S1/B01/B01_R1/KGA_S1_B01_R1_IMAG0090,KGA_S1#B01#1#44,animal,0.868,,African Wildcat,0.868,African Wildcat:0.94|Mountain Reedbuck:0.03|Kori Bustard:0.01,African Wildcat,0.945,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0434,KGA_S1#B09#1#148,animal,0.857,,Kori Bustard,0.857,Kori Bustard:0.91|Empty:0.05|Ludwig's Bustard:0.02,Kori Bustard,0.91,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0435,KGA_S1#B09#1#148,animal,0.819,,Kori Bustard,0.819,Kori Bustard:0.91|Empty:0.05|Ludwig's Bustard:0.02,Kori Bustard,0.91,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0436,KGA_S1#B09#1#148,animal,0.818,,Kori Bustard,0.818,Kori Bustard:0.91|Empty:0.05|Ludwig's Bustard:0.02,Kori Bustard,0.91,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0055,KGA_S1#B02#1#19,animal,0.867,,Cape Fox,0.867,Cape Fox:0.91|Eland:0.05|Ostrich:0.02,Cape Fox,0.914,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A05/A05_R1/KGA_S1_A05_R1_IMAG0492,KGA_S1#A05#1#176,animal,0.959,,Brown Hyena,0.959,Brown Hyena:0.98|Empty:0.01|Black-backed Jackal:0.00,Brown Hyena,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0060,KGA_S1#B02#1#22,animal,0.895,,Steenbok,0.895,Steenbok:0.93|Caracal:0.04|African Wildcat:0.02,Steenbok,0.926,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0061,KGA_S1#B02#1#22,animal,0.87,,Steenbok,0.87,Steenbok:0.93|Caracal:0.04|African Wildcat:0.02,Steenbok,0.926,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0062,KGA_S1#B02#1#22,animal,0.863,,Steenbok,0.863,Steenbok:0.93|Caracal:0.04|African Wildcat:0.02,Steenbok,0.926,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0404,KGA_S1#B09#1#138,empty,0.098,,,0.0,Gemsbok:0.98|Grey Rhebok:0.01|Steenbok:0.00,Gemsbok,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0405,KGA_S1#B09#1#138,animal,0.99,,Gemsbok,0.99,Gemsbok:0.98|Grey Rhebok:0.01|Steenbok:0.00,Gemsbok,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0406,KGA_S1#B09#1#138,animal,0.902,,Gemsbok,0.902,Gemsbok:0.98|Grey Rhebok:0.01|Steenbok:0.00,Gemsbok,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0308,KGA_S1#A06#1#110,animal,0.776,,Common Duiker,0.776,Common Duiker:0.87|Ostrich:0.08|Mountain Zebra:0.03,Common Duiker,0.874,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0309,KGA_S1#A06#1#110,empty,0.07,,,0.0,Common Duiker:0.87|Ostrich:0.08|Mountain Zebra:0.03,Common Duiker,0.874,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0310,KGA_S1#A06#1#110,empty,0.117,,,0.0,Common Duiker:0.87|Ostrich:0.08|Mountain Zebra:0.03,Common Duiker,0.874,needs_review,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0055,KGA_S1#B07#1#21,animal,0.99,,Bird of Prey,0.99,Bird of Prey:0.98|Tortoise:0.01|Riverine Rabbit:0.00,Bird of Prey,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0056,KGA_S1#B07#1#21,animal,0.99,,Bird of Prey,0.99,Bird of Prey:0.98|Tortoise:0.01|Riverine Rabbit:0.00,Bird of Prey,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0057,KGA_S1#B07#1#21,empty,0.146,,,0.0,Bird of Prey:0.98|Tortoise:0.01|Riverine Rabbit:0.00,Bird of Prey,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0028,KGA_S1#A07#1#12,animal,0.775,,African Wildcat,0.775,African Wildcat:0.88|Secretarybird:0.07|Brown Hyena:0.03,African Wildcat,0.88,needs_review,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0040,KAR_S1#D01#1#14,animal,0.91,,Kori Bustard,0.91,Kori Bustard:0.98|Aardvark:0.01|Cape Fox:0.01,Kori Bustard,0.979,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0041,KAR_S1#D01#1#14,empty,0.028,,,0.0,Kori Bustard:0.98|Aardvark:0.01|Cape Fox:0.01,Kori Bustard,0.979,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0042,KAR_S1#D01#1#14,animal,0.902,,Kori Bustard,0.902,Kori Bustard:0.98|Aardvark:0.01|Cape Fox:0.01,Kori Bustard,0.979,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1225,KAR_S1#C03#1#409,animal,0.807,,Caracal,0.807,Caracal:0.89|Bird of Prey:0.07|Honey Badger:0.03,Caracal,0.889,needs_review,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1226,KAR_S1#C03#1#409,animal,0.871,,Caracal,0.871,Caracal:0.89|Bird of Prey:0.07|Honey Badger:0.03,Caracal,0.889,needs_review,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1227,KAR_S1#C03#1#409,animal,0.771,,Caracal,0.771,Caracal:0.89|Bird of Prey:0.07|Honey Badger:0.03,Caracal,0.889,needs_review,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0108,KAR_S1#D01#1#38,empty,0.077,,,0.0,Springbok:0.88|Ostrich:0.07|Gemsbok:0.03,Springbok,0.88,needs_review,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0109,KAR_S1#D01#1#38,animal,0.8,,Springbok,0.8,Springbok:0.88|Ostrich:0.07|Gemsbok:0.03,Springbok,0.88,needs_review,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0110,KAR_S1#D01#1#38,empty,0.045,,,0.0,Springbok:0.88|Ostrich:0.07|Gemsbok:0.03,Springbok,0.88,needs_review,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0150,KGA_S1#B07#1#58,animal,0.909,,Kori Bustard,0.909,Kori Bustard:0.98|African Wildcat:0.01|Caracal:0.00,Kori Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0151,KGA_S1#B07#1#58,animal,0.978,,Kori Bustard,0.978,Kori Bustard:0.98|African Wildcat:0.01|Caracal:0.00,Kori Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0152,KGA_S1#B07#1#58,animal,0.99,,Kori Bustard,0.99,Kori Bustard:0.98|African Wildcat:0.01|Caracal:0.00,Kori Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0463,KGA_S1#B02#1#165,animal,0.799,,Cape Fox,0.799,Cape Fox:0.86|Bat-eared Fox:0.09|Kori Bustard:0.04,Cape Fox,0.857,needs_review,,DEMO-mock-0.1
+KGA_S1/A10/A10_R1/KGA_S1_A10_R1_IMAG0016,KGA_S1#A10#1#6,animal,0.919,,Brown Hyena,0.919,Brown Hyena:0.87|Rodent:0.08|Bird of Prey:0.03,Brown Hyena,0.874,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0472,KGA_S1#A06#1#174,animal,0.853,,Steenbok,0.853,Steenbok:0.95|Caracal:0.03|Common Duiker:0.01,Steenbok,0.954,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0473,KGA_S1#A06#1#174,animal,0.94,,Steenbok,0.94,Steenbok:0.95|Caracal:0.03|Common Duiker:0.01,Steenbok,0.954,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0474,KGA_S1#A06#1#174,empty,0.095,,,0.0,Steenbok:0.95|Caracal:0.03|Common Duiker:0.01,Steenbok,0.954,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0043,KGA_S1#A01#1#27,animal,0.78,,Bird,0.78,Bird:0.83|Gemsbok:0.10|Cape Hare:0.04,Bird,0.83,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0044,KGA_S1#A01#1#27,animal,0.83,,Bird,0.83,Bird:0.83|Gemsbok:0.10|Cape Hare:0.04,Bird,0.83,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0045,KGA_S1#A01#1#27,animal,0.741,,Bird,0.741,Bird:0.83|Gemsbok:0.10|Cape Hare:0.04,Bird,0.83,needs_review,,DEMO-mock-0.1
+KGA_S1/B04/B04_R1/KGA_S1_B04_R1_IMAG0040,KGA_S1#B04#1#14,empty,0.036,,,0.0,Common Duiker:0.91|Klipspringer:0.06|Brown Hyena:0.02,Common Duiker,0.908,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B04/B04_R1/KGA_S1_B04_R1_IMAG0041,KGA_S1#B04#1#14,empty,0.141,,,0.0,Common Duiker:0.91|Klipspringer:0.06|Brown Hyena:0.02,Common Duiker,0.908,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B04/B04_R1/KGA_S1_B04_R1_IMAG0042,KGA_S1#B04#1#14,animal,0.915,,Common Duiker,0.915,Common Duiker:0.91|Klipspringer:0.06|Brown Hyena:0.02,Common Duiker,0.908,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0061,KGA_S1#B07#1#23,animal,0.879,,Bird of Prey,0.879,Bird of Prey:0.98|Leopard:0.01|Kori Bustard:0.00,Bird of Prey,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0062,KGA_S1#B07#1#23,animal,0.936,,Bird of Prey,0.936,Bird of Prey:0.98|Leopard:0.01|Kori Bustard:0.00,Bird of Prey,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0063,KGA_S1#B07#1#23,animal,0.99,,Bird of Prey,0.99,Bird of Prey:0.98|Leopard:0.01|Kori Bustard:0.00,Bird of Prey,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B01/B01_R1/KGA_S1_B01_R1_IMAG0067,KGA_S1#B01#1#35,animal,0.917,,Cape Porcupine,0.917,Cape Porcupine:0.90|Common Duiker:0.06|Lion:0.03,Cape Porcupine,0.898,needs_review,,DEMO-mock-0.1
+KGA_S1/B01/B01_R1/KGA_S1_B01_R1_IMAG0015,KGA_S1#B01#1#11,animal,0.944,,African Wildcat,0.944,African Wildcat:0.91|Reptile:0.06|Chacma Baboon:0.02,African Wildcat,0.908,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B01/B01_R1/KGA_S1_B01_R1_IMAG0037,KGA_S1#B01#1#21,animal,0.772,,Caracal,0.772,Caracal:0.82|Leopard:0.11|Reptile:0.04,Caracal,0.823,needs_review,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0440,KGA_S1#B09#1#150,animal,0.99,,Kori Bustard,0.99,Kori Bustard:0.98|Bat-eared Fox:0.01|Red Hartebeest:0.00,Kori Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0441,KGA_S1#B09#1#150,empty,0.136,,,0.0,Kori Bustard:0.98|Bat-eared Fox:0.01|Red Hartebeest:0.00,Kori Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0442,KGA_S1#B09#1#150,animal,0.923,,Kori Bustard,0.923,Kori Bustard:0.98|Bat-eared Fox:0.01|Red Hartebeest:0.00,Kori Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG0960,KAR_S1#C02#1#340,animal,0.786,,Gemsbok,0.786,Gemsbok:0.86|Bat-eared Fox:0.09|Empty:0.04,Gemsbok,0.855,needs_review,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG0961,KAR_S1#C02#1#340,animal,0.858,,Gemsbok,0.858,Gemsbok:0.86|Bat-eared Fox:0.09|Empty:0.04,Gemsbok,0.855,needs_review,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG0962,KAR_S1#C02#1#340,empty,0.093,,,0.0,Gemsbok:0.86|Bat-eared Fox:0.09|Empty:0.04,Gemsbok,0.855,needs_review,,DEMO-mock-0.1
+KAR_S1/A01/A01_R1/KAR_S1_A01_R1_IMAG00106,KAR_S1#A01#1#99,animal,0.99,,Eland,0.99,Eland:0.98|Common Duiker:0.01|Blue Wildebeest:0.00,Eland,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0789,KAR_S1#B03#1#295,animal,0.782,,Lion,0.782,Lion:0.74|Blue Wildebeest:0.15|Ostrich:0.06,Lion,0.744,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0790,KAR_S1#B03#1#295,animal,0.675,,Lion,0.675,Lion:0.74|Blue Wildebeest:0.15|Ostrich:0.06,Lion,0.744,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0791,KAR_S1#B03#1#295,animal,0.741,,Lion,0.741,Lion:0.74|Blue Wildebeest:0.15|Ostrich:0.06,Lion,0.744,needs_review,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG0219,KAR_S1#C02#1#83,animal,0.603,,Red Hartebeest,0.603,Red Hartebeest:0.59|Lion:0.24|Black-backed Jackal:0.10,Red Hartebeest,0.595,needs_review,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0858,KAR_S1#B02#1#322,animal,0.888,,Riverine Rabbit,0.888,Riverine Rabbit:0.92|Bird of Prey:0.05|Bat-eared Fox:0.02,Riverine Rabbit,0.916,auto_accepted,,DEMO-mock-0.1
+KAR_S1/A01/A01_R1/KAR_S1_A01_R1_IMAG00097,KAR_S1#A01#1#90,animal,0.829,,Grey Rhebok,0.829,Grey Rhebok:0.91|Bird of Prey:0.05|Empty:0.02,Grey Rhebok,0.914,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1213,KAR_S1#C03#1#405,animal,0.928,,Bird,0.928,Bird:0.93|Ostrich:0.04|Caracal:0.02,Bird,0.934,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1214,KAR_S1#C03#1#405,animal,0.941,,Bird,0.941,Bird:0.93|Ostrich:0.04|Caracal:0.02,Bird,0.934,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1215,KAR_S1#C03#1#405,animal,0.958,,Bird,0.958,Bird:0.93|Ostrich:0.04|Caracal:0.02,Bird,0.934,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0280,KAR_S1#D01#1#102,animal,0.486,,Grey Rhebok,0.486,Grey Rhebok:0.56|Lion:0.26|Gemsbok:0.11,Grey Rhebok,0.562,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0108,KAR_S1#B03#1#50,animal,0.766,,Mountain Reedbuck,0.766,Mountain Reedbuck:0.85|Cape Porcupine:0.09|Eland:0.04,Mountain Reedbuck,0.854,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0109,KAR_S1#B03#1#50,animal,0.745,,Mountain Reedbuck,0.745,Mountain Reedbuck:0.85|Cape Porcupine:0.09|Eland:0.04,Mountain Reedbuck,0.854,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0110,KAR_S1#B03#1#50,empty,0.045,,,0.0,Mountain Reedbuck:0.85|Cape Porcupine:0.09|Eland:0.04,Mountain Reedbuck,0.854,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG1878,KAR_S1#B03#1#676,empty,0.125,,,0.0,Chacma Baboon:0.88|Blue Wildebeest:0.07|Red Hartebeest:0.03,Chacma Baboon,0.882,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG1879,KAR_S1#B03#1#676,animal,0.905,,Chacma Baboon,0.905,Chacma Baboon:0.88|Blue Wildebeest:0.07|Red Hartebeest:0.03,Chacma Baboon,0.882,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG1880,KAR_S1#B03#1#676,animal,0.917,,Chacma Baboon,0.917,Chacma Baboon:0.88|Blue Wildebeest:0.07|Red Hartebeest:0.03,Chacma Baboon,0.882,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0215,KAR_S1#B03#1#89,animal,0.932,,Eland,0.932,Eland:0.95|Hare:0.03|Common Duiker:0.01,Eland,0.953,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0216,KAR_S1#B03#1#89,animal,0.99,,Eland,0.99,Eland:0.95|Hare:0.03|Common Duiker:0.01,Eland,0.953,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0217,KAR_S1#B03#1#89,empty,0.062,,,0.0,Eland:0.95|Hare:0.03|Common Duiker:0.01,Eland,0.953,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0092,KAR_S1#B02#1#36,animal,0.924,,Black-backed Jackal,0.924,Black-backed Jackal:0.92|Aardvark:0.05|Brown Hyena:0.02,Black-backed Jackal,0.924,auto_accepted,,DEMO-mock-0.1
+KAR_S1/A01/A01_R1/KAR_S1_A01_R1_IMAG00238,KAR_S1#A01#1#231,animal,0.719,,Mountain Zebra,0.719,Mountain Zebra:0.83|Bat-eared Fox:0.10|Kudu:0.04,Mountain Zebra,0.831,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG1095,KAR_S1#B03#1#405,empty,0.097,,,0.0,Ostrich:0.90|Chacma Baboon:0.06|Aardvark:0.03,Ostrich,0.897,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG1096,KAR_S1#B03#1#405,animal,0.79,,Ostrich,0.79,Ostrich:0.90|Chacma Baboon:0.06|Aardvark:0.03,Ostrich,0.897,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG1097,KAR_S1#B03#1#405,animal,0.782,,Ostrich,0.782,Ostrich:0.90|Chacma Baboon:0.06|Aardvark:0.03,Ostrich,0.897,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0861,KAR_S1#B03#1#321,animal,0.786,,Red Hartebeest,0.786,Red Hartebeest:0.88|Reptile:0.07|Bird of Prey:0.03,Red Hartebeest,0.88,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0862,KAR_S1#B03#1#321,empty,0.085,,,0.0,Red Hartebeest:0.88|Reptile:0.07|Bird of Prey:0.03,Red Hartebeest,0.88,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0863,KAR_S1#B03#1#321,animal,0.871,,Red Hartebeest,0.871,Red Hartebeest:0.88|Reptile:0.07|Bird of Prey:0.03,Red Hartebeest,0.88,needs_review,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0415,KAR_S1#E03#1#159,animal,0.647,,Hare,0.647,Hare:0.62|Kudu:0.23|Bird:0.10,Hare,0.617,needs_review,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0191,KAR_S1#E01#1#79,animal,0.855,,Common Duiker,0.855,Common Duiker:0.91|African Wildcat:0.05|Leopard:0.02,Common Duiker,0.909,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0798,KAR_S1#B03#1#298,animal,0.774,,Steenbok,0.774,Steenbok:0.83|Cape Hare:0.10|Mountain Reedbuck:0.04,Steenbok,0.832,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0799,KAR_S1#B03#1#298,animal,0.843,,Steenbok,0.843,Steenbok:0.83|Cape Hare:0.10|Mountain Reedbuck:0.04,Steenbok,0.832,needs_review,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0800,KAR_S1#B03#1#298,animal,0.734,,Steenbok,0.734,Steenbok:0.83|Cape Hare:0.10|Mountain Reedbuck:0.04,Steenbok,0.832,needs_review,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0076,KGA_S1#B02#1#28,animal,0.09,,Cape Grey Mongoose,0.0,Cape Grey Mongoose:0.46|Ludwig's Bustard:0.32|Black-backed Jackal:0.13,Cape Grey Mongoose,0.46,needs_review,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0077,KGA_S1#B02#1#28,animal,0.14,,Cape Grey Mongoose,0.0,Cape Grey Mongoose:0.46|Ludwig's Bustard:0.32|Black-backed Jackal:0.13,Cape Grey Mongoose,0.46,needs_review,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0078,KGA_S1#B02#1#28,animal,0.113,,Cape Grey Mongoose,0.0,Cape Grey Mongoose:0.46|Ludwig's Bustard:0.32|Black-backed Jackal:0.13,Cape Grey Mongoose,0.46,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0616,KGA_S1#B06#1#206,empty,0.033,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0617,KGA_S1#B06#1#206,empty,0.034,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0618,KGA_S1#B06#1#206,empty,0.019,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A10/A10_R1/KGA_S1_A10_R1_IMAG0039,KGA_S1#A10#1#19,animal,0.99,,Cape Fox,0.99,Cape Fox:0.96|Chacma Baboon:0.02|Honey Badger:0.01,Cape Fox,0.96,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0272,KGA_S1#A11#1#100,animal,0.937,,Honey Badger,0.937,Honey Badger:0.95|Lion:0.03|Black-backed Jackal:0.01,Honey Badger,0.948,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0259,KGA_S1#A11#1#93,animal,0.613,,Ludwig's Bustard,0.613,Ludwig's Bustard:0.70|Brown Hyena:0.18|Chacma Baboon:0.08,Ludwig's Bustard,0.696,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0330,KGA_S1#A06#1#118,animal,0.825,,Steenbok,0.825,Steenbok:0.82|Brown Hyena:0.11|Cape Grey Mongoose:0.04,Steenbok,0.821,needs_review,,DEMO-mock-0.1
+KGA_S1/A02/A02_R1/KGA_S1_A02_R1_IMAG0098,KGA_S1#A02#1#36,animal,0.785,,Bat-eared Fox,0.785,Bat-eared Fox:0.80|Gemsbok:0.12|Bird:0.05,Bat-eared Fox,0.804,needs_review,,DEMO-mock-0.1
+KGA_S1/A10/A10_R1/KGA_S1_A10_R1_IMAG0030,KGA_S1#A10#1#14,animal,0.756,,Common Duiker,0.756,Common Duiker:0.80|Mountain Reedbuck:0.12|Honey Badger:0.05,Common Duiker,0.8,needs_review,,DEMO-mock-0.1
+KGA_S1/A10/A10_R1/KGA_S1_A10_R1_IMAG0031,KGA_S1#A10#1#14,animal,0.754,,Common Duiker,0.754,Common Duiker:0.80|Mountain Reedbuck:0.12|Honey Badger:0.05,Common Duiker,0.8,needs_review,,DEMO-mock-0.1
+KGA_S1/A10/A10_R1/KGA_S1_A10_R1_IMAG0032,KGA_S1#A10#1#14,animal,0.684,,Common Duiker,0.684,Common Duiker:0.80|Mountain Reedbuck:0.12|Honey Badger:0.05,Common Duiker,0.8,needs_review,,DEMO-mock-0.1
+KGA_S1/A04/A04_R1/KGA_S1_A04_R1_IMAG0038,KGA_S1#A04#1#16,animal,0.882,,Bird of Prey,0.882,Bird of Prey:0.92|Riverine Rabbit:0.05|Red Hartebeest:0.02,Bird of Prey,0.924,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A04/A04_R1/KGA_S1_A04_R1_IMAG0039,KGA_S1#A04#1#16,empty,0.035,,,0.0,Bird of Prey:0.92|Riverine Rabbit:0.05|Red Hartebeest:0.02,Bird of Prey,0.924,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A04/A04_R1/KGA_S1_A04_R1_IMAG0040,KGA_S1#A04#1#16,empty,0.076,,,0.0,Bird of Prey:0.92|Riverine Rabbit:0.05|Red Hartebeest:0.02,Bird of Prey,0.924,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0270,KGA_S1#A11#1#98,animal,0.896,,Cape Porcupine,0.896,Cape Porcupine:0.90|Black-backed Jackal:0.06|Ostrich:0.02,Cape Porcupine,0.905,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B01/B01_R1/KGA_S1_B01_R1_IMAG0097,KGA_S1#B01#1#47,animal,0.912,,African Wildcat,0.912,African Wildcat:0.90|Cape Grey Mongoose:0.06|Blue Wildebeest:0.03,African Wildcat,0.9,needs_review,,DEMO-mock-0.1
+KGA_S1/B05/B05_R1/KGA_S1_B05_R1_IMAG0155,KGA_S1#B05#1#53,animal,0.858,,Caracal,0.858,Caracal:0.86|Lion:0.08|Cape Fox:0.03,Caracal,0.86,needs_review,,DEMO-mock-0.1
+KGA_S1/B05/B05_R1/KGA_S1_B05_R1_IMAG0156,KGA_S1#B05#1#53,animal,0.759,,Caracal,0.759,Caracal:0.86|Lion:0.08|Cape Fox:0.03,Caracal,0.86,needs_review,,DEMO-mock-0.1
+KGA_S1/B05/B05_R1/KGA_S1_B05_R1_IMAG0157,KGA_S1#B05#1#53,animal,0.762,,Caracal,0.762,Caracal:0.86|Lion:0.08|Cape Fox:0.03,Caracal,0.86,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0507,KGA_S1#A06#1#187,empty,0.106,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B05/B05_R1/KGA_S1_B05_R1_IMAG0160,KGA_S1#B05#1#56,empty,0.127,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/A01/A01_R1/KAR_S1_A01_R1_IMAG00239,KAR_S1#A01#1#232,animal,0.863,,Mountain Zebra,0.863,Mountain Zebra:0.88|Empty:0.07|Cape Hare:0.03,Mountain Zebra,0.879,needs_review,,DEMO-mock-0.1
+KAR_S1/A02/A02_R1/KAR_S1_A02_R1_IMAG0122,KAR_S1#A02#1#50,animal,0.92,,Kudu,0.92,Kudu:0.93|Reptile:0.04|Chacma Baboon:0.02,Kudu,0.935,auto_accepted,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG5371,KAR_S1#F02#1#2233,empty,0.038,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG5372,KAR_S1#F02#1#2233,empty,0.066,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG5373,KAR_S1#F02#1#2233,empty,0.099,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG7602,KAR_S1#C04#1#3090,empty,0.034,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG7603,KAR_S1#C04#1#3090,empty,0.12,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG7604,KAR_S1#C04#1#3090,empty,0.026,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG4531,KAR_S1#F02#1#1953,empty,0.088,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG4532,KAR_S1#F02#1#1953,empty,0.091,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG4533,KAR_S1#F02#1#1953,empty,0.134,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1126,KAR_S1#C03#1#376,empty,0.113,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1127,KAR_S1#C03#1#376,empty,0.062,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG1128,KAR_S1#C03#1#376,empty,0.063,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0147,KAR_S1#B03#1#63,empty,0.056,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0148,KAR_S1#B03#1#63,empty,0.021,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0149,KAR_S1#B03#1#63,empty,0.042,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG4142,KAR_S1#F02#1#1694,empty,0.125,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG0166,KAR_S1#B01#1#84,empty,0.113,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0525,KAR_S1#B03#1#201,empty,0.051,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0526,KAR_S1#B03#1#201,empty,0.098,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0527,KAR_S1#B03#1#201,empty,0.068,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0421,KAR_S1#B03#1#165,empty,0.078,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0422,KAR_S1#B03#1#165,empty,0.096,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B03/B03_R1/KAR_S1_B03_R1_IMAG0423,KAR_S1#B03#1#165,empty,0.016,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG4277,KAR_S1#F02#1#1829,animal,0.06,,Springbok,0.0,Springbok:0.39|Blue Wildebeest:0.31|Rodent:0.15,Springbok,0.389,needs_review,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG0979,KAR_S1#B01#1#425,empty,0.092,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG3807,KAR_S1#C04#1#1587,empty,0.032,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG1014,KAR_S1#F02#1#416,animal,0.019,,Eland,0.0,Eland:0.48|Ostrich:0.31|Blue Wildebeest:0.13,Eland,0.477,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0775,KGA_S1#A01#1#283,empty,0.124,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0776,KGA_S1#A01#1#283,empty,0.145,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0777,KGA_S1#A01#1#283,empty,0.018,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0724,KGA_S1#B06#1#242,empty,0.1,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0725,KGA_S1#B06#1#242,empty,0.072,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0726,KGA_S1#B06#1#242,empty,0.141,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0043,KGA_S1#B02#1#15,empty,0.136,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0044,KGA_S1#B02#1#15,empty,0.016,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0045,KGA_S1#B02#1#15,empty,0.084,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0197,KGA_S1#B09#1#67,empty,0.018,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A05/A05_R1/KGA_S1_A05_R1_IMAG0192,KGA_S1#A05#1#68,animal,0.663,,Aardvark,0.663,Aardvark:0.70|Black-backed Jackal:0.18|Common Duiker:0.08,Aardvark,0.695,needs_review,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0186,KGA_S1#B07#1#70,animal,0.757,,Black-backed Jackal,0.757,Black-backed Jackal:0.83|Caracal:0.10|Rodent:0.04,Black-backed Jackal,0.826,needs_review,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0145,KGA_S1#B07#1#55,animal,0.836,,Black-backed Jackal,0.836,Black-backed Jackal:0.81|Reptile:0.11|Spotted Hyena:0.05,Black-backed Jackal,0.812,needs_review,,DEMO-mock-0.1
+KGA_S1/A05/A05_R1/KGA_S1_A05_R1_IMAG0372,KGA_S1#A05#1#134,animal,0.776,,Black-backed Jackal,0.776,Black-backed Jackal:0.88|Ostrich:0.07|Caracal:0.03,Black-backed Jackal,0.878,needs_review,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0198,KGA_S1#A11#1#68,animal,0.82,,Black-backed Jackal,0.82,Black-backed Jackal:0.81|Bat-eared Fox:0.11|Cape Fox:0.05,Black-backed Jackal,0.813,needs_review,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0015,KGA_S1#B07#1#7,animal,0.837,,Black-backed Jackal,0.837,Black-backed Jackal:0.84|Grey Rhebok:0.10|Springbok:0.04,Black-backed Jackal,0.841,needs_review,,DEMO-mock-0.1
+KGA_S1/B07/B07_R1/KGA_S1_B07_R1_IMAG0101,KGA_S1#B07#1#37,animal,0.477,,Gemsbok,0.477,Gemsbok:0.57|Black-backed Jackal:0.26|Common Duiker:0.11,Gemsbok,0.568,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0340,KGA_S1#A01#1#130,animal,0.921,,Eland,0.921,Eland:0.98|Cape Hare:0.01|Klipspringer:0.01,Eland,0.975,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A05/A05_R1/KGA_S1_A05_R1_IMAG0315,KGA_S1#A05#1#113,animal,0.838,,Black-backed Jackal,0.838,Black-backed Jackal:0.82|Lion:0.11|Spotted Hyena:0.05,Black-backed Jackal,0.815,needs_review,,DEMO-mock-0.1
+KGA_S1/A05/A05_R1/KGA_S1_A05_R1_IMAG0287,KGA_S1#A05#1#103,animal,0.788,,Eland,0.788,Eland:0.84|Common Duiker:0.09|Steenbok:0.04,Eland,0.842,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0118,KGA_S1#A01#1#52,animal,0.652,,Black-backed Jackal,0.652,Black-backed Jackal:0.77|Steenbok:0.14|Cape Porcupine:0.06,Black-backed Jackal,0.768,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0067,KGA_S1#A06#1#25,animal,0.889,,Eland,0.889,Eland:0.98|Cape Grey Mongoose:0.01|African Wildcat:0.00,Eland,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0610,KGA_S1#A01#1#226,animal,0.927,,Kori Bustard,0.927,Kori Bustard:0.98|Bat-eared Fox:0.01|Bird of Prey:0.00,Kori Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0611,KGA_S1#A01#1#226,animal,0.99,,Kori Bustard,0.99,Kori Bustard:0.98|Bat-eared Fox:0.01|Bird of Prey:0.00,Kori Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0612,KGA_S1#A01#1#226,animal,0.99,,Kori Bustard,0.99,Kori Bustard:0.98|Bat-eared Fox:0.01|Bird of Prey:0.00,Kori Bustard,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0033,KGA_S1#A07#1#15,animal,0.534,,Lion,0.534,Lion:0.49|Cape Fox:0.30|Common Duiker:0.13,Lion,0.493,needs_review,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG1466,KAR_S1#F02#1#622,empty,0.077,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG1467,KAR_S1#F02#1#622,empty,0.029,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG1468,KAR_S1#F02#1#622,empty,0.121,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG1575,KAR_S1#E02#1#527,empty,0.057,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG1576,KAR_S1#E02#1#527,empty,0.047,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG1577,KAR_S1#E02#1#527,empty,0.059,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG0022,KAR_S1#B01#1#8,empty,0.137,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG0023,KAR_S1#B01#1#8,empty,0.118,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG0024,KAR_S1#B01#1#8,empty,0.094,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG0623,KAR_S1#E02#1#209,empty,0.114,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG0624,KAR_S1#E02#1#209,empty,0.12,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG0625,KAR_S1#E02#1#209,empty,0.014,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG4556,KAR_S1#C04#1#1922,empty,0.076,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG4557,KAR_S1#C04#1#1922,empty,0.017,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG4558,KAR_S1#C04#1#1922,empty,0.089,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG6552,KAR_S1#B01#1#2634,empty,0.125,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG6553,KAR_S1#B01#1#2634,empty,0.034,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG6554,KAR_S1#B01#1#2634,empty,0.01,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG6894,KAR_S1#C04#1#2854,empty,0.059,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG6895,KAR_S1#C04#1#2854,empty,0.023,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG6896,KAR_S1#C04#1#2854,empty,0.107,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG2293,KAR_S1#C04#1#843,empty,0.059,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG2294,KAR_S1#C04#1#843,empty,0.126,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG2295,KAR_S1#C04#1#843,empty,0.046,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG3200,KAR_S1#F02#1#1312,empty,0.141,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG3201,KAR_S1#F02#1#1312,empty,0.042,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG3202,KAR_S1#F02#1#1312,empty,0.033,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG3116,KAR_S1#C04#1#1264,empty,0.12,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG3117,KAR_S1#C04#1#1264,empty,0.108,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG3118,KAR_S1#C04#1#1264,empty,0.12,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1636,KGA_S1#B06#1#546,empty,0.066,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1637,KGA_S1#B06#1#546,empty,0.065,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1638,KGA_S1#B06#1#546,empty,0.135,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0644,KGA_S1#A06#1#234,empty,0.039,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0645,KGA_S1#A06#1#234,empty,0.047,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0646,KGA_S1#A06#1#234,empty,0.136,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1729,KGA_S1#B06#1#577,empty,0.142,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1730,KGA_S1#B06#1#577,empty,0.028,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1731,KGA_S1#B06#1#577,empty,0.093,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0096,KGA_S1#A11#1#34,empty,0.059,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0097,KGA_S1#A11#1#34,empty,0.056,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0098,KGA_S1#A11#1#34,empty,0.032,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1261,KGA_S1#B06#1#421,empty,0.034,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1262,KGA_S1#B06#1#421,empty,0.071,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1263,KGA_S1#B06#1#421,empty,0.118,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG2678,KAR_S1#C04#1#1118,empty,0.075,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG2679,KAR_S1#C04#1#1118,empty,0.134,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG2680,KAR_S1#C04#1#1118,empty,0.043,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG2636,KGA_S1#B06#1#880,empty,0.032,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3523,KGA_S1#B06#1#1181,empty,0.094,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3524,KGA_S1#B06#1#1181,empty,0.059,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3525,KGA_S1#B06#1#1181,empty,0.043,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3152,KGA_S1#B06#1#1056,empty,0.033,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3153,KGA_S1#B06#1#1056,empty,0.102,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3154,KGA_S1#B06#1#1056,empty,0.037,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG2534,KGA_S1#B06#1#846,empty,0.113,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG2535,KGA_S1#B06#1#846,empty,0.071,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG2536,KGA_S1#B06#1#846,empty,0.037,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0334,KGA_S1#A06#1#120,empty,0.039,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0335,KGA_S1#A06#1#120,empty,0.064,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0336,KGA_S1#A06#1#120,empty,0.015,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG3860,KAR_S1#F02#1#1554,empty,0.08,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG3861,KAR_S1#F02#1#1554,empty,0.099,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG3862,KAR_S1#F02#1#1554,empty,0.075,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0020,KGA_S1#A07#1#8,animal,0.935,,Honey Badger,0.935,Honey Badger:0.94|Yellow Mongoose:0.04|Ludwig's Bustard:0.02,Honey Badger,0.936,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0021,KGA_S1#A07#1#8,animal,0.916,,Honey Badger,0.916,Honey Badger:0.94|Yellow Mongoose:0.04|Ludwig's Bustard:0.02,Honey Badger,0.936,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0022,KGA_S1#A07#1#8,empty,0.101,,,0.0,Honey Badger:0.94|Yellow Mongoose:0.04|Ludwig's Bustard:0.02,Honey Badger,0.936,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0004,KGA_S1#A11#1#2,animal,0.92,,Brown Hyena,0.92,Brown Hyena:0.93|Tortoise:0.04|Eland:0.02,Brown Hyena,0.931,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0262,KGA_S1#A06#1#92,animal,0.82,,Steenbok,0.82,Steenbok:0.81|Honey Badger:0.12|Empty:0.05,Steenbok,0.807,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0263,KGA_S1#A06#1#92,animal,0.808,,Steenbok,0.808,Steenbok:0.81|Honey Badger:0.12|Empty:0.05,Steenbok,0.807,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0264,KGA_S1#A06#1#92,animal,0.794,,Steenbok,0.794,Steenbok:0.81|Honey Badger:0.12|Empty:0.05,Steenbok,0.807,needs_review,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0494,KGA_S1#B09#1#168,animal,0.941,,Gemsbok,0.941,Gemsbok:0.95|Mountain Reedbuck:0.03|Secretarybird:0.01,Gemsbok,0.95,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0495,KGA_S1#B09#1#168,empty,0.119,,,0.0,Gemsbok:0.95|Mountain Reedbuck:0.03|Secretarybird:0.01,Gemsbok,0.95,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0496,KGA_S1#B09#1#168,animal,0.896,,Gemsbok,0.896,Gemsbok:0.95|Mountain Reedbuck:0.03|Secretarybird:0.01,Gemsbok,0.95,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A03/A03_R1/KGA_S1_A03_R1_IMAG0026,KGA_S1#A03#1#10,animal,0.985,,Common Duiker,0.985,Common Duiker:0.94|Blue Wildebeest:0.03|Bat-eared Fox:0.01,Common Duiker,0.943,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A03/A03_R1/KGA_S1_A03_R1_IMAG0027,KGA_S1#A03#1#10,animal,0.857,,Common Duiker,0.857,Common Duiker:0.94|Blue Wildebeest:0.03|Bat-eared Fox:0.01,Common Duiker,0.943,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A03/A03_R1/KGA_S1_A03_R1_IMAG0028,KGA_S1#A03#1#10,animal,0.882,,Common Duiker,0.882,Common Duiker:0.94|Blue Wildebeest:0.03|Bat-eared Fox:0.01,Common Duiker,0.943,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0157,KGA_S1#A01#1#67,animal,0.933,,Cape Hare,0.933,Cape Hare:0.92|Reptile:0.05|Rodent:0.02,Cape Hare,0.918,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3889,KGA_S1#B06#1#1303,animal,0.807,,Rodent,0.807,Rodent:0.90|Klipspringer:0.06|Ludwig's Bustard:0.03,Rodent,0.896,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3890,KGA_S1#B06#1#1303,animal,0.863,,Rodent,0.863,Rodent:0.90|Klipspringer:0.06|Ludwig's Bustard:0.03,Rodent,0.896,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3891,KGA_S1#B06#1#1303,empty,0.141,,,0.0,Rodent:0.90|Klipspringer:0.06|Ludwig's Bustard:0.03,Rodent,0.896,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0246,KGA_S1#A06#1#86,animal,0.905,,Eland,0.905,Eland:0.87|Gemsbok:0.08|Grey Rhebok:0.03,Eland,0.869,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0247,KGA_S1#A06#1#86,animal,0.856,,Eland,0.856,Eland:0.87|Gemsbok:0.08|Grey Rhebok:0.03,Eland,0.869,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0248,KGA_S1#A06#1#86,animal,0.864,,Eland,0.864,Eland:0.87|Gemsbok:0.08|Grey Rhebok:0.03,Eland,0.869,needs_review,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0075,KGA_S1#A07#1#33,animal,0.746,,Bat-eared Fox,0.746,Bat-eared Fox:0.80|Brown Hyena:0.12|Eland:0.05,Bat-eared Fox,0.798,needs_review,,DEMO-mock-0.1
+KGA_S1/A03/A03_R1/KGA_S1_A03_R1_IMAG0029,KGA_S1#A03#1#11,animal,0.652,,Ludwig's Bustard,0.652,Ludwig's Bustard:0.63|Bird of Prey:0.22|Cape Porcupine:0.09,Ludwig's Bustard,0.635,needs_review,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG3368,KAR_S1#C04#1#1348,empty,0.111,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG3369,KAR_S1#C04#1#1348,empty,0.124,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG3370,KAR_S1#C04#1#1348,empty,0.03,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0441,KGA_S1#B02#1#155,animal,0.847,,Brown Hyena,0.847,Brown Hyena:0.83|Mountain Reedbuck:0.10|Red Hartebeest:0.04,Brown Hyena,0.834,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0468,KGA_S1#A06#1#172,animal,0.739,,Steenbok,0.739,Steenbok:0.78|Leopard:0.13|Empty:0.06,Steenbok,0.777,needs_review,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0482,KGA_S1#B09#1#164,animal,0.923,,Gemsbok,0.923,Gemsbok:0.97|Grey Rhebok:0.02|Kudu:0.01,Gemsbok,0.97,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0483,KGA_S1#B09#1#164,animal,0.958,,Gemsbok,0.958,Gemsbok:0.97|Grey Rhebok:0.02|Kudu:0.01,Gemsbok,0.97,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0484,KGA_S1#B09#1#164,animal,0.962,,Gemsbok,0.962,Gemsbok:0.97|Grey Rhebok:0.02|Kudu:0.01,Gemsbok,0.97,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0258,KGA_S1#A11#1#92,animal,0.454,,Bird,0.454,Bird:0.48|Common Duiker:0.31|Tortoise:0.13,Bird,0.484,needs_review,,DEMO-mock-0.1
+KAR_S1/A01/A01_R1/KAR_S1_A01_R1_IMAG00103,KAR_S1#A01#1#96,animal,0.901,,Eland,0.901,Eland:0.98|Tortoise:0.01|Aardvark:0.00,Eland,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG6741,KAR_S1#C04#1#2803,animal,0.03,,Grey Rhebok,0.0,Grey Rhebok:0.36|Blue Wildebeest:0.29|Tortoise:0.15,Grey Rhebok,0.363,needs_review,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG6742,KAR_S1#C04#1#2803,animal,0.043,,Grey Rhebok,0.0,Grey Rhebok:0.36|Blue Wildebeest:0.29|Tortoise:0.15,Grey Rhebok,0.363,needs_review,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG6743,KAR_S1#C04#1#2803,animal,0.119,,Grey Rhebok,0.0,Grey Rhebok:0.36|Blue Wildebeest:0.29|Tortoise:0.15,Grey Rhebok,0.363,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0020,KAR_S1#D04#1#8,empty,0.137,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0021,KAR_S1#D04#1#8,empty,0.121,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0022,KAR_S1#D04#1#8,empty,0.034,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG0023,KAR_S1#E02#1#9,empty,0.104,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG0024,KAR_S1#E02#1#9,empty,0.135,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG0025,KAR_S1#E02#1#9,empty,0.12,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG1742,KAR_S1#B01#1#762,empty,0.107,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG1743,KAR_S1#B01#1#762,empty,0.084,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG1744,KAR_S1#B01#1#762,empty,0.114,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG6768,KAR_S1#C04#1#2812,empty,0.027,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG6769,KAR_S1#C04#1#2812,empty,0.069,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG6770,KAR_S1#C04#1#2812,empty,0.126,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG1672,KAR_S1#C04#1#636,empty,0.078,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG1673,KAR_S1#C04#1#636,empty,0.137,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG1674,KAR_S1#C04#1#636,empty,0.108,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG0206,KAR_S1#B01#1#98,empty,0.094,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG0207,KAR_S1#B01#1#98,empty,0.113,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG0208,KAR_S1#B01#1#98,empty,0.032,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG6064,KAR_S1#E02#1#2026,empty,0.103,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG6065,KAR_S1#E02#1#2026,empty,0.128,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG6066,KAR_S1#E02#1#2026,empty,0.062,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG0506,KAR_S1#C02#1#182,empty,0.099,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG0507,KAR_S1#C02#1#182,empty,0.099,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C02/C02_R1/KAR_S1_C02_R1_IMAG0508,KAR_S1#C02#1#182,empty,0.014,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B04/B04_R1/KGA_S1_B04_R1_IMAG0321,KGA_S1#B04#1#109,empty,0.081,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B04/B04_R1/KGA_S1_B04_R1_IMAG0322,KGA_S1#B04#1#109,empty,0.078,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B04/B04_R1/KGA_S1_B04_R1_IMAG0323,KGA_S1#B04#1#109,empty,0.136,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG2360,KGA_S1#B06#1#788,animal,0.131,,Ludwig's Bustard,0.0,Ludwig's Bustard:0.46|Klipspringer:0.33|Blue Wildebeest:0.14,Ludwig's Bustard,0.456,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG2361,KGA_S1#B06#1#788,animal,0.061,,Ludwig's Bustard,0.0,Ludwig's Bustard:0.46|Klipspringer:0.33|Blue Wildebeest:0.14,Ludwig's Bustard,0.456,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG2362,KGA_S1#B06#1#788,animal,0.076,,Ludwig's Bustard,0.0,Ludwig's Bustard:0.46|Klipspringer:0.33|Blue Wildebeest:0.14,Ludwig's Bustard,0.456,needs_review,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG1065,KAR_S1#B01#1#459,empty,0.071,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG1066,KAR_S1#B01#1#459,empty,0.069,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG1067,KAR_S1#B01#1#459,empty,0.088,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/F02/F02_R1/KAR_S1_F02_R1_IMAG4081,KAR_S1#F02#1#1633,empty,0.126,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1390,KGA_S1#B06#1#464,empty,0.132,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1391,KGA_S1#B06#1#464,empty,0.058,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1392,KGA_S1#B06#1#464,empty,0.038,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0928,KGA_S1#B06#1#310,empty,0.037,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0929,KGA_S1#B06#1#310,empty,0.11,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0930,KGA_S1#B06#1#310,empty,0.028,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3071,KGA_S1#B06#1#1029,empty,0.066,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3072,KGA_S1#B06#1#1029,empty,0.088,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG3073,KGA_S1#B06#1#1029,empty,0.067,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1720,KGA_S1#B06#1#574,empty,0.025,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1721,KGA_S1#B06#1#574,empty,0.016,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1722,KGA_S1#B06#1#574,empty,0.125,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A08/A08_R1/KGA_S1_A08_R1_IMAG0004,KGA_S1#A08#1#2,empty,0.137,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A08/A08_R1/KGA_S1_A08_R1_IMAG0005,KGA_S1#A08#1#2,empty,0.096,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A08/A08_R1/KGA_S1_A08_R1_IMAG0006,KGA_S1#A08#1#2,empty,0.096,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG6085,KAR_S1#E02#1#2033,empty,0.04,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG6086,KAR_S1#E02#1#2033,empty,0.103,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG6087,KAR_S1#E02#1#2033,empty,0.074,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0290,KGA_S1#B02#1#100,animal,0.825,,Cape Porcupine,0.825,Cape Porcupine:0.88|Bat-eared Fox:0.07|Mountain Reedbuck:0.03,Cape Porcupine,0.882,needs_review,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0635,KGA_S1#B09#1#215,animal,0.561,,Honey Badger,0.561,Honey Badger:0.67|African Wildcat:0.20|Gemsbok:0.08,Honey Badger,0.675,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0177,KGA_S1#A01#1#75,animal,0.99,,Reptile,0.99,Reptile:0.98|Bird:0.01|Riverine Rabbit:0.00,Reptile,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0178,KGA_S1#A01#1#75,animal,0.963,,Reptile,0.963,Reptile:0.98|Bird:0.01|Riverine Rabbit:0.00,Reptile,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0179,KGA_S1#A01#1#75,animal,0.99,,Reptile,0.99,Reptile:0.98|Bird:0.01|Riverine Rabbit:0.00,Reptile,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B04/B04_R1/KGA_S1_B04_R1_IMAG0169,KGA_S1#B04#1#57,animal,0.939,,Spotted Hyena,0.939,Spotted Hyena:0.89|Aardvark:0.07|Leopard:0.03,Spotted Hyena,0.89,needs_review,,DEMO-mock-0.1
+KGA_S1/B01/B01_R1/KGA_S1_B01_R1_IMAG0008,KGA_S1#B01#1#6,animal,0.443,,Springbok,0.443,Springbok:0.49|Caracal:0.31|Reptile:0.13,Springbok,0.491,needs_review,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0458,KGA_S1#B09#1#156,animal,0.847,,Kori Bustard,0.847,Kori Bustard:0.92|Brown Hyena:0.05|Black-backed Jackal:0.02,Kori Bustard,0.921,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0459,KGA_S1#B09#1#156,animal,0.897,,Kori Bustard,0.897,Kori Bustard:0.92|Brown Hyena:0.05|Black-backed Jackal:0.02,Kori Bustard,0.921,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B09/B09_R1/KGA_S1_B09_R1_IMAG0460,KGA_S1#B09#1#156,animal,0.877,,Kori Bustard,0.877,Kori Bustard:0.92|Brown Hyena:0.05|Black-backed Jackal:0.02,Kori Bustard,0.921,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0061,KGA_S1#A07#1#27,animal,0.85,,Cape Fox,0.85,Cape Fox:0.88|Cape Hare:0.07|Black-backed Jackal:0.03,Cape Fox,0.875,needs_review,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0890,KGA_S1#A01#1#326,animal,0.626,,Honey Badger,0.626,Honey Badger:0.74|Empty:0.15|Bird:0.06,Honey Badger,0.744,needs_review,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG3554,KAR_S1#C04#1#1410,animal,0.99,,Chacma Baboon,0.99,Chacma Baboon:0.98|Black-backed Jackal:0.01|Lion:0.00,Chacma Baboon,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG3555,KAR_S1#C04#1#1410,animal,0.948,,Chacma Baboon,0.948,Chacma Baboon:0.98|Black-backed Jackal:0.01|Lion:0.00,Chacma Baboon,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG3556,KAR_S1#C04#1#1410,animal,0.875,,Chacma Baboon,0.875,Chacma Baboon:0.98|Black-backed Jackal:0.01|Lion:0.00,Chacma Baboon,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/A01/A01_R1/KAR_S1_A01_R1_IMAG00310,KAR_S1#A01#1#303,empty,0.076,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/C04/C04_R1/KAR_S1_C04_R1_IMAG7707,KAR_S1#C04#1#3125,empty,0.144,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0319,KAR_S1#E01#1#127,animal,0.971,,Eland,0.971,Eland:0.96|Mountain Reedbuck:0.03|Reptile:0.01,Eland,0.958,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0320,KAR_S1#E01#1#127,empty,0.089,,,0.0,Eland:0.96|Mountain Reedbuck:0.03|Reptile:0.01,Eland,0.958,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0321,KAR_S1#E01#1#127,empty,0.051,,,0.0,Eland:0.96|Mountain Reedbuck:0.03|Reptile:0.01,Eland,0.958,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0103,KGA_S1#B06#1#35,animal,0.126,,Tortoise,0.0,Tortoise:0.38|Yellow Mongoose:0.31|Aardvark:0.15,Tortoise,0.383,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0104,KGA_S1#B06#1#35,animal,0.094,,Tortoise,0.0,Tortoise:0.38|Yellow Mongoose:0.31|Aardvark:0.15,Tortoise,0.383,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG0105,KGA_S1#B06#1#35,animal,0.053,,Tortoise,0.0,Tortoise:0.38|Yellow Mongoose:0.31|Aardvark:0.15,Tortoise,0.383,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0116,KGA_S1#A06#1#42,empty,0.064,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0117,KGA_S1#A06#1#42,empty,0.063,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0118,KGA_S1#A06#1#42,empty,0.118,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0329,KGA_S1#A06#1#117,empty,0.106,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A07/A07_R1/KGA_S1_A07_R1_IMAG0074,KGA_S1#A07#1#32,empty,0.032,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0456,KGA_S1#A06#1#166,empty,0.127,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0065,KGA_S1#A06#1#23,empty,0.048,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A09/A09_R1/KGA_S1_A09_R1_IMAG0202,KGA_S1#A09#1#72,empty,0.059,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0445,KGA_S1#A06#1#161,empty,0.122,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0446,KGA_S1#A01#1#168,empty,0.095,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0049,KGA_S1#A06#1#17,empty,0.14,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0341,KGA_S1#A01#1#131,empty,0.074,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG3113,KAR_S1#B01#1#1275,empty,0.043,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG3114,KAR_S1#B01#1#1275,empty,0.091,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG3115,KAR_S1#B01#1#1275,empty,0.136,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0346,KGA_S1#B02#1#120,empty,0.077,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KGA_S1/B01/B01_R1/KGA_S1_B01_R1_IMAG0006,KGA_S1#B01#1#4,empty,0.037,,,0.0,,,0.0,empty,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0608,KAR_S1#B02#1#232,animal,0.873,,Kudu,0.873,Kudu:0.98|Steenbok:0.01|Kori Bustard:0.00,Kudu,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0609,KAR_S1#B02#1#232,animal,0.99,,Kudu,0.99,Kudu:0.98|Steenbok:0.01|Kori Bustard:0.00,Kudu,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0610,KAR_S1#B02#1#232,animal,0.929,,Kudu,0.929,Kudu:0.98|Steenbok:0.01|Kori Bustard:0.00,Kudu,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/A01/A01_R1/KAR_S1_A01_R1_IMAG00167,KAR_S1#A01#1#160,animal,0.967,,Eland,0.967,Eland:0.98|Red Hartebeest:0.01|Black-backed Jackal:0.00,Eland,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0386,KAR_S1#D04#1#136,empty,0.089,,,0.0,Bird:0.91|Bat-eared Fox:0.05|Common Duiker:0.02,Bird,0.909,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0387,KAR_S1#D04#1#136,empty,0.047,,,0.0,Bird:0.91|Bat-eared Fox:0.05|Common Duiker:0.02,Bird,0.909,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0388,KAR_S1#D04#1#136,animal,0.922,,Bird,0.922,Bird:0.91|Bat-eared Fox:0.05|Common Duiker:0.02,Bird,0.909,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0288,KAR_S1#E03#1#110,empty,0.015,,,0.0,Kudu:0.98|Ostrich:0.01|Tortoise:0.00,Kudu,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0289,KAR_S1#E03#1#110,empty,0.038,,,0.0,Kudu:0.98|Ostrich:0.01|Tortoise:0.00,Kudu,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0290,KAR_S1#E03#1#110,animal,0.896,,Kudu,0.896,Kudu:0.98|Ostrich:0.01|Tortoise:0.00,Kudu,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG5494,KAR_S1#E02#1#1836,empty,0.094,,,0.0,Mountain Zebra:0.97|Red Hartebeest:0.02|Riverine Rabbit:0.01,Mountain Zebra,0.967,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG5495,KAR_S1#E02#1#1836,empty,0.066,,,0.0,Mountain Zebra:0.97|Red Hartebeest:0.02|Riverine Rabbit:0.01,Mountain Zebra,0.967,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E02/E02_R1/KAR_S1_E02_R1_IMAG5496,KAR_S1#E02#1#1836,animal,0.867,,Mountain Zebra,0.867,Mountain Zebra:0.97|Red Hartebeest:0.02|Riverine Rabbit:0.01,Mountain Zebra,0.967,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG1295,KAR_S1#B02#1#497,empty,0.073,,,0.0,Empty:0.58|Red Hartebeest:0.25|Common Duiker:0.11,Empty,0.577,needs_review,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG1296,KAR_S1#B02#1#497,animal,0.485,,Empty,0.485,Empty:0.58|Red Hartebeest:0.25|Common Duiker:0.11,Empty,0.577,needs_review,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG1297,KAR_S1#B02#1#497,animal,0.622,,Empty,0.622,Empty:0.58|Red Hartebeest:0.25|Common Duiker:0.11,Empty,0.577,needs_review,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0536,KAR_S1#B02#1#208,animal,0.99,,Eland,0.99,Eland:0.98|Gemsbok:0.01|Kudu:0.00,Eland,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0537,KAR_S1#B02#1#208,animal,0.909,,Eland,0.909,Eland:0.98|Gemsbok:0.01|Kudu:0.00,Eland,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0538,KAR_S1#B02#1#208,animal,0.952,,Eland,0.952,Eland:0.98|Gemsbok:0.01|Kudu:0.00,Eland,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0221,KAR_S1#E01#1#91,animal,0.862,,Kudu,0.862,Kudu:0.95|Reptile:0.03|Bird:0.01,Kudu,0.948,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0222,KAR_S1#E01#1#91,animal,0.955,,Kudu,0.955,Kudu:0.95|Reptile:0.03|Bird:0.01,Kudu,0.948,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0223,KAR_S1#E01#1#91,animal,0.928,,Kudu,0.928,Kudu:0.95|Reptile:0.03|Bird:0.01,Kudu,0.948,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D03/D03_R1/KAR_S1_D03_R1_IMAG0254,KAR_S1#D03#1#114,animal,0.824,,Eland,0.824,Eland:0.87|Leopard:0.08|Gemsbok:0.03,Eland,0.869,needs_review,,DEMO-mock-0.1
+KAR_S1/D03/D03_R1/KAR_S1_D03_R1_IMAG0255,KAR_S1#D03#1#114,animal,0.886,,Eland,0.886,Eland:0.87|Leopard:0.08|Gemsbok:0.03,Eland,0.869,needs_review,,DEMO-mock-0.1
+KAR_S1/D03/D03_R1/KAR_S1_D03_R1_IMAG0256,KAR_S1#D03#1#114,animal,0.904,,Eland,0.904,Eland:0.87|Leopard:0.08|Gemsbok:0.03,Eland,0.869,needs_review,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0227,KAR_S1#E01#1#93,animal,0.722,,Red Hartebeest,0.722,Red Hartebeest:0.74|Kudu:0.16|Caracal:0.07,Red Hartebeest,0.737,needs_review,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0228,KAR_S1#E01#1#93,empty,0.062,,,0.0,Red Hartebeest:0.74|Kudu:0.16|Caracal:0.07,Red Hartebeest,0.737,needs_review,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0229,KAR_S1#E01#1#93,animal,0.744,,Red Hartebeest,0.744,Red Hartebeest:0.74|Kudu:0.16|Caracal:0.07,Red Hartebeest,0.737,needs_review,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0449,KAR_S1#E01#1#189,empty,0.026,,,0.0,Lion:0.79|Kudu:0.13|Bird of Prey:0.05,Lion,0.787,needs_review,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0450,KAR_S1#E01#1#189,animal,0.729,,Lion,0.729,Lion:0.79|Kudu:0.13|Bird of Prey:0.05,Lion,0.787,needs_review,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0451,KAR_S1#E01#1#189,animal,0.723,,Lion,0.723,Lion:0.79|Kudu:0.13|Bird of Prey:0.05,Lion,0.787,needs_review,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0257,KAR_S1#E03#1#95,animal,0.727,,Chacma Baboon,0.727,Chacma Baboon:0.80|Cape Porcupine:0.12|Ostrich:0.05,Chacma Baboon,0.801,needs_review,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0258,KAR_S1#E03#1#95,animal,0.751,,Chacma Baboon,0.751,Chacma Baboon:0.80|Cape Porcupine:0.12|Ostrich:0.05,Chacma Baboon,0.801,needs_review,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0259,KAR_S1#E03#1#95,empty,0.032,,,0.0,Chacma Baboon:0.80|Cape Porcupine:0.12|Ostrich:0.05,Chacma Baboon,0.801,needs_review,,DEMO-mock-0.1
+KAR_S1/A01/A01_R1/KAR_S1_A01_R1_IMAG00107,KAR_S1#A01#1#100,animal,0.869,,Eland,0.869,Eland:0.93|Cape Hare:0.04|Gemsbok:0.02,Eland,0.935,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0364,KAR_S1#E01#1#150,animal,0.487,,Brown Hyena,0.487,Brown Hyena:0.51|Red Hartebeest:0.29|Secretarybird:0.12,Brown Hyena,0.511,needs_review,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0365,KAR_S1#E01#1#150,empty,0.127,,,0.0,Brown Hyena:0.51|Red Hartebeest:0.29|Secretarybird:0.12,Brown Hyena,0.511,needs_review,,DEMO-mock-0.1
+KAR_S1/E01/E01_R1/KAR_S1_E01_R1_IMAG0366,KAR_S1#E01#1#150,empty,0.027,,,0.0,Brown Hyena:0.51|Red Hartebeest:0.29|Secretarybird:0.12,Brown Hyena,0.511,needs_review,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0852,KAR_S1#B02#1#320,empty,0.135,,,0.0,Tortoise:0.95|Empty:0.03|Eland:0.01,Tortoise,0.955,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0853,KAR_S1#B02#1#320,animal,0.845,,Tortoise,0.845,Tortoise:0.95|Empty:0.03|Eland:0.01,Tortoise,0.955,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0854,KAR_S1#B02#1#320,animal,0.958,,Tortoise,0.958,Tortoise:0.95|Empty:0.03|Eland:0.01,Tortoise,0.955,auto_accepted,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG0646,KAR_S1#C03#1#216,empty,0.01,,,0.0,Reptile:0.79|African Wildcat:0.13|Mountain Zebra:0.05,Reptile,0.791,needs_review,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG0647,KAR_S1#C03#1#216,animal,0.812,,Reptile,0.812,Reptile:0.79|African Wildcat:0.13|Mountain Zebra:0.05,Reptile,0.791,needs_review,,DEMO-mock-0.1
+KAR_S1/C03/C03_R1/KAR_S1_C03_R1_IMAG0648,KAR_S1#C03#1#216,animal,0.76,,Reptile,0.76,Reptile:0.79|African Wildcat:0.13|Mountain Zebra:0.05,Reptile,0.791,needs_review,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG6625,KAR_S1#B01#1#2669,empty,0.035,,,0.0,Chacma Baboon:0.56|Hare:0.26|Cape Porcupine:0.11,Chacma Baboon,0.561,needs_review,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG6626,KAR_S1#B01#1#2669,animal,0.543,,Chacma Baboon,0.543,Chacma Baboon:0.56|Hare:0.26|Cape Porcupine:0.11,Chacma Baboon,0.561,needs_review,,DEMO-mock-0.1
+KAR_S1/B01/B01_R1/KAR_S1_B01_R1_IMAG6627,KAR_S1#B01#1#2669,animal,0.582,,Chacma Baboon,0.582,Chacma Baboon:0.56|Hare:0.26|Cape Porcupine:0.11,Chacma Baboon,0.561,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0642,KAR_S1#D04#1#222,animal,0.667,,Riverine Rabbit,0.667,Riverine Rabbit:0.75|Ludwig's Bustard:0.15|Cape Porcupine:0.06,Riverine Rabbit,0.755,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0643,KAR_S1#D04#1#222,animal,0.687,,Riverine Rabbit,0.687,Riverine Rabbit:0.75|Ludwig's Bustard:0.15|Cape Porcupine:0.06,Riverine Rabbit,0.755,needs_review,,DEMO-mock-0.1
+KAR_S1/D04/D04_R1/KAR_S1_D04_R1_IMAG0644,KAR_S1#D04#1#222,animal,0.636,,Riverine Rabbit,0.636,Riverine Rabbit:0.75|Ludwig's Bustard:0.15|Cape Porcupine:0.06,Riverine Rabbit,0.755,needs_review,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0325,KAR_S1#E03#1#125,empty,0.131,,,0.0,Common Duiker:0.92|Bird:0.05|Secretarybird:0.02,Common Duiker,0.924,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0326,KAR_S1#E03#1#125,animal,0.888,,Common Duiker,0.888,Common Duiker:0.92|Bird:0.05|Secretarybird:0.02,Common Duiker,0.924,auto_accepted,,DEMO-mock-0.1
+KAR_S1/E03/E03_R1/KAR_S1_E03_R1_IMAG0327,KAR_S1#E03#1#125,empty,0.012,,,0.0,Common Duiker:0.92|Bird:0.05|Secretarybird:0.02,Common Duiker,0.924,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0720,KAR_S1#B02#1#270,animal,0.525,,Red Hartebeest,0.525,Red Hartebeest:0.50|Steenbok:0.30|Gemsbok:0.12,Red Hartebeest,0.503,needs_review,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0019,KAR_S1#D01#1#7,animal,0.818,,Kori Bustard,0.818,Kori Bustard:0.93|Yellow Mongoose:0.04|Aardvark:0.02,Kori Bustard,0.926,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0020,KAR_S1#D01#1#7,empty,0.06,,,0.0,Kori Bustard:0.93|Yellow Mongoose:0.04|Aardvark:0.02,Kori Bustard,0.926,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0021,KAR_S1#D01#1#7,empty,0.044,,,0.0,Kori Bustard:0.93|Yellow Mongoose:0.04|Aardvark:0.02,Kori Bustard,0.926,auto_accepted,,DEMO-mock-0.1
+KAR_S1/B02/B02_R1/KAR_S1_B02_R1_IMAG0124,KAR_S1#B02#1#48,animal,0.691,,Klipspringer,0.691,Klipspringer:0.76|Caracal:0.14|Ludwig's Bustard:0.06,Klipspringer,0.762,needs_review,,DEMO-mock-0.1
+KAR_S1/D01/D01_R1/KAR_S1_D01_R1_IMAG0101,KAR_S1#D01#1#35,animal,0.839,,Steenbok,0.839,Steenbok:0.96|African Wildcat:0.03|Rodent:0.01,Steenbok,0.956,auto_accepted,,DEMO-mock-0.1
+KAR_S1/D03/D03_R1/KAR_S1_D03_R1_IMAG0128,KAR_S1#D03#1#56,animal,0.581,,Common Duiker,0.581,Common Duiker:0.70|Kori Bustard:0.18|Cape Hare:0.08,Common Duiker,0.698,needs_review,,DEMO-mock-0.1
+KAR_S1/D03/D03_R1/KAR_S1_D03_R1_IMAG0129,KAR_S1#D03#1#56,animal,0.735,,Common Duiker,0.735,Common Duiker:0.70|Kori Bustard:0.18|Cape Hare:0.08,Common Duiker,0.698,needs_review,,DEMO-mock-0.1
+KAR_S1/D03/D03_R1/KAR_S1_D03_R1_IMAG0130,KAR_S1#D03#1#56,empty,0.113,,,0.0,Common Duiker:0.70|Kori Bustard:0.18|Cape Hare:0.08,Common Duiker,0.698,needs_review,,DEMO-mock-0.1
+KGA_S1/B06/B06_R1/KGA_S1_B06_R1_IMAG1750,KGA_S1#B06#1#584,animal,0.827,,Black-backed Jackal,0.827,Black-backed Jackal:0.87|Red Hartebeest:0.08|Secretarybird:0.03,Black-backed Jackal,0.872,needs_review,,DEMO-mock-0.1
+KGA_S1/A06/A06_R1/KGA_S1_A06_R1_IMAG0258,KGA_S1#A06#1#90,animal,0.886,,Eland,0.886,Eland:0.98|Blue Wildebeest:0.01|Cape Porcupine:0.00,Eland,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A05/A05_R1/KGA_S1_A05_R1_IMAG0022,KGA_S1#A05#1#10,animal,0.836,,Black-backed Jackal,0.836,Black-backed Jackal:0.81|Cape Fox:0.11|Ludwig's Bustard:0.05,Black-backed Jackal,0.809,needs_review,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0218,KGA_S1#A11#1#76,animal,0.922,,Leopard,0.922,Leopard:0.88|Steenbok:0.07|Red Hartebeest:0.03,Leopard,0.883,needs_review,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0219,KGA_S1#A11#1#76,animal,0.829,,Leopard,0.829,Leopard:0.88|Steenbok:0.07|Red Hartebeest:0.03,Leopard,0.883,needs_review,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0220,KGA_S1#A11#1#76,empty,0.069,,,0.0,Leopard:0.88|Steenbok:0.07|Red Hartebeest:0.03,Leopard,0.883,needs_review,,DEMO-mock-0.1
+KGA_S1/A05/A05_R1/KGA_S1_A05_R1_IMAG0286,KGA_S1#A05#1#102,animal,0.84,,Eland,0.84,Eland:0.92|Bird:0.05|Leopard:0.02,Eland,0.919,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A11/A11_R1/KGA_S1_A11_R1_IMAG0214,KGA_S1#A11#1#74,animal,0.837,,Black-backed Jackal,0.837,Black-backed Jackal:0.82|Mountain Zebra:0.11|Steenbok:0.05,Black-backed Jackal,0.818,needs_review,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0152,KGA_S1#B02#1#54,empty,0.025,,,0.0,Black-backed Jackal:0.96|Kudu:0.02|Empty:0.01,Black-backed Jackal,0.961,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0153,KGA_S1#B02#1#54,animal,0.873,,Black-backed Jackal,0.873,Black-backed Jackal:0.96|Kudu:0.02|Empty:0.01,Black-backed Jackal,0.961,auto_accepted,,DEMO-mock-0.1
+KGA_S1/B02/B02_R1/KGA_S1_B02_R1_IMAG0154,KGA_S1#B02#1#54,animal,0.897,,Black-backed Jackal,0.897,Black-backed Jackal:0.96|Kudu:0.02|Empty:0.01,Black-backed Jackal,0.961,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0392,KGA_S1#A01#1#150,animal,0.973,,Bird,0.973,Bird:0.93|African Wildcat:0.04|Eland:0.02,Bird,0.934,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0393,KGA_S1#A01#1#150,empty,0.099,,,0.0,Bird:0.93|African Wildcat:0.04|Eland:0.02,Bird,0.934,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0394,KGA_S1#A01#1#150,empty,0.123,,,0.0,Bird:0.93|African Wildcat:0.04|Eland:0.02,Bird,0.934,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0219,KGA_S1#A01#1#89,empty,0.027,,,0.0,Ostrich:0.98|Gemsbok:0.01|Spotted Hyena:0.00,Ostrich,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0220,KGA_S1#A01#1#89,animal,0.867,,Ostrich,0.867,Ostrich:0.98|Gemsbok:0.01|Spotted Hyena:0.00,Ostrich,0.985,auto_accepted,,DEMO-mock-0.1
+KGA_S1/A01/A01_R1/KGA_S1_A01_R1_IMAG0221,KGA_S1#A01#1#89,animal,0.905,,Ostrich,0.905,Ostrich:0.98|Gemsbok:0.01|Spotted Hyena:0.00,Ostrich,0.985,auto_accepted,,DEMO-mock-0.1
+KAR_S1/A01/A01_R1/KAR_S1_A01_R1_IMAG00142,KAR_S1#A01#1#135,animal,0.776,,Gemsbok,0.776,Gemsbok:0.87|Brown Hyena:0.08|Honey Badger:0.03,Gemsbok,0.867,needs_review,,DEMO-mock-0.1

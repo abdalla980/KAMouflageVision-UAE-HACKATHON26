@@ -4,3 +4,7 @@ __pycache__/
 
 # Run log from data/scripts/fetch_all.py
 data/fetch_log.txt
+
+# Local app state
+data/results/reviews.csv
+data/uploads/
