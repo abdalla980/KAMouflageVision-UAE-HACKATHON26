@@ -14,6 +14,10 @@ primaryColor = "#D8B66A"
 
 [server]
 maxUploadSize = 500
+address = "localhost"
 
 [browser]
 gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

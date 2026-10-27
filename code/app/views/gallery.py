@@ -2,16 +2,13 @@
 
 import streamlit as st
 
-from lib import STATUS, badge, demo_notice, display_species, image_bytes, require_predictions, setup_page
+from lib import STATUS, badge, display_species, image_bytes, require_predictions, setup_page, uae_mode
 
 setup_page("Gallery", "Every photo with the AI's result. Switch on enhancement to see camouflaged and "
                       "night-time animals the way the AI sees them.")
-demo_notice()
 df = require_predictions()
 
-uae_mode = st.sidebar.toggle("Show UAE counterpart names", value=True,
-                             help="Demo photos show southern-African species; show them as the UAE species they stand in for.")
-df["shown_species"] = df["final_species"].map(lambda s: display_species(s, uae_mode))
+df["shown_species"] = df["final_species"].map(lambda s: display_species(s, uae_mode()))
 
 # ---------------------------------------------------------------- filters
 f1, f2, f3, f4 = st.columns([2, 2, 4, 1.6])
@@ -52,7 +49,7 @@ def detail(row):
                 f"{row['datetime']:%d %b %Y, %H:%M}")
     if row["top3"]:
         st.caption("Top candidates: " + " · ".join(
-            f"{display_species(c.split(':')[0], uae_mode)} {float(c.split(':')[1]):.0%}" for c in row["top3"].split("|")))
+            f"{display_species(c.split(':')[0], uae_mode())} {float(c.split(':')[1]):.0%}" for c in row["top3"].split("|")))
     st.caption(f"Source: {row['dataset'].upper()} {row['image_id']} · ground truth (burst): {row['ground_truth']}"
                + (f" · UAE counterpart: {row['uae_counterpart']} ({row['uae_match']})" if row['uae_counterpart'] == row['uae_counterpart'] else ""))
     if len(burst) > 1:
@@ -66,9 +63,31 @@ def detail(row):
 # ---------------------------------------------------------------- grid
 PER_PAGE = 20
 pages = max(1, -(-len(view) // PER_PAGE))
-top = st.columns([4, 1])
-top[0].markdown(f"**{len(view)}** photos · {view['seq_id'].nunique()} bursts")
-page = top[1].number_input("Page", 1, pages, 1, label_visibility="collapsed") if pages > 1 else 1
+# Go back to page 1 whenever the filters change.
+filter_key = (tuple(reserves), tuple(species), tuple(statuses or ()), night_only)
+if st.session_state.get("gallery_filters") != filter_key:
+    st.session_state["gallery_filters"] = filter_key
+    st.session_state["gallery_page"] = 1
+page = min(st.session_state.get("gallery_page", 1), pages)
+
+
+def pager(where):
+    if pages <= 1:
+        return
+    left, mid, right = st.columns([1, 2, 1], vertical_alignment="center")
+    if left.button("Previous", key=f"prev_{where}", icon=":material/chevron_left:", disabled=page == 1,
+                   width="stretch"):
+        st.session_state["gallery_page"] = page - 1
+        st.rerun()
+    mid.markdown(f"<div style='text-align:center'>Page <b>{page}</b> of {pages}</div>", unsafe_allow_html=True)
+    if right.button("Next", key=f"next_{where}", icon=":material/chevron_right:", disabled=page == pages,
+                    width="stretch"):
+        st.session_state["gallery_page"] = page + 1
+        st.rerun()
+
+
+st.markdown(f"**{len(view)}** photos · {view['seq_id'].nunique()} bursts")
+pager("top")
 
 chunk = view.iloc[(page - 1) * PER_PAGE: page * PER_PAGE]
 cols = st.columns(4)
@@ -87,3 +106,5 @@ for i, (_, r) in enumerate(chunk.iterrows()):
 
 if view.empty:
     st.info("No photos match these filters.")
+else:
+    pager("bottom")

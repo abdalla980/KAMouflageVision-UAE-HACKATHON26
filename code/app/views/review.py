@@ -3,15 +3,13 @@
 import pandas as pd
 import streamlit as st
 
-from lib import (badge, demo_notice, display_species, image_bytes, load_reviews, require_predictions, save_review,
-                 setup_page)
+from lib import (badge, display_species, image_bytes, load_reviews, require_predictions, save_review,
+                 setup_page, uae_mode)
 
 setup_page("Review Queue", "Only the bursts the AI is unsure about. One click turns an AI suggestion into a "
                            "scientifically validated observation.")
-demo_notice()
 df = require_predictions()
 
-uae_mode = st.sidebar.toggle("Show UAE counterpart names", value=True)
 reviewer = st.sidebar.text_input("Reviewer name", value=st.session_state.get("reviewer", "MOCCAE expert"))
 st.session_state["reviewer"] = reviewer
 
@@ -59,7 +57,7 @@ with right:
     st.markdown("#### AI suggestion")
     def shown(s):
         """UAE name, plus the demo photo's own species when it differs (e.g. 'Arabian Oryx · Gemsbok')."""
-        d = display_species(s, uae_mode)
+        d = display_species(s, uae_mode())
         return d if d == s else f"{d} · {s}"
 
     cands = [c.split(":") for c in item["top3"].split("|") if c] if item["top3"] else []
@@ -75,7 +73,7 @@ with right:
     if c1.button("Confirm", type="primary", icon=":material/check_circle:", width="stretch"):
         decision = "confirm" if names and choice == names[0] else "correct"
         save_review(item["seq_id"], decision, choice, reviewer)
-        st.toast(f"Validated: {display_species(choice, uae_mode)}", icon="✅")
+        st.toast(f"Validated: {display_species(choice, uae_mode())}", icon="✅")
         st.rerun()
     if c2.button("No animal", icon=":material/block:", width="stretch"):
         save_review(item["seq_id"], "not_animal", "", reviewer)

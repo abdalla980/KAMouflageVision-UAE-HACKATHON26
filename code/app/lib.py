@@ -245,13 +245,17 @@ def setup_page(title, subtitle=""):
         f'<div class="kv-sub">{subtitle}</div></div>', unsafe_allow_html=True)
 
 
-def demo_notice():
-    st.sidebar.markdown(
-        '<div class="kv-note"><b>Demo data</b><br>Real camera-trap photos from arid southern Africa '
-        '(LILA BC), shown as their UAE counterpart species. Camera positions are simulated inside real '
-        'MOCCAE protected areas (Bayanat).</div>', unsafe_allow_html=True)
-    st.sidebar.caption("Prototype built for the MOCCAE camera-trap challenge · UAE Hackathon 2026. "
-                       "Not an official MOCCAE product.")
+SECONDS_PER_IMAGE = 8  # assumed manual review time; explained on the About page
+
+
+def uae_mode():
+    """Demo setting (About page): show stand-in species under their UAE counterpart name."""
+    return st.session_state.get("uae_mode", True)
+
+
+def uae_only():
+    """Demo setting (About page): hide demo species that have no UAE counterpart."""
+    return st.session_state.get("uae_only", True)
 
 
 CSS = f"""
@@ -275,5 +279,6 @@ div[data-testid="stMetric"] {{
 }}
 div[data-testid="stMetricValue"] {{ color: {COLORS['green']}; }}
 section[data-testid="stSidebar"] {{ border-right: 3px solid {COLORS['gold']}; }}
+[data-testid="stToolbar"], [data-testid="stDecoration"] {{ display: none; }}
 </style>
 """

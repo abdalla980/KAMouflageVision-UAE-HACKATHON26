@@ -7,14 +7,13 @@ from datetime import datetime
 import streamlit as st
 from PIL import ExifTags, Image
 
-from lib import (REPO_DIR, UPLOADS_DIR, badge, demo_notice, load_cameras, merged, require_predictions,
+from lib import (REPO_DIR, UPLOADS_DIR, badge, load_cameras, merged, require_predictions,
                  setup_page)
 
-setup_page("Upload & Process", "Drop in a camera's SD card. The AI removes empty frames, identifies species "
-                                "and sends only uncertain bursts to an expert.")
-demo_notice()
+setup_page("Import Photos", "Bring in the photos from a camera trap's memory card. The AI removes empty frames, "
+                             "identifies species and sends only uncertain bursts to an expert.")
 
-tab_demo, tab_upload = st.tabs([":material/sd_card: Process a camera (demo)", ":material/upload_file: Upload photos"])
+tab_demo, tab_upload = st.tabs([":material/photo_camera: Import from a camera", ":material/upload_file: Upload photos"])
 
 # ---------------------------------------------------------------- demo: replay a camera's SD card
 with tab_demo:
@@ -25,8 +24,8 @@ with tab_demo:
     cams["label"] = cams.apply(lambda c: f"{c['camera_id']} · {c['reserve']} · {counts[c['camera_id']]} images", axis=1)
 
     c1, c2 = st.columns([3, 1], vertical_alignment="bottom")
-    choice = c1.selectbox("Camera / SD card", cams["label"].tolist(), index=0)
-    run = c2.button("Process SD card", type="primary", icon=":material/play_arrow:", width="stretch")
+    choice = c1.selectbox("Camera", cams["label"].tolist(), index=0)
+    run = c2.button("Import & analyse", type="primary", icon=":material/play_arrow:", width="stretch")
     cam_id = choice.split(" · ")[0]
     batch = df[df["camera_id"] == cam_id].sort_values("datetime")
 
@@ -56,7 +55,8 @@ with tab_demo:
         st.markdown(f"**{cam_id}** in **{batch['reserve'].iloc[0]}**, {batch['emirate'].iloc[0]} · "
                     f"{len(batch)} images in {len(seqs)} bursts · "
                     f"{batch['datetime'].min():%d %b %Y} – {batch['datetime'].max():%d %b %Y}")
-        st.caption("Press **Process SD card** to replay how the pipeline handles this card.")
+        st.caption("Camera traps save their photos on a memory card. Rangers collect the card in the field and "
+                   "import it here. Press **Import & analyse** to run this camera's photos through the AI.")
 
 # ---------------------------------------------------------------- upload your own photos
 with tab_upload:

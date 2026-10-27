@@ -7,24 +7,17 @@ import plotly.express as px
 import pydeck as pdk
 import streamlit as st
 
-from lib import (COLORS, SPECIES_PALETTE, demo_notice, display_species, load_cameras, load_gbif_occurrences,
+from lib import (COLORS, SECONDS_PER_IMAGE, SPECIES_PALETTE, display_species, load_cameras, load_gbif_occurrences,
                  load_protected_areas, load_species_reference, observations, require_predictions, setup_page,
-                 uae_counterparts)
+                 uae_counterparts, uae_mode, uae_only)
 
 setup_page("Insights Dashboard", "Validated observations across monitored habitats: where each species is, "
                                  "when it is active, and where cameras are missing.")
-demo_notice()
 df = require_predictions()
 
-uae_mode = st.sidebar.toggle("Show UAE counterpart names", value=True)
-uae_only = st.sidebar.toggle("UAE-relevant species only", value=True,
-                             help="Hide demo species that have no UAE counterpart (e.g. zebra, kudu).")
-seconds_per_image = st.sidebar.slider("Manual review time per image (s)", 2, 30, 8,
-                                      help="Assumption used for the time-saved estimate.")
-
 obs = observations(df)
-obs["shown"] = obs["final_species"].map(lambda s: display_species(s, uae_mode))
-if uae_only:
+obs["shown"] = obs["final_species"].map(lambda s: display_species(s, uae_mode()))
+if uae_only():
     obs = obs[obs["final_species"].isin(uae_counterparts().keys())]
 obs["hour"] = obs["datetime"].dt.hour
 
@@ -40,8 +33,8 @@ k[1].metric("Empty frames filtered", f"{empty_imgs / n_img:.0%}")
 k[2].metric("Validated observations", f"{len(obs):,}", help="Bursts auto-accepted (≥90%) or confirmed by an expert")
 k[3].metric("Species recorded", obs["shown"].nunique())
 k[4].metric("Awaiting review", pending)
-st.caption(f"Humans look at **{1 - saved_share:.0%}** of images instead of 100%. At {seconds_per_image}s per image "
-           f"that saves **≈{saved_share * 100_000 * seconds_per_image / 3600:,.0f} hours per 100,000 images**.")
+st.caption(f"Experts look at **{1 - saved_share:.0%}** of images instead of all of them: an estimated "
+           f"**{saved_share * 100_000 * SECONDS_PER_IMAGE / 3600:,.0f} hours saved per 100,000 images**.")
 
 species_order = obs["shown"].value_counts().index.tolist()
 color_map = {s: SPECIES_PALETTE[i % len(SPECIES_PALETTE)] for i, s in enumerate(species_order)}
