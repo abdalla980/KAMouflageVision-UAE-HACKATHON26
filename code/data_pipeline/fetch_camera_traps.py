@@ -50,24 +50,23 @@ DATASETS = {
 # Source label -> (UAE counterpart used in the demo, how close the match is).
 # "same species" / "same genus" / "same family" are biological matches; "analogue" only means a
 # similar-looking animal in a similar niche. The pitch must present these as stand-ins, not UAE data.
+# Only species with UAE records are mapped: striped hyena is extinct in the wild in the UAE (National Red
+# List 2022) and honey badger has no UAE records in GBIF.
 UAE_COUNTERPART = {
     "gemsbokoryx": ("Arabian Oryx (Oryx leucoryx)", "same genus"),
     "caracal": ("Caracal (Caracal caracal)", "same species"),
     "catafricanwild": ("Arabian Wildcat (Felis lybica)", "same species"),
-    "honeybadger": ("Honey Badger (Mellivora capensis)", "same species"),
     "harecape": ("Cape Hare (Lepus capensis)", "same species"),
     "hare": ("Cape Hare (Lepus capensis)", "same genus"),
     "foxcape": ("Arabian Red Fox / Blanford's Fox (Vulpes)", "same genus"),
     "foxbateared": ("Ruppell's Fox (Vulpes rueppellii)", "analogue"),
-    "hyenabrown": ("Striped Hyena (Hyaena hyaena)", "same family"),
-    "hyenaspotted": ("Striped Hyena (Hyaena hyaena)", "same family"),
     "steenbok": ("Arabian / Sand Gazelle (Gazella)", "analogue"),
     "springbok": ("Arabian / Sand Gazelle (Gazella)", "analogue"),
     "duiker": ("Arabian / Sand Gazelle (Gazella)", "analogue"),
     "duikercommongrey": ("Arabian / Sand Gazelle (Gazella)", "analogue"),
-    "klipspringer": ("Arabian Tahr (Arabitragus jayakari)", "analogue"),
-    "bustardkori": ("Houbara Bustard (Chlamydotis undulata)", "same family"),
-    "bustardludwigs": ("Houbara Bustard (Chlamydotis undulata)", "same family"),
+    "klipspringer": ("Arabian Tahr (Hemitragus jayakari)", "analogue"),
+    "bustardkori": ("Asian Houbara (Chlamydotis macqueenii)", "same family"),
+    "bustardludwigs": ("Asian Houbara (Chlamydotis macqueenii)", "same family"),
     "mongoosesmallcapegrey": ("White-tailed Mongoose (Ichneumia albicauda)", "same family"),
     "mongooseyellow": ("White-tailed Mongoose (Ichneumia albicauda)", "same family"),
     "porcupine": ("Indian Crested Porcupine (Hystrix indica)", "same genus"),

@@ -22,6 +22,7 @@ import re
 from datetime import datetime
 
 from _common import PROCESSED_DIR, RAW_DIR, log, read_csv, write_csv, write_json
+from fetch_camera_traps import UAE_COUNTERPART
 
 # Terrestrial reserves where camera traps make sense, in order of preference. Names as in the MOCCAE data.
 PREFERRED_RESERVES = ["Arabian Oryx", "Al Houbara", "Al Marzoum", "Qaser Al Sarab", "Al Wathba",
@@ -122,6 +123,12 @@ def main(argv=None):
         images += read_csv(sel)
     if not images:
         raise SystemExit("No camera-trap images found. Run fetch_camera_traps.py first.")
+
+    # Re-apply the UAE counterpart mapping so fixes to it don't require re-downloading images.
+    for r in images:
+        labels = [l for l in r["ground_truth"].split("|") if l in UAE_COUNTERPART]
+        r["uae_counterpart"] = "|".join(UAE_COUNTERPART[l][0] for l in labels)
+        r["uae_match"] = "|".join(UAE_COUNTERPART[l][1] for l in labels)
 
     cameras = place_cameras({f"{r['dataset']}:{r['source_location']}" for r in images}, reserves)
     max_year = max(int(r["datetime"][:4]) for r in images)

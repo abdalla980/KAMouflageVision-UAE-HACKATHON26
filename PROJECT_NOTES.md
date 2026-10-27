@@ -350,9 +350,10 @@ python code/data_pipeline/fetch_all.py       # already done; data is in the repo
 
 | Match | Examples |
 |---|---|
-| same species | caracal, African/Arabian wildcat (*Felis lybica*), honey badger, cape hare |
+| same species | caracal, African/Arabian wildcat (*Felis lybica*), cape hare |
 | same genus | gemsbok → Arabian oryx; cape fox → Arabian red / Blanford's fox; porcupine |
-| same family | brown hyena → striped hyena; kori bustard → houbara bustard |
+| same family | kori bustard → Asian houbara |
+| not mapped | brown hyena (striped hyena is extinct in the wild in the UAE), honey badger (no UAE records in GBIF) |
 | analogue only | steenbok / springbok / duiker → gazelles; klipspringer → Arabian tahr |
 
 Present these as stand-ins in the pitch, not as UAE data.

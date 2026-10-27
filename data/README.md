@@ -58,7 +58,7 @@ the LILA images in the 90-day pilot.
 ### UAE counterparts
 
 The demo images show southern-African species. `images.csv` maps each to a UAE counterpart and says how close
-the match is: `same species` (caracal, African/Arabian wildcat, honey badger, cape hare), `same genus`
+the match is: `same species` (caracal, African/Arabian wildcat, cape hare), `same genus`
 (gemsbok → Arabian oryx, cape fox → Arabian red fox), `same family`, or `analogue` (similar-looking animal in a
 similar niche, e.g. steenbok → gazelle). Present these as stand-ins in the pitch.
 
