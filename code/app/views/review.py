@@ -11,8 +11,6 @@ setup_page("Review Queue", "Only the bursts the AI is unsure about. One click tu
                            "scientifically validated observation.")
 df = require_predictions()
 
-reviewer = st.sidebar.text_input("Reviewer name", value=st.session_state.get("reviewer", "MOCCAE expert"))
-st.session_state["reviewer"] = reviewer
 
 queue = (df[df["effective_status"] == "needs_review"]
          .sort_values(["seq_conf", "datetime"]).groupby("seq_id", sort=False).first().reset_index())
@@ -80,15 +78,15 @@ with right:
     c1, c2 = st.columns(2)
     if c1.button("Confirm", type="primary", icon=":material/check_circle:", width="stretch"):
         decision = "confirm" if names and choice == names[0] else "correct"
-        save_review(item["seq_id"], decision, choice, reviewer)
+        save_review(item["seq_id"], decision, choice, "Expert")
         st.toast(f"Validated: {display_species(choice, uae_mode())}", icon="✅")
         st.rerun()
     if c2.button("No animal", icon=":material/block:", width="stretch"):
-        save_review(item["seq_id"], "not_animal", "", reviewer)
+        save_review(item["seq_id"], "not_animal", "", "Expert")
         st.toast("Marked as false trigger", icon="🚫")
         st.rerun()
     if st.button("Skip for now", icon=":material/skip_next:", width="stretch"):
-        save_review(item["seq_id"], "skipped", "", reviewer)
+        save_review(item["seq_id"], "skipped", "", "Expert")
         st.rerun()
     st.caption("Picking a different species than the AI's first choice records a **correction**, which is "
                "used to retrain the model later.")
