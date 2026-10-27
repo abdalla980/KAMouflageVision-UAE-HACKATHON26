@@ -3,7 +3,7 @@
 > AI that finds and identifies UAE wildlife in camera-trap photos, including camouflaged, blurry and night shots,
 > so MOCCAE rangers verify a short list instead of sorting thousands of images by hand.
 
-**UAE Hackathon 2026 · Track 2 (Youth) · Abu Dhabi, 26–28 Oct 2026**
+**UAE Hackathon 2026 · Track 2 (Youth) · Abu Dhabi, 26–28 Oct 2026** · New here? Read [`PROJECT_NOTES.md`](PROJECT_NOTES.md) for the full planning session.
 **Submission hard close: Wed 28 Oct, 12:00** · Pitch: 3–5 min + Q&A · Business Model Canvas slide required
 
 ---
@@ -142,6 +142,7 @@ The data is already in the repo. To re-download or change the size: `python code
 
 ```
 ├── README.md              ← you are here
+├── PROJECT_NOTES.md       full planning session notes: reasoning, decisions, sources
 ├── code/                  all code
 │   └── data_pipeline/     scripts that download and build the demo data
 ├── data/                  demo data: images + tables (see data/README.md)
