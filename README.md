@@ -94,8 +94,9 @@ in [code/CONTRACT.md](code/CONTRACT.md).
 |---|---|
 | Import Photos | Run a camera's photos through the pipeline, or upload your own |
 | Gallery | Every photo with its result; toggle enhancement for night shots |
-| Review Queue | Confirm or correct uncertain bursts |
+| Review Queue | Confirm or correct uncertain bursts, with an AI hint on why each one is uncertain |
 | Insights Dashboard | Reserve map, coverage gaps, activity by hour, trends, CSV export |
+| AI Advisor | Prioritised suggestions with evidence (threatened species, coverage gaps, faulty cameras, review order); assistant chat is a UI preview |
 | About & Data | Data sources, estimates, demo settings |
 
 ## Repository layout

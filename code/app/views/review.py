@@ -3,6 +3,7 @@
 import pandas as pd
 import streamlit as st
 
+from suggestions import review_hints
 from lib import (badge, display_species, image_bytes, load_reviews, require_predictions, save_review,
                  setup_page, uae_mode)
 
@@ -63,6 +64,13 @@ with right:
     cands = [c.split(":") for c in item["top3"].split("|") if c] if item["top3"] else []
     for name, p in cands:
         st.progress(float(p), text=f"{shown(name)} · {float(p):.0%}")
+
+    hints = review_hints(item, burst, uae_mode())
+    if hints:
+        with st.container(border=True):
+            st.markdown(":material/auto_awesome: **AI hint: why this one is uncertain**")
+            for title, text in hints:
+                st.markdown(f"- **{title}.** {text}")
 
     names = [n for n, _ in cands]
     all_species = sorted({s for s in df["species"].unique() if s} | set(names), key=shown)

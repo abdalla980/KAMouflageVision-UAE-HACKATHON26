@@ -31,6 +31,9 @@ Open questions and risks collected while building. Tick them off as you go.
 
 ## Claims we make in the pitch: verify or soften
 
+- [ ] **AI Advisor chat is a UI preview.** Suggestions are rule-based and computed from the data; the chat does not
+      call a language model yet. Say so if asked, or connect a UAE-hosted model before the pitch.
+
 - [ ] **"Saves ≈X hours per 100k images"** uses an assumed 8 s per image of manual review. Call it an estimate,
       or find a published figure.
 - [ ] **UAE law points** (PDPL, cloud policy) come from law-firm summaries, not the statute texts. Say "designed for compliance".

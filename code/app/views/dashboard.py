@@ -7,7 +7,7 @@ import plotly.express as px
 import pydeck as pdk
 import streamlit as st
 
-from lib import (COLORS, SECONDS_PER_IMAGE, SPECIES_PALETTE, display_species, load_cameras, load_gbif_occurrences,
+from lib import (COLORS, SECONDS_PER_IMAGE, SPECIES_PALETTE, display_species, iucn_for, load_cameras, load_gbif_occurrences,
                  load_protected_areas, load_species_reference, observations, require_predictions, setup_page,
                  uae_counterparts, uae_mode, uae_only)
 
@@ -122,18 +122,11 @@ with c1:
 
 with c2:
     st.subheader("Species")
-    ref = load_species_reference().drop_duplicates("scientific_name").set_index("scientific_name")
     cps = uae_counterparts()
-
-    def iucn(species):
-        cp = cps.get(species, ("", ""))[0]
-        sci = cp[cp.find("(") + 1: cp.find(")")] if "(" in cp else ""
-        return ref["iucn_category"].get(sci, "").replace("_", " ").title() if sci in ref.index else ""
-
-    table = (obs.groupby("shown").agg(observations=("seq_id", "size"), cameras=("camera_id", "nunique"),
+    table =(obs.groupby("shown").agg(observations=("seq_id", "size"), cameras=("camera_id", "nunique"),
                                       species=("final_species", "first"), expert=("method", lambda m: (m == "Expert").sum()))
              .sort_values("observations", ascending=False).reset_index())
-    table["IUCN"] = table["species"].map(iucn)
+    table["IUCN"] = table["species"].map(iucn_for)
     table["match"] = table["species"].map(lambda s: cps.get(s, ("", "–"))[1])
     st.dataframe(table.drop(columns="species").rename(columns={"shown": "Species", "expert": "expert-validated"}),
                  hide_index=True, width="stretch", height=360)

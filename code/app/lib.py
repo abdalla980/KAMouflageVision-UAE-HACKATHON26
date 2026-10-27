@@ -125,6 +125,26 @@ def display_species(species, uae_mode=True):
     return species
 
 
+# The UAE species list uses the older name Felis silvestris for the wildcat.
+SYNONYMS = {"Felis lybica": "Felis silvestris"}
+
+
+@st.cache_data
+def _iucn_table():
+    ref = load_species_reference().drop_duplicates("scientific_name")
+    return dict(zip(ref["scientific_name"], ref["iucn_category"]))
+
+
+def iucn_for(species):
+    """IUCN category (e.g. 'Vulnerable') of a species' UAE counterpart, or '' if unknown."""
+    cp = uae_counterparts().get(species, ("", ""))[0]
+    m = re.search(r"\(([A-Z][a-z]+ [a-z]+)\)", cp)
+    if not m:
+        return ""
+    sci = SYNONYMS.get(m.group(1), m.group(1))
+    return _iucn_table().get(sci, "").replace("_", " ").title()
+
+
 def load_predictions():
     if not PREDICTIONS_CSV.exists():
         return None
