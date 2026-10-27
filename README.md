@@ -69,3 +69,4 @@ The AI results in `data/results/predictions.csv` are demo values until `code/ai_
 (see [code/CONTRACT.md](code/CONTRACT.md)). To regenerate them: `python code/app/mock_predictions.py`.
 
 New to the project? [PROJECT_NOTES.md](PROJECT_NOTES.md) has the full background and decisions.
+Open questions and risks: [docs/CHECKLIST.md](docs/CHECKLIST.md).
