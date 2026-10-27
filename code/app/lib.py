@@ -299,6 +299,7 @@ div[data-testid="stMetric"] {{
 }}
 div[data-testid="stMetricValue"] {{ color: {COLORS['green']}; }}
 section[data-testid="stSidebar"] {{ border-right: 3px solid {COLORS['gold']}; }}
-[data-testid="stToolbar"], [data-testid="stDecoration"] {{ display: none; }}
+[data-testid="stToolbarActions"], [data-testid="stAppDeployButton"], [data-testid="stMainMenu"],
+[data-testid="stDecoration"] {{ display: none; }}
 </style>
 """
