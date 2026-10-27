@@ -6,19 +6,26 @@ Everything the prototype needs, fetched by one command:
 python -m venv .venv
 .venv\Scripts\activate            # Windows  (macOS/Linux: source .venv/bin/activate)
 pip install -r requirements.txt
-python data/scripts/fetch_all.py  # ~600 images, ~300 MB, a few minutes
+python code/data_pipeline/fetch_all.py  # ~600 images, ~300 MB, a few minutes
 ```
 
 ## Folder layout
 
+The scripts live in [`code/data_pipeline/`](../code/data_pipeline/):
+
+```
+code/data_pipeline/
+├── fetch_all.py                 run everything below in order
+├── fetch_bayanat.py             MOCCAE datasets from bayanat.ae
+├── fetch_species_reference.py   UAE species list + occurrences from GBIF
+├── fetch_camera_traps.py        curated camera-trap subset from LILA BC
+└── build_demo_dataset.py        merge into clean tables for the app
+```
+
+and write here:
+
 ```
 data/
-├── scripts/
-│   ├── fetch_all.py                 run everything below in order
-│   ├── fetch_bayanat.py             MOCCAE datasets from bayanat.ae
-│   ├── fetch_species_reference.py   UAE species list + occurrences from GBIF
-│   ├── fetch_camera_traps.py        curated camera-trap subset from LILA BC
-│   └── build_demo_dataset.py        merge into clean tables for the app
 ├── raw/          all downloads (in the repo; re-create with fetch_all.py)
 │   ├── bayanat/        9 MOCCAE / FCSC datasets (.xlsx + .csv) + manifest.json
 │   ├── gbif/           uae_species.csv, uae_occurrences.csv

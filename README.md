@@ -129,20 +129,22 @@ show the caracal; some camera clocks are wrong (a daylight photo stamped "8:32 P
 ## 4. Getting started
 
 ```bash
-git clone https://github.com/abdalla980/KAMouflage-Vision---UAE-HACKATHON26.git
-cd KAMouflage-Vision---UAE-HACKATHON26
+git clone https://github.com/abdalla980/KAMouflageVision-UAE-HACKATHON26.git
+cd KAMouflageVision-UAE-HACKATHON26
 python -m venv .venv
 .venv\Scripts\activate                 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-The data is already in the repo. To re-download or change the size: `python data/scripts/fetch_all.py --n-images 600`
+The data is already in the repo. To re-download or change the size: `python code/data_pipeline/fetch_all.py --n-images 600`
 
 ## 5. Repo layout
 
 ```
 ├── README.md              ← you are here
-├── data/                  demo data + scripts (see data/README.md)
+├── code/                  all code
+│   └── data_pipeline/     scripts that download and build the demo data
+├── data/                  demo data: images + tables (see data/README.md)
 ├── material/              hackathon PDFs (playbook, agenda, Q&A, challenge profiles)
 ├── Images & Videos/       logo and concept images
 └── requirements.txt

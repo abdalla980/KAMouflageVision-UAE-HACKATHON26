@@ -1,7 +1,7 @@
 """Run the full KAMouflage Vision data pipeline in order.
 
-    python data/scripts/fetch_all.py                 # default: 600 camera-trap images
-    python data/scripts/fetch_all.py --n-images 200  # quicker, smaller demo set
+    python code/data_pipeline/fetch_all.py                 # default: 600 camera-trap images
+    python code/data_pipeline/fetch_all.py --n-images 200  # quicker, smaller demo set
 """
 
 import argparse

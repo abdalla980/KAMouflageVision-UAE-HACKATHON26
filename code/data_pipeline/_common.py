@@ -7,7 +7,8 @@ from pathlib import Path
 
 import requests
 
-DATA_DIR = Path(__file__).resolve().parent.parent
+REPO_DIR = Path(__file__).resolve().parents[2]
+DATA_DIR = REPO_DIR / "data"
 RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
 
