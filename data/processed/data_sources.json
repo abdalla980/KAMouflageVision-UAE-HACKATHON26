@@ -1,0 +1,23 @@
+{
+  "camera_trap_images": {
+    "source": "LILA BC - Snapshot Kgalagadi & Snapshot Karoo (Snapshot Safari)",
+    "url": "https://lila.science/datasets",
+    "license": "CDLA-Permissive-1.0",
+    "note": "Real camera-trap photos from comparable arid habitats; NOT UAE images."
+  },
+  "camera_locations": {
+    "source": "MOCCAE 'Protected Lands Coordinates in UAE' via bayanat.ae",
+    "note": "Real reserve coordinates; camera positions inside them are SIMULATED."
+  },
+  "timestamps": {
+    "note": "Real time-of-day and season, years shifted so the latest is 2025."
+  },
+  "species_reference": {
+    "source": "GBIF.org UAE occurrence records (mammals, reptiles) + MOCCAE local bird list (Bayanat)",
+    "url": "https://www.gbif.org/country/AE/summary"
+  },
+  "protected_areas": {
+    "source": "MOCCAE via bayanat.ae",
+    "url": "https://bayanat.ae"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "source": "bayanat.ae (UAE Federal open data portal)",
+  "retrieved_at": "2026-10-27T08:38:39+00:00",
+  "datasets": [
+    {
+      "title": "Protected Lands Coordinates in UAE",
+      "publisher": "Ministry Of Climate Change & Environment",
+      "last_updated": "28/07/2021",
+      "page_url": "https://bayanat.ae/en/Datasets/Dataset-info?id=hPJA4J62fOMAUbXUqjVkAu-dY6JtTECItc_BZFVW8xQ",
+      "resources": [
+        {
+          "resource_id": "ZcvhMxalmX04RfQ6EG81bBhg09ehrVintqYc9llbb1A",
+          "name": "Protected Lands Coordinates in UAE (DS).",
+          "file_url": "http://data.bayanat.ae/ar/dataset/3cee9d66-5039-421d-9713-27ac9ad9af92/resource/8670588a-976b-4d8a-9053-09a5c481e38d/download/protected-lands-coordinates-in-uae-ds.xlsx",
+          "columns": [
+            "Emirate_AR",
+            "Emirate_EN",
+            "Protected Name - AR",
+            "Protected Name - EN",
+            "Type_AR",
+            "Type_EN",
+            "Area",
+            "Latitude",
+            "Longitude"
+          ],
+          "row_count": 45,
+          "local_file": "raw/bayanat/protected-lands-coordinates-in-uae/protected-lands-coordinates-in-uae-ds.xlsx",
+          "rows": 45
+        },
+        {
+          "resource_id": "OMCXZdbBq5BPUdQZmeRiOQ7g06LBdP4NiGmsZpDljH4",
+          "name": "(metadata) Protected Lands Coordinates in UAE .",
+          "file_url": "http://data.bayanat.ae/ar/dataset/3cee9d66-5039-421d-9713-27ac9ad9af92/resource/2a042e5a-49c7-4d16-adaa-5b05d65ede4a/download/metadata-protected-lands-coordinates-in-uae-.xlsx",
+          "columns": [
+            "Indicator",
+            " Data on protected lands"
+          ],
+          "row_count": 13,
+          "local_file": "raw/bayanat/protected-lands-coordinates-in-uae/metadata-protected-lands-coordinates-in-uae.xlsx",
+          "rows": 13
+        }
+      ]
+    },
+    {
+      "title": "Protected Lands in UAE",
+      "publisher": "Ministry Of Climate Change & Environment",
+      "last_updated": "28/07/2021",
+      "page_url": "https://bayanat.ae/en/Datasets/Dataset-info?id=llyUravdnDkaR2Do0xwsRuJQMVVqhK8f6y-w7DxsNDM",
+      "resources": [
+        {
+          "resource_id": "xQ3ieIZ6nNA5ZvQneZ6lpCr8GsdAVMvQ5JlIMQqhl9M",
+          "name": "Protected Lands  in UAE (DS) .",
+          "file_url": "http://data.bayanat.ae/ar/dataset/cae0b3b8-f03b-4ce1-b069-06915a31a376/resource/703f9bba-dc0e-400a-b0f4-2852d1b2c8d9/download/protected-lands-in-uae-ds-.xlsx",
+          "columns": [
+            "Year",
+            "Type_AR",
+            "Type_EN",
+            "AreaUnit_AR",
+            "AreaUnit_EN",
+            "Count",
+            "Area"
+          ],
+          "row_count": 49,
+          "local_file": "raw/bayanat/protected-lands-in-uae/protected-lands-in-uae-ds.xlsx",
+          "rows": 49
+        },
+        {
+          "resource_id": "UXTkG6eqGYhkb9joMvVcn78YtwLkrdSEvoa1rfNDd2U",
+          "name": "(metadata) Protected Lands in UAE.",
+          "file_url": "http://data.bayanat.ae/ar/dataset/cae0b3b8-f03b-4ce1-b069-06915a31a376/resource/7cc73a08-b523-4c1c-9d44-165ae373eaf9/download/metadata-protected-lands-in-uae.xlsx",
+          "columns": [
+            "Indicator",
+            " Data On Protected Lands"
+          ],
+          "row_count": 13,
+          "local_file": "raw/bayanat/protected-lands-in-uae/metadata-protected-lands-in-uae.xlsx",
+          "rows": 13
+        }
+      ]
+    },
+    {
+      "title": "Protected Lands by Area, Emirate and Zone",
+      "publisher": "Ministry Of Climate Change & Environment",
+      "last_updated": "24/07/2023",
+      "page_url": "https://bayanat.ae/en/Datasets/Dataset-info?id=gSwFYVixXjsuLqg6ZY8MOfWMLAdcw50LboaTmvvuTlI",
+      "resources": [
+        {
+          "resource_id": "hDMPQHPloWm0tlv4xyUHhZfKTTdtCbdM45W_147tcFQ",
+          "name": "Protected Lands in UAE - dictionary",
+          "file_url": "/File/Get/c628a944-3630-4823-93fb-19ef625a26c3",
+          "columns": [
+            "Data Field",
+            "Description"
+          ],
+          "row_count": 6,
+          "local_file": "raw/bayanat/protected-lands-by-area-emirate-and-zone/protected-lands-in-uae-dictionary.csv",
+          "rows": 6
+        },
+        {
+          "resource_id": "r5G_Ei86WC3PSu4Ptg4dIJXiPoWPbU9G7q1O1S6g39c",
+          "name": "(metadata) Protected Lands in UAE.",
+          "file_url": "/File/Get/cb47ca5b-a6b9-46c2-b72c-68ecf5ace27a",
+          "columns": [
+            "Metadata",
+            "Definition"
+          ],
+          "row_count": 14,
+          "local_file": "raw/bayanat/protected-lands-by-area-emirate-and-zone/metadata-protected-lands-in-uae.csv",
+          "rows": 14
+        },
+        {
+          "resource_id": "w0Ta7gKGX3noo-mOoZkq--S43CmHPFG4HbG2fEDS7ac",
+          "name": "Protected lands in UAE by emirate and area",
+          "file_url": "/File/Get/740fb506-8aea-4da0-b6bf-16325e7810c5",
+          "columns": null,
+          "row_count": 0,
+          "local_file": "raw/bayanat/protected-lands-by-area-emirate-and-zone/protected-lands-in-uae-by-emirate-and-area.xlsx",
+          "rows": 544
+        }
+      ]
+    },
+    {
+      "title": "Designated Protected Areas by Types and Emirates",
+      "publisher": "Ministry Of Climate Change & Environment",
+      "last_updated": "06/01/2019",
+      "page_url": "https://bayanat.ae/en/Datasets/Dataset-info?id=cU80pJmopt4cymR2dlSumZL8mgoGtd_INOQr_eSB_do",
+      "resources": [
+        {
+          "resource_id": "TgY0FJV61NNmOPYB_oH-hz5lgdAnYbiGuw7MLIMNlOQ",
+          "name": "designated protected areas by emirate-type 2016",
+          "file_url": "http://data.bayanat.ae/en_GB/dataset/5322251c-9b08-414d-b1ea-c11a13561035/resource/596fc1eb-c76f-4a42-a38e-f11e7bc07a94/download/designated-protected-areas-by-emirate-type-2016.xlsx",
+          "columns": [
+            "year",
+            "Emirate_en",
+            "Emirate_ar",
+            "Name - En",
+            "Name - Ar",
+            "type_en",
+            "type_ar",
+            " Area SqKm"
+          ],
+          "row_count": 43,
+          "local_file": "raw/bayanat/designated-protected-areas-by-types-and-emirates/designated-protected-areas-by-emirate-type-2016.xlsx",
+          "rows": 43
+        }
+      ]
+    },
+    {
+      "title": "Natural Reserves in UAE by Emirate, Type and Establishment Year",
+      "publisher": "Federal Competitiveness and Statistics Center",
+      "last_updated": "28/07/2020",
+      "page_url": "https://bayanat.ae/en/Datasets/Dataset-info?id=QMLZv-JMkvUZ7wvX8ArY5sirq9zoIlH1mZSyAVmfUgg",
+      "resources": [
+        {
+          "resource_id": "oYw6yUXC2BldkoFDV-1wrWRAJOknhi3DNOpcOQGfG6A",
+          "name": "Natural Reserves in UAE by Emirate-Type-Establishment Year, 2017",
+          "file_url": "http://data.bayanat.ae/dataset/d1c84824-3243-42bf-97b7-e42960b4be94/resource/0b13e764-8074-4e46-9e49-e2c794e7f2aa/download/natural-reserves-in-uae-by-emirate-type-establishment-year-2017.xlsx",
+          "columns": [
+            "year",
+            "emirate_en",
+            "emirate_ar",
+            "Reserve Name_en",
+            "Reserve Name_ar",
+            "Type_en",
+            "Type_ar",
+            "Establishment Year",
+            "Area Km2"
+          ],
+          "row_count": 43,
+          "local_file": "raw/bayanat/natural-reserves-in-uae-by-emirate-type-and-establishment-year/natural-reserves-in-uae-by-emirate-type-establishment-year-2017.xlsx",
+          "rows": 43
+        }
+      ]
+    },
+    {
+      "title": "Long-Range Nature Reserves in the UAE",
+      "publisher": "Ministry Of Climate Change & Environment",
+      "last_updated": "01/08/2022",
+      "page_url": "https://bayanat.ae/en/Datasets/Dataset-info?id=wdMgcG4Frl43SiTy4-4AREyddCew7A50VxBslPQykBc",
+      "resources": [
+        {
+          "resource_id": "o3fVieDzu_PaOlWaJDS0PTqWO4ob5xOVBZkhVUqMsDU",
+          "name": "(metadata) Protected Lands Coordinates in UAE .",
+          "file_url": "/File/Get/54585289-69dc-4b38-ae3c-fb59b1fb4007",
+          "columns": [
+            "Metadata",
+            "Definition"
+          ],
+          "row_count": 14,
+          "local_file": "raw/bayanat/long-range-nature-reserves-in-the-uae/metadata-protected-lands-coordinates-in-uae.csv",
+          "rows": 14
+        },
+        {
+          "resource_id": "u-Hx7de7QZdQw7NPFOx35rR6IQIbasg7OzX293scsR4",
+          "name": "Protected Lands Coordinates in UAE - dictionary",
+          "file_url": "/File/Get/08bebead-b209-453f-bc6f-aab889a7f9fb",
+          "columns": [
+            "Data Field",
+            "Description"
+          ],
+          "row_count": 9,
+          "local_file": "raw/bayanat/long-range-nature-reserves-in-the-uae/protected-lands-coordinates-in-uae-dictionary.csv",
+          "rows": 9
+        },
+        {
+          "resource_id": "G_YjMJ0w4yAyDBY51K-OxRXaAgUH10F-RmwEHg1iFIQ",
+          "name": "Protected Lands Coordinates in UAE (DS).",
+          "file_url": "/File/Get/1a7a4aa5-54bc-456f-987d-dfea32245e94",
+          "columns": [
+            "Emirate_AR",
+            "Emirate_EN",
+            "Protected Name - AR",
+            "Protected Name - EN",
+            "Type_AR",
+            "Type_EN",
+            "Area",
+            "Latitude",
+            "Longitude"
+          ],
+          "row_count": 44,
+          "local_file": "raw/bayanat/long-range-nature-reserves-in-the-uae/protected-lands-coordinates-in-uae-ds.csv",
+          "rows": 44
+        }
+      ]
+    },
+    {
+      "title": "Areas of Nature Reserves According to the Type and Emirate",
+      "publisher": "Ministry Of Climate Change & Environment",
+      "last_updated": "01/08/2022",
+      "page_url": "https://bayanat.ae/en/Datasets/Dataset-info?id=szntS2a-xoH7AZ8W7DoaZLBQU8542R77bLtFuBIyOpA",
+      "resources": [
+        {
+          "resource_id": "aV2IROuRD2wUyyn7qP1gMOFCFnxpHJe_DAehtVJV8KQ",
+          "name": "designated protected areas by emirate-type 2016",
+          "file_url": "/File/Get/606ad215-11ea-4ed9-9c3f-a1d3a5a040b8",
+          "columns": [
+            "year",
+            "Emirate_en",
+            "Emirate_ar",
+            "Name - En",
+            "Name - Ar",
+            "type_en",
+            "type_ar",
+            " Area SqKm"
+          ],
+          "row_count": 43,
+          "local_file": "raw/bayanat/areas-of-nature-reserves-according-to-the-type-and-emirate/designated-protected-areas-by-emirate-type-2016.csv",
+          "rows": 43
+        }
+      ]
+    },
+    {
+      "title": "List of local Aves (Birds) in the UAE - 2023",
+      "publisher": "Ministry Of Climate Change & Environment",
+      "last_updated": "26/09/2024",
+      "page_url": "https://bayanat.ae/en/Datasets/Dataset-info?id=mpPL1h-XRPSQHReySosAsd_HH2ZflR9BY5g7His2NAY",
+      "resources": [
+        {
+          "resource_id": "14d7YzTWaf4rMObaZmrwV6DRU1QL_25SjRKWdxqx1O8",
+          "name": "List of local  Aves (Birds) in the UAE - 2023",
+          "file_url": "/File/Get/fce9ac3f-2a47-46ab-8975-9b9ab02b6c84",
+          "columns": null,
+          "row_count": 0,
+          "local_file": "raw/bayanat/list-of-local-aves-birds-in-the-uae-2023/list-of-local-aves-birds-in-the-uae-2023.xlsx",
+          "rows": 381
+        }
+      ]
+    },
+    {
+      "title": "Local Birds List",
+      "publisher": "Ministry Of Climate Change & Environment",
+      "last_updated": "26/09/2024",
+      "page_url": "https://bayanat.ae/en/Datasets/Dataset-info?id=PTKuTvo9lQyZod7TWsNEfOVzEG1dczlieWL179qcIdM",
+      "resources": [
+        {
+          "resource_id": "aJaKthU6egscpQL8hb2YRDhJSTU_v9VUcT0V-iJRxOw",
+          "name": "Local Birds List",
+          "file_url": "/File/Get/0df89080-1aaf-47bc-b659-a4cbee650cb0",
+          "columns": null,
+          "row_count": 0,
+          "local_file": "raw/bayanat/local-birds-list/local-birds-list.xlsx",
+          "rows": 381
+        }
+      ]
+    }
+  ]
+}

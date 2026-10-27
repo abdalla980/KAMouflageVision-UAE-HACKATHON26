@@ -1,0 +1,10 @@
+Data Field,Description
+Emirate_AR,The Name or Emirates  In Arabic Language
+Emirate_EN,The Name or Emirates In English Language
+Protected Name - AR,Name Of Protected Lands In Arabic Language
+Protected Name - EN,Name Of Protected Lands In English Language
+Type_AR,Type Of Protected Lands In Arabic Language
+Type_EN,Type Of Protected Lands In English Language
+Area,Area Of Protected Lands
+Latitude  ,The units that represent the coordinates at geographic coordinate system.
+Longitude ,The units that represent the coordinates at geographic coordinate system.

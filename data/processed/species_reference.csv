@@ -1,0 +1,531 @@
+scientific_name,common_name,common_name_ar,taxon_group,class,order,family,genus,iucn_category,iucn_code,uae_record_count,domestic_or_captive,gbif_species_key,source
+Gazella arabica,Arabian Gazelle,,Mammalia,Mammalia,Artiodactyla,Bovidae,Gazella,VULNERABLE,VU,310,False,5220158,GBIF
+Felis catus,Domestic Cat,,Mammalia,Mammalia,Carnivora,Felidae,Felis,NOT_EVALUATED,NE,294,True,2435035,GBIF
+Gazella marica,Arabian Sand Gazelle,,Mammalia,Mammalia,Artiodactyla,Bovidae,Gazella,VULNERABLE,VU,222,False,9091848,GBIF
+Oryx leucoryx,Arabian Oryx,,Mammalia,Mammalia,Artiodactyla,Bovidae,Oryx,VULNERABLE,VU,213,False,5220164,GBIF
+Funambulus pennantii,Northern Palm Squirrel,,Mammalia,Mammalia,Rodentia,Sciuridae,Funambulus,LEAST_CONCERN,LC,196,False,2437243,GBIF
+Camelus dromedarius,One-humped Camel,,Mammalia,Mammalia,Artiodactyla,Camelidae,Camelus,NOT_EVALUATED,NE,127,True,9055455,GBIF
+Vulpes vulpes,Red Fox,,Mammalia,Mammalia,Carnivora,Canidae,Vulpes,LEAST_CONCERN,LC,126,False,5219243,GBIF
+Dolichotis patagonum,Patagonian Mara,,Mammalia,Mammalia,Rodentia,Caviidae,Dolichotis,NEAR_THREATENED,NT,90,True,2437619,GBIF
+Gerbillus cheesmani,Cheesman's Gerbil,,Mammalia,Mammalia,Rodentia,Muridae,Gerbillus,LEAST_CONCERN,LC,69,False,2437830,GBIF
+Capra hircus,Goat,,Mammalia,Mammalia,Artiodactyla,Bovidae,Capra,NOT_EVALUATED,NE,43,True,2441056,GBIF
+Equus asinus,Donkey,,Mammalia,Mammalia,Perissodactyla,Equidae,Equus,NOT_EVALUATED,NE,39,True,2440891,GBIF
+Paraechinus aethiopicus,Desert Hedgehog,,Mammalia,Mammalia,Erinaceomorpha,Erinaceidae,Paraechinus,LEAST_CONCERN,LC,36,False,2437145,GBIF
+Lepus capensis,Cape Hare,,Mammalia,Mammalia,Lagomorpha,Leporidae,Lepus,LEAST_CONCERN,LC,25,False,2436736,GBIF
+Gerbillus nanus,Baluchistan Gerbil,,Mammalia,Mammalia,Rodentia,Muridae,Gerbillus,LEAST_CONCERN,LC,18,False,2437788,GBIF
+Ovis aries,Red Sheep,,Mammalia,Mammalia,Artiodactyla,Bovidae,Ovis,NOT_EVALUATED,NE,17,True,2441110,GBIF
+Rhinopoma muscatellum,Small Mouse-tailed Bat,,Mammalia,Mammalia,Chiroptera,Rhinopomatidae,Rhinopoma,LEAST_CONCERN,LC,13,False,5218748,GBIF
+Canis lupus,Gray Wolf,,Mammalia,Mammalia,Carnivora,Canidae,Canis,LEAST_CONCERN,LC,12,True,5219173,GBIF
+Procavia capensis,Rock Hyrax,,Mammalia,Mammalia,Hyracoidea,Procaviidae,Procavia,LEAST_CONCERN,LC,11,False,5219598,GBIF
+Mus musculus,House Mouse,,Mammalia,Mammalia,Rodentia,Muridae,Mus,LEAST_CONCERN,LC,11,False,7429082,GBIF
+Sousa plumbea,Indian humpback dolphin,,Mammalia,Mammalia,Cetacea,Delphinidae,Sousa,ENDANGERED,EN,10,False,2440506,GBIF
+Hemitragus jayakari,Arabian Tahr,,Mammalia,Mammalia,Artiodactyla,Bovidae,Hemitragus,ENDANGERED,EN,10,False,5220173,GBIF
+Oryctolagus cuniculus,European Rabbit,,Mammalia,Mammalia,Lagomorpha,Leporidae,Oryctolagus,ENDANGERED,EN,9,True,2436940,GBIF
+Capra nubiana,Nubian Ibex,,Mammalia,Mammalia,Artiodactyla,Bovidae,Capra,VULNERABLE,VU,9,False,2441049,GBIF
+Vulpes cana,Blanford's Fox,,Mammalia,Mammalia,Carnivora,Canidae,Vulpes,LEAST_CONCERN,LC,8,False,5219235,GBIF
+Meriones arimalius,Arabian Jird,,Mammalia,Mammalia,Rodentia,Muridae,Meriones,LEAST_CONCERN,LC,8,False,5219723,GBIF
+Jaculus jaculus,Lesser Egyptian Jerboa,,Mammalia,Mammalia,Rodentia,Dipodidae,Jaculus,LEAST_CONCERN,LC,8,False,5219895,GBIF
+Gazella dorcas,Dorcas Gazelle,,Mammalia,Mammalia,Artiodactyla,Bovidae,Gazella,VULNERABLE,VU,8,False,5220149,GBIF
+Tursiops truncatus,Bottlenose Dolphin,,Mammalia,Mammalia,Cetacea,Delphinidae,Tursiops,LEAST_CONCERN,LC,7,False,2440447,GBIF
+Ammotragus lervia,Barbary Sheep,,Mammalia,Mammalia,Artiodactyla,Bovidae,Ammotragus,VULNERABLE,VU,7,False,2441005,GBIF
+Paraechinus hypomelas,Brandt's Hedgehog,,Mammalia,Mammalia,Erinaceomorpha,Erinaceidae,Paraechinus,LEAST_CONCERN,LC,6,False,2437154,GBIF
+Rattus rattus,Black Rat,,Mammalia,Mammalia,Rodentia,Muridae,Rattus,LEAST_CONCERN,LC,6,False,2439270,GBIF
+Oryx dammah,Scimitar-horned Oryx,,Mammalia,Mammalia,Artiodactyla,Bovidae,Oryx,ENDANGERED,EN,6,False,5220165,GBIF
+Giraffa reticulata,Reticulated Giraffe,,Mammalia,Mammalia,Artiodactyla,Giraffidae,Giraffa,NOT_EVALUATED,NE,6,False,8888736,GBIF
+Dugong dugon,Dugong,,Mammalia,Mammalia,Sirenia,Dugongidae,Dugong,VULNERABLE,VU,6,False,9729967,GBIF
+Delphinus delphis,Short-beaked Common Dolphin,,Mammalia,Mammalia,Cetacea,Delphinidae,Delphinus,LEAST_CONCERN,LC,5,False,8324617,GBIF
+Acomys dimidiatus,Eastern Spiny Mouse,,Mammalia,Mammalia,Rodentia,Muridae,Acomys,LEAST_CONCERN,LC,4,False,4264830,GBIF
+Protohummus dango,,,Mammalia,Mammalia,Rodentia,Thryonomyidae,Protohummus,NOT_EVALUATED,NE,4,False,8555521,GBIF
+Vespertilio murinus,Particolored Bat,,Mammalia,Mammalia,Chiroptera,Vespertilionidae,Vespertilio,LEAST_CONCERN,LC,3,False,2432564,GBIF
+Asellia tridens,Geoffroy's Trident Leaf-nosed Bat,,Mammalia,Mammalia,Chiroptera,Hipposideridae,Asellia,LEAST_CONCERN,LC,3,False,2432602,GBIF
+Mus macedonicus,Macedonian Mouse,,Mammalia,Mammalia,Rodentia,Muridae,Mus,LEAST_CONCERN,LC,3,False,2438783,GBIF
+Balaenoptera edeni,Eden's whale,,Mammalia,Mammalia,Cetacea,Balaenopteridae,Balaenoptera,LEAST_CONCERN,LC,3,False,2440714,GBIF
+Bos taurus,Aurochs,,Mammalia,Mammalia,Artiodactyla,Bovidae,Bos,NOT_EVALUATED,NE,3,True,2441022,GBIF
+Meriones crassus,Sundevall's Jird,,Mammalia,Mammalia,Rodentia,Muridae,Meriones,LEAST_CONCERN,LC,3,False,5219724,GBIF
+Gazella subgutturosa,Goitered Gazelle,,Mammalia,Mammalia,Artiodactyla,Bovidae,Gazella,VULNERABLE,VU,3,False,5220146,GBIF
+Gazella gazella,Mountain Gazelle,,Mammalia,Mammalia,Artiodactyla,Bovidae,Gazella,ENDANGERED,EN,3,False,5220154,GBIF
+Ichneumia albicauda,White-tailed Mongoose,,Mammalia,Mammalia,Carnivora,Herpestidae,Ichneumia,LEAST_CONCERN,LC,2,False,2434150,GBIF
+Funambulus palmarum,Indian Palm Squirrel,,Mammalia,Mammalia,Rodentia,Sciuridae,Funambulus,LEAST_CONCERN,LC,2,False,2437246,GBIF
+Rattus norvegicus,Brown Rat,,Mammalia,Mammalia,Rodentia,Muridae,Rattus,LEAST_CONCERN,LC,2,False,2439261,GBIF
+Tursiops aduncus,Indo-Pacific Bottlenose Dolphin,,Mammalia,Mammalia,Cetacea,Delphinidae,Tursiops,NEAR_THREATENED,NT,2,False,2440455,GBIF
+Balaenoptera musculus,Blue Whale,,Mammalia,Mammalia,Cetacea,Balaenopteridae,Balaenoptera,ENDANGERED,EN,2,False,2440735,GBIF
+Pipistrellus kuhlii,Kuhl's Pipistrelle,,Mammalia,Mammalia,Chiroptera,Vespertilionidae,Pipistrellus,LEAST_CONCERN,LC,2,False,5218464,GBIF
+Taphozous nudiventris,Naked-rumped Tomb Bat,,Mammalia,Mammalia,Chiroptera,Emballonuridae,Taphozous,LEAST_CONCERN,LC,2,False,5218737,GBIF
+Taphozous perforatus,Egyptian Tomb Bat,,Mammalia,Mammalia,Chiroptera,Emballonuridae,Taphozous,LEAST_CONCERN,LC,2,False,5218742,GBIF
+Dama dama,Fallow Deer,,Mammalia,Mammalia,Artiodactyla,Cervidae,Dama,LEAST_CONCERN,LC,2,False,5220136,GBIF
+Prostrepsiceros libycus,,,Mammalia,Mammalia,Artiodactyla,Bovidae,Prostrepsiceros,NOT_EVALUATED,NE,1,False,11119347,GBIF
+Otonycteris hemprichii,Desert Long-eared Bat,,Mammalia,Mammalia,Chiroptera,Vespertilionidae,Otonycteris,LEAST_CONCERN,LC,1,False,2432382,GBIF
+Myotis emarginatus,Geoffroy's Myotis,,Mammalia,Mammalia,Chiroptera,Vespertilionidae,Myotis,LEAST_CONCERN,LC,1,False,2432470,GBIF
+Caracal caracal,Caracal,,Mammalia,Mammalia,Carnivora,Felidae,Caracal,LEAST_CONCERN,LC,1,False,2435010,GBIF
+Suncus etruscus,Etruscan Shrew,,Mammalia,Mammalia,Soricomorpha,Soricidae,Suncus,LEAST_CONCERN,LC,1,False,2435506,GBIF
+Homo sapiens,Human,,Mammalia,Mammalia,Primates,Hominidae,Homo,NOT_EVALUATED,NE,1,False,2436436,GBIF
+Balaenoptera physalus,Fin Whale,,Mammalia,Mammalia,Cetacea,Balaenopteridae,Balaenoptera,VULNERABLE,VU,1,False,2440718,GBIF
+Axis axis,Chital,,Mammalia,Mammalia,Artiodactyla,Cervidae,Axis,LEAST_CONCERN,LC,1,False,2440934,GBIF
+Propotamochoerus hysudricus,,,Mammalia,Mammalia,Artiodactyla,Suidae,Propotamochoerus,NOT_EVALUATED,NE,1,False,4971477,GBIF
+Lasiurus borealis,Eastern Red Bat,,Mammalia,Mammalia,Chiroptera,Vespertilionidae,Lasiurus,LEAST_CONCERN,LC,1,False,5218543,GBIF
+Hystrix indica,Indian Crested Porcupine,,Mammalia,Mammalia,Rodentia,Hystricidae,Hystrix,LEAST_CONCERN,LC,1,False,5219884,GBIF
+Stenella coeruleoalba,Striped Dolphin,,Mammalia,Mammalia,Cetacea,Delphinidae,Stenella,LEAST_CONCERN,LC,1,False,5220055,GBIF
+Megaptera novaeangliae,Humpback Whale,,Mammalia,Mammalia,Cetacea,Balaenopteridae,Megaptera,LEAST_CONCERN,LC,1,False,5220086,GBIF
+Felis silvestris,Wildcat,,Mammalia,Mammalia,Carnivora,Felidae,Felis,LEAST_CONCERN,LC,1,False,7964291,GBIF
+Physeter macrocephalus,Sperm Whale,,Mammalia,Mammalia,Cetacea,Physeteridae,Physeter,VULNERABLE,VU,1,False,8123917,GBIF
+Hexaprotodon sahabiensis,,,Mammalia,Mammalia,Artiodactyla,Hippopotamidae,Hexaprotodon,NOT_EVALUATED,NE,1,False,8480590,GBIF
+Hexaprotodon harvardi,,,Mammalia,Mammalia,Artiodactyla,Hippopotamidae,Archaeopotamus,NOT_EVALUATED,NE,1,False,9469620,GBIF
+Ochotona gobiensis,,,Mammalia,Mammalia,Lagomorpha,Ochotonidae,Alloptox,NOT_EVALUATED,NE,1,False,9496545,GBIF
+Trigonodactylus arabicus,Arabian Web-footed Sand Gecko,,Squamata,Squamata,,Gekkonidae,Trigonodactylus,LEAST_CONCERN,LC,419,False,2447086,GBIF
+Stenodactylus doriae,Dune Sand Gecko,,Squamata,Squamata,,Gekkonidae,Stenodactylus,LEAST_CONCERN,LC,360,False,5221495,GBIF
+Echis carinatus,Sindh Saw-scaled Viper,,Squamata,Squamata,,Viperidae,Echis,LEAST_CONCERN,LC,303,False,2443876,GBIF
+Hemidactylus flaviviridis,Common House Lizard,,Squamata,Squamata,,Gekkonidae,Hemidactylus,LEAST_CONCERN,LC,287,False,5960045,GBIF
+Bunopus tuberculatus,Baluch Ground Gecko,,Squamata,Squamata,,Gekkonidae,Bunopus,LEAST_CONCERN,LC,237,False,2447143,GBIF
+Hemidactylus robustus,Red Sea House Gecko,,Squamata,Squamata,,Gekkonidae,Hemidactylus,LEAST_CONCERN,LC,227,False,5816080,GBIF
+Pseudotrapelus jensvindumi,Hajar Rock Agama,,Squamata,Squamata,,Agamidae,Pseudotrapelus,NOT_EVALUATED,NE,195,False,8751041,GBIF
+Cerastes gasperettii,Arabian Sand Viper,,Squamata,Squamata,,Viperidae,Cerastes,LEAST_CONCERN,LC,179,False,5221015,GBIF
+Echis omanensis,Hajar Saw-scaled Viper,,Squamata,Squamata,,Viperidae,Echis,LEAST_CONCERN,LC,177,False,2443882,GBIF
+Eryx jayakari,Arabian Sand Boa,,Squamata,Squamata,,Boidae,Eryx,LEAST_CONCERN,LC,150,False,5225736,GBIF
+Acanthodactylus schmidti,Schmidt's Fringe-toed Lizard,,Squamata,Squamata,,Lacertidae,Acanthodactylus,LEAST_CONCERN,LC,145,False,5226756,GBIF
+Omanosaura jayakari,Jayakar Lizard,,Squamata,Squamata,,Lacertidae,Omanosaura,LEAST_CONCERN,LC,139,False,2468644,GBIF
+Phrynocephalus arabicus,Arabian Toadhead Agama,,Squamata,Squamata,,Agamidae,Phrynocephalus,LEAST_CONCERN,LC,113,False,2466370,GBIF
+Scincus mitranus,Arabian Sand Skink,,Squamata,Squamata,,Scincidae,Scincus,LEAST_CONCERN,LC,110,False,5960604,GBIF
+Ptyodactylus orlovi,Orlov's Fan-footed Gecko,,Squamata,Squamata,,Phyllodactylidae,Ptyodactylus,LEAST_CONCERN,LC,110,False,9460894,GBIF
+Trachydactylus hajarensis,سحلية الصخور المخططة,,Squamata,Squamata,,Gekkonidae,Trachydactylus,LEAST_CONCERN,LC,108,False,9336148,GBIF
+Cyrtopodion scabrum,Rough-tailed Gecko,,Squamata,Squamata,,Gekkonidae,Cyrtopodion,LEAST_CONCERN,LC,105,False,2448051,GBIF
+Pristurus celerrimus,Bar-tailed Semaphore Gecko,,Squamata,Squamata,,Sphaerodactylidae,Pristurus,LEAST_CONCERN,LC,89,False,5221652,GBIF
+Uromastyx aegyptia,Egyptian Mastigure,,Squamata,Squamata,,Agamidae,Uromastyx,VULNERABLE,VU,89,False,9013567,GBIF
+Platyceps rhodorachis,Wadi Racer,,Squamata,Squamata,,Colubridae,Platyceps,LEAST_CONCERN,LC,71,False,5223134,GBIF
+Chalcides ocellatus,Ocellated Skink,,Squamata,Squamata,,Scincidae,Chalcides,LEAST_CONCERN,LC,68,False,5225137,GBIF
+Asaccus gallagheri,Gallagher's Leaf-toed Gecko,,Squamata,Squamata,,Phyllodactylidae,Asaccus,LEAST_CONCERN,LC,65,False,2447290,GBIF
+Mesalina adramitana,Hadramaut Sand Lizard,,Squamata,Squamata,,Lacertidae,Mesalina,LEAST_CONCERN,LC,64,False,2469299,GBIF
+Stenodactylus leptocosymbotes,Eastern Sand Gecko,,Squamata,Squamata,,Gekkonidae,Stenodactylus,LEAST_CONCERN,LC,62,False,9355164,GBIF
+Teratoscincus keyserlingii,Wonder Gecko,,Squamata,Squamata,,Sphaerodactylidae,Teratoscincus,LEAST_CONCERN,LC,55,False,2447098,GBIF
+Hydrophis lapemoides,Arabian Gulf Sea Snake,,Squamata,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,48,False,5960346,GBIF
+Psammophis schokari,Forskal Sand Snake,,Squamata,Squamata,,Psammophiidae,Psammophis,LEAST_CONCERN,LC,46,False,5959488,GBIF
+Lytorhynchus diadema,Crowned Leaf-nosed Snake,,Squamata,Squamata,,Colubridae,Lytorhynchus,LEAST_CONCERN,LC,44,False,2458605,GBIF
+Diplometopon zarudnyi,Zarudnyi's Worm Lizard,,Squamata,Squamata,,Trogonophidae,Diplometopon,LEAST_CONCERN,LC,43,False,2450987,GBIF
+Hemidactylus turcicus,Turkish Gecko,,Squamata,Squamata,,Gekkonidae,Hemidactylus,LEAST_CONCERN,LC,41,False,5221528,GBIF
+Pristurus minimus,Small Semaphore Gecko,,Squamata,Squamata,,Sphaerodactylidae,Pristurus,LEAST_CONCERN,LC,41,False,5221656,GBIF
+Pristurus rupestris,Rock Semaphore Gecko,,Squamata,Squamata,,Sphaerodactylidae,Pristurus,LEAST_CONCERN,LC,40,False,5221684,GBIF
+Pseudoceramodactylus khobarensis,Gulf Sand Gecko,,Squamata,Squamata,,Gekkonidae,Pseudoceramodactylus,LEAST_CONCERN,LC,39,False,2447065,GBIF
+Omanosaura cyanura,Hajar Blue-tailed Lizard,,Squamata,Squamata,,Lacertidae,Omanosaura,LEAST_CONCERN,LC,36,False,2468648,GBIF
+Varanus griseus,Desert Monitor,,Squamata,Squamata,,Varanidae,Varanus,LEAST_CONCERN,LC,34,False,9628941,GBIF
+Asaccus caudivolvulus,Emirati Leaf-toed Gecko,,Squamata,Squamata,,Phyllodactylidae,Asaccus,CRITICALLY_ENDANGERED,CR,31,False,2447287,GBIF
+Myriopholis macrorhyncha,Hook-snouted Worm Snake,,Squamata,Squamata,,Leptotyphlopidae,Myriopholis,LEAST_CONCERN,LC,31,False,8050746,GBIF
+Trapelus flavimaculatus,Yellow-spotted Agama,,Squamata,Squamata,,Agamidae,Trapelus,LEAST_CONCERN,LC,29,False,5225954,GBIF
+Ptyodactylus hasselquistii,Fan-footed Gecko,,Squamata,Squamata,,Phyllodactylidae,Ptyodactylus,LEAST_CONCERN,LC,25,False,8705240,GBIF
+Asaccus gardneri,وزغة جاردنر ورقية الاصابع,,Squamata,Squamata,,Phyllodactylidae,Asaccus,LEAST_CONCERN,LC,25,False,9132367,GBIF
+Pseudotrapelus sinaitus,Sinai Agama,,Squamata,Squamata,,Agamidae,Pseudotrapelus,LEAST_CONCERN,LC,23,False,9475968,GBIF
+Trachylepis tessellata,Tessellated Mabuya,,Squamata,Squamata,,Scincidae,Trachylepis,LEAST_CONCERN,LC,22,False,8337036,GBIF
+Stenodactylus slevini,Slevin's Sand Gecko,,Squamata,Squamata,,Gekkonidae,Stenodactylus,LEAST_CONCERN,LC,19,False,5221487,GBIF
+Acanthodactylus gongrorhynchatus,Saudi Fringe-fingered Lizard,,Squamata,Squamata,,Lacertidae,Acanthodactylus,DATA_DEFICIENT,DD,18,False,5226719,GBIF
+Mesalina brevirostris,Blanford's Short-Nosed Desert Lizard,,Squamata,Squamata,,Lacertidae,Mesalina,LEAST_CONCERN,LC,17,False,2469301,GBIF
+Malpolon moilensis,Moila Snake,,Squamata,Squamata,,Psammophiidae,Malpolon,LEAST_CONCERN,LC,17,False,7474301,GBIF
+Hydrophis platurus,Pelagic Sea Snake,,Squamata,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,17,False,7674056,GBIF
+Ptyodactylus ruusaljibalicus,Ruus al Jibal fan-footed gecko,,Squamata,Squamata,,Phyllodactylidae,Ptyodactylus,LEAST_CONCERN,LC,16,False,9520341,GBIF
+Acanthodactylus blanfordii,Blanford's Fringe-fingered Lizard,,Squamata,Squamata,,Lacertidae,Acanthodactylus,LEAST_CONCERN,LC,15,False,5226745,GBIF
+Asaccus margaritae,Margarita’s Leaf-toed Gecko,,Squamata,Squamata,,Phyllodactylidae,Asaccus,LEAST_CONCERN,LC,12,False,8745259,GBIF
+Telescopus dhara,Arabian Cat Snake,,Squamata,Squamata,,Colubridae,Telescopus,LEAST_CONCERN,LC,10,False,2457437,GBIF
+Pseudocerastes persicus,Persian Horned Viper,,Squamata,Squamata,,Viperidae,Pseudocerastes,LEAST_CONCERN,LC,9,False,2443833,GBIF
+Phrynocephalus maculatus,Blacktail Toadhead Agama,,Squamata,Squamata,,Agamidae,Phrynocephalus,LEAST_CONCERN,LC,9,False,2466362,GBIF
+Bunopus blanfordii,Blanford’s Rock Gecko,,Squamata,Squamata,,Gekkonidae,Bunopus,LEAST_CONCERN,LC,8,False,2447147,GBIF
+Acanthodactylus boskianus,Bosc's Fringe-toed lizard,,Squamata,Squamata,,Lacertidae,Acanthodactylus,LEAST_CONCERN,LC,8,False,5226727,GBIF
+Hemidactylus persicus,Persia Leaf-toed Gecko,,Squamata,Squamata,,Gekkonidae,Hemidactylus,LEAST_CONCERN,LC,8,False,5959882,GBIF
+Stenodactylus leptocosymbotus,East sand gecko,,Squamata,Squamata,,Gekkonidae,Stenodactylus,NOT_EVALUATED,NE,7,False,5221490,GBIF
+Hydrophis ornatus,Ornate Sea Snake,,Squamata,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,7,False,5789639,GBIF
+Spalerosophis diadema,Diadem Snake,,Squamata,Squamata,,Colubridae,Spalerosophis,LEAST_CONCERN,LC,7,False,9150197,GBIF
+Ablepharus pannonicus,Asian Snake-eyed Skink,,Squamata,Squamata,,Scincidae,Ablepharus,LEAST_CONCERN,LC,6,False,9623013,GBIF
+Echis coloratus,Palestine Saw-scaled Viper,,Squamata,Squamata,,Viperidae,Echis,LEAST_CONCERN,LC,5,False,2443854,GBIF
+Acanthodactylus opheodurus,Snake-tailed Fringe-toed Lizard,,Squamata,Squamata,,Lacertidae,Acanthodactylus,LEAST_CONCERN,LC,5,False,5226742,GBIF
+Teratoscincus scincus,Common Wonder Gecko,,Squamata,Squamata,,Sphaerodactylidae,Teratoscincus,LEAST_CONCERN,LC,3,False,2447091,GBIF
+Scincus conirostris,Sandfish Skink,,Squamata,Squamata,,Scincidae,Scincus,NOT_EVALUATED,NE,3,False,5960617,GBIF
+Scincus scincus,Sandfish Skink,,Squamata,Squamata,,Scincidae,Scincus,LEAST_CONCERN,LC,3,False,8961476,GBIF
+Iguana iguana,Green Iguana,,Squamata,Squamata,,Iguanidae,Iguana,LEAST_CONCERN,LC,2,False,2459658,GBIF
+Hydrophis cyanocinctus,Annulated Sea Snake,,Squamata,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,2,False,5960375,GBIF
+Hydrophis curtus,Short Sea Snake,,Squamata,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,2,False,7606013,GBIF
+Indotyphlops braminus,Brahminy blindsnake,,Squamata,Squamata,,Typhlopidae,Indotyphlops,LEAST_CONCERN,LC,2,False,9357542,GBIF
+Heremites septemtaeniatus,Southern Grass Skink,,Squamata,Squamata,,Scincidae,Heremites,LEAST_CONCERN,LC,1,False,10979564,GBIF
+Echis pyramidum,Egyptian Saw-scaled Viper,,Squamata,Squamata,,Viperidae,Echis,LEAST_CONCERN,LC,1,False,2443858,GBIF
+Hydrophis gracilis,Common Small-headed Sea Snake,,Squamata,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,1,False,2449734,GBIF
+Pristurus carteri,Carter’s Semaphore Gecko,,Squamata,Squamata,,Sphaerodactylidae,Pristurus,LEAST_CONCERN,LC,1,False,5221659,GBIF
+Platyceps ventromaculatus,Hardwicke's Rat Snake,,Squamata,Squamata,,Colubridae,Platyceps,LEAST_CONCERN,LC,1,False,5223128,GBIF
+Acanthodactylus haasi,Haas's Fringe-toed Lizard,,Squamata,Squamata,,Lacertidae,Acanthodactylus,LEAST_CONCERN,LC,1,False,5226712,GBIF
+Hydrophis spiralis,Yellow Sea Snake,,Squamata,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,1,False,5960401,GBIF
+Cerastes cerastes,Desert Horned Viper,,Squamata,Squamata,,Viperidae,Cerastes,LEAST_CONCERN,LC,1,False,8909697,GBIF
+Tachybaptus ruficollis,,الغطاس الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Podiceps nigricollis,,الغطاس أسود العنق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Podiceps cristatus,,الغطاس المتوج الكبير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Podiceps grisegena,,الغطاس أحمر العنق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Bulweria fallax,,طائر النو,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phalacrocorax carbo,,الغاق الكبير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phalacrocorax nigrogularis,,الغاق السوقطري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Nycticorax nycticorax,,غراب الليل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Butorides striatus,,الواق الأخضر الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Puffinus carneipes,,جلم الماء شاحب القدم,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Puffinus pacificus,,جلم الماء وتدي الذيل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Puffinus lherminieri,,جلم الماء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oceanites oceanicus,,طائر العاصفة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oceanites leucorhoa,,جلم الماء الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phaethon aethereus,,رئيس البحر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sula sula,,الأطيش أحمر القدم,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sula dactylatra,,الاطيش المتنكر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sula leucogaster,,الاطيش البني,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pelecanus onocrotalus,,البجع الأبيض,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Botaurus stellaris,,الواق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ixobrychus minutus,,الواق الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ardeola ralloides,,الواق الأبيض الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ciconia nigra,,مالك الحزين الإرجواني,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Threskiornis aethiopicus,,الحارس المقدس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phoenicopterus rubber,,النحام الكبير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Cygnus olor,,الأوز الأصم,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anser albifrons,,الأغر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anser anser,,الأوز الرمادي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Alopochen aegyptiacus,,الأوز المصري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Tadorna ferruginea,,الشهرمان الأحمر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Tadorna tadorna,,الشهرمان,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Nettapus coromandelianus,,الحذاف الأبيض,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ardeola grayii,,واق المستنقعات الهندي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Bubulcus ibis,,أبوقردان,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Egretta gularis,,بلشون الصخور,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Egretta garzetta,,البلشون الصغير ( البياضي),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Egretta alba,,الأبيض الكبيرالبلشون,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ardea cinerea,,مالك الحزين الرمادي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ardea purpurea,,اللقلق الأسود,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ciconia ciconia,,اللقلق الأبيض,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Plegadis falcinellus,,أبومنجل الأسود,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Platalea lencorodia,,أبوملعقة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phoenicopterus rubber,,الفلامنجو الكبير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anas Penelope,,البط الصواي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anas crecca,,الحذاف الشائع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anas platyrhynchos,,البركة ( البط البري ),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anas acuta,,البلبول الشائع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anas querquedula,,الحذاف الصيفي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anas strepera,,البط السماري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anas clypeata,,أبو مجروف,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Neophron percnopterus,,الرخمة المصري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Gyps fulvus,,النسر الذهبي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Torgos tracheliotus,,النسر ذو الأذن,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Marmaronetta angustirostris,,الحذاف الرخامي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Netta rufina,,الونس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Aythya ferina,,البط كستنائي الرأس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Aythya nyroca,,البط الصدني,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Aythya fuligula,,البط المقنزع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Mergus serrator,,البلقشة أحمر الصدر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pernis apivorus,,صقر العسل الحوام,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Elanus caeruleus,,الحدأة المصرية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Milvus migrans,,الحدأة السوداء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Haliastur Indus,,الحدأة البراهمينية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Haliaeetus leucoryphus,,عقاب السمك,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ciraetus gallicus,,عقاب الحيات,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Circaetus qallicus,,عقاب الأفاعي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Circus aeruginosus,,الدراع (مرزة البطاح),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Circus macrourus,,المرزة الباهتة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Circus cyaneus,,أبوحسن (مرزة الدجاج),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Circus pygargus,,أبوشودة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Accipiter nisus,,الباشق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Buteo rufinus,,الحميمق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Aquila clanga,,العقاب المنقط,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hieraaetus fasciatus,,عقاب بونللي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Getochelidon nilotica,,زمج الماء (نورس),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Apus apus,,السمامة الشائعة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Melierax metabates,,الباشق المرتل الحزين,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Accipiter gentiles,,الباز,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Accipiter brevipes,,الباشق الشرقي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Buteo buteo,,عقيب السهول,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Aquila pomarina,,العقاب المنقط الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Aquila nipalensis,,اللموع (عقاب البادية),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Aquila heliaca,,ملك العقبان,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Aquila chrysaetos,,العقاب الذهبي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hieraaetus pennatus,,السبر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hieraaetus fasciatus,,عقاب بونلي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pandion haliaetus,,العقاب النساري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Falco naumanni,,العويسق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Falco tinnunculus,,العوسق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Falco columbarius,,اليؤيؤ,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Falco subbuteo,,الشويهين,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Falco concolor,,الصقر الأسخم,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Falco biarmicus,,صقر الغزال,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Falco cherrug,,الصقر الحر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Falco peregrinus,,الشاهين,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Falco pelegrinoides,,الصقر المغربي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Alectoris chukar,,الحجل الرمادي الرأس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ammoperdix heyi,,الحجل التهامي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Francolinus francolinus,,الدراج الأسود,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Francolinus pondicerianus,,الدراج الرمادي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Coturnix coturnix,,السمان (السلوى),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Rallus aquaticus,,مرعة الماء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Porzana porzana,,المرعة المرقطة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Porzana parva,,المرعة رمادية البطن,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Porzana pusilla,,المرعة الصغيرة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Crex cerx,,الصفرد,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Gallinula chloropus,,دجاج الماء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Porphyrio porphyrio,,الدجاج السلطاني الأورجواني,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Fulica atra,,الغرة ( الرمادي),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Grus grus,,الكركي الشائع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anthropoides virgo,,كركي الرهو,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Chlamydotis undulate,,الحبارى,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Haematopus ostralegus,,أكل المحار,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Himantopus himantopus,,الكرسو,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Recurvirostra avosetta,,النكات,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Dromas ardeola,,زقزاق السرطان,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Dburhinus oedicnemus,,الكروان الصحراوي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Cursorius cursor,,الجليل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Glareola pratincola,,أبو اليسر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Glareola nordmanni,,أبو اليسر أسود الجناح,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Glareola lacteal,,أبو اليسر الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Charadrius dubius,,أبو الروس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Charadrius hiaticula,,الزقزاق المطوق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Charadrius alexandrinus,,الزقزاق الإسكندراني,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Charadrius mongolus,,زقزاق الرمل الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Charadrius leschenaultia,,زقزاق الرمل الكبير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Charadrius asiaticus,,زقزاق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Charadrius morinellus,,الزقزاق الأغبر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pluvialis fulva,,الزقزاق الذهبي الباسفيكي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pluvialis squatarola,,الزقزاق الرمادي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hoplopterus indicus,,الزقزاق الهندي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Chettusia gregaria,,الزقزاق الأنيس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Chettusia leucura,,الزقزاق أبيض الذيل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Vanellus vanellus,,الزقزاق الشامي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Calidris tenuirostris,,الطيطوي الكبير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Calidris canutus,,دريجة الشمال,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Calidris alba,,المدروان,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Calidris minuta,,الطيطوي الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Calidris subminuta,,الطيطوي الصغير طويل الأصابع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Calidris temminckii,,الطيطوي الصغير الرمادي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Calidris ferruginea,,كروان الماء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Calidris alpine,,الدريجة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Limicola falcinellus,,الطيطوي عريض المنقار,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Philomachus pugnax,,الشقي ( الحجوالة),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Lymnocryptes minimus,,الشنقب الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Gallinago gallinago,,الشنقب الشائع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Gallinago media,,الشنقب الكبير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Gallinago stenura,,الشنقب حاد الذيل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Scolopax rusticola,,ديك الغابة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Limosa limosa,,بقويقة سلطانية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Limosa lapponica,,بقويقة موشمة الذيل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Numenius phaeopus,,كروان الغيظ الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Numenius arquata,,الكروان,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Tringa erythropus,,الطيطوي أحمر الساق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Tringa totanus,,الطيطوي أحمر الساق المنقط,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Tringa stagnatilis,,طيطوي البطاح,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Tringa nebularia,,طيطوي أخضر الساق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Tringa ochropus,,نسناسة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Tringa glareola,,طيطوي الغيط,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Xenus cinereus,,طيطوي الرمل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Actitis hypoleucos,,طيطوي الرمل الشائع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Arenaria interpres,,قنبرة الماء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phalaropus lobatus,,الكركر أحمر الرقبة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phalaropus fulicarius,,الكركر الرمادي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Stercorarius pomarinus,,الكركر الشمالي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Stercorarius parasiticus,,الكركر القطبي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Stercorarius longicaudus,,الكركر طويل الذيل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Stercorarius skua,,الكركر الكبير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Larus hemprichii,,النورس الأسخم,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Larus ichthyaetus,,نورس السمك,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Larus sabini,,نورس سابين,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Larus ridibundus,,النورس أسود الرأس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Larus brunnicephalus,,النورس  بني الرأس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Larus genei,,النورس مستقيم الرأس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Larus canus,,النورس الشائع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Larus fuscus,,النورس الصغير أسود الظهر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Larus cachinnans,,النورس أصفر القدم,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Larus armenicus,,النورس الأرمني,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Gelochelidon nilotica,,الخرشنة نورسي المنقار,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna caspia,,خرشنة قزوين,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna bergii,,الخرشنة الناعم,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna bengalensis,,أبوقشش (خرشنة متوج),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna sandvicensis,,الخرشنة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna dougallii,,الخرشنة الوردية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna hirundo,,الخرشنة الشائعة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna repressa,,الخرشنة بيضاء الوجة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna anaethetus,,الخرشنة سمراء الجناح,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna fuscata,,الخرشنة السخامية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna albifrons,,الخرشنة الأغبر الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sterna saundersi,,الخرشنة الصغيرة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Chlidonias hybrida,,الخرشنة الملتحي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Chlidonias leucopterus,,الخرشنة ذات الجناح الأبيض,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Rhynchops albicollis,,أبو مقص الأبيض,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pterocles lichtensteinit,,القطا المخطط,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pterocles coronatus,,القطا المتوج,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pterocles senegallus,,القطا المرقط,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pterocles exustus,,القطا المصري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pterocles orientalus,,القطا السلطاني,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Columba livia,,اليمام الصخري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Streptopelia decaocto,,الحمام المطوق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Streptopelia turtur,,القمري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Streptopelia orientalis,,القمري الشرقي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Streptopelia senegalensis,,الحمام الدبسي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oena capensis,,البالوم,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Psittacula krameri,,البراكيت الأخضر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Psittacula eupatria,,المطوقة الهندية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Cuculus canorus,,الوقواق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Eudynamys scolopacea,,الوقواق الداكن ( الكولي الهندي),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Tyto alba,,البومة البيضاء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Otus brucei,,البومة المخططة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Otus scops,,الثبج,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Bubo bubo,,بومة الصحراء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Athene noctua,,البومة الصغيرة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Asio otus,,البومة طويلة الأذن,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Asio flammeus,,البومة قصيرة الأذن,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Caprimulgus europaeus,,السبر الأوربي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Caprimulgus aegyptius,,السبر المصري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Apus apus,,السمامة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Apus pallidus,,السمامة الشاحبة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Apus melba,,عوار,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Apus Affinis,,السمامة الصغيرة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Halcyon leucocephala,,الرفراف رمادي الرأس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Halcyon chloris,,القاوند,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Alcedo Atthis,,الرفراف,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ceryle rudis,,خاطف ظله,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Merops albicollis,,الوروار أبيض الصدر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Merops orientalis,,الوروار الأخضر الصغير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Merops superciliosus,,الوروار أزرق الخدين,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Merops Apiaster,,الوروار الأوربي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Coracias garrulus,,الشقراق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Coracias benghalensis,,الشقراق الهندي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Upupa epops,,الهدهد,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Jynx torquilla,,اللواء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Eremopterix nigriceps,,القبرة السوداء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ammomanes Deserti,,قبرة الصحراء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Algernon alaudipes,,المكاء ( القبرة الهدهدية),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Melanocorypha bimaculata,,القبرة الشرقية الكبيرة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Calandrella brachydactyla,,القبرة قصيرة الأصبع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Calandrella rufescens,,القبرة الصغيرة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Galerida cristata,,القبرة المتوجة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Alauda arevensis,,قبرة الحقول,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Eremophila bilopha,,قبرة الصحراء المقرنة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Riparia riparia,,خطاف الرمال,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hirundo obsolete,,خطاف الصخور الشاحب,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ptyonoprogne rupestris,,خطاف الصخور,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hirundo rustica,,السنونو,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hirundo daurica,,السنونو أحمر العجز,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Delichon urbica,,خطاف الضواحي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Authus novaeseelandiae,,الجشنة الكبيرة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anthus campestris,,الجشنة الصفراء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anthus similes,,الجشنة طويلة المنقار,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anthus hodgsoni,,الجشنة زيتونية الظهر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anthus trivialis,,جشنة الشجر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anthus gustavi,,جشنة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anthus pratensis,,جشنة المروج,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anthus cervinus,,الجشنة حمراء الصدر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Anthus spinoletta,,جشنة الماء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Dendronanthus indicus,,ذعرة الغابة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Motacilla flava,,الذعرة الصفراء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Motacilla citreola,,الذعرة الصفراء الباهتة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Motacilla cinerea,,الذعرة الرمادية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Motacilla alba,,الذعرة البيضاء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pycnonotus leucogenys,,البلبل أبيض الخد,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pycnonotus xanthopygos,,البلبل الشامي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pycnonotus jocosus,,البلبل أحمر الشارب,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Pycnonotus cafer,,البلبل أحمر الشرج,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hypocolius ampelinus,,الجاثم شبة المطوق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Cecotrichas galactotes,,الأبلق الكستنائي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Erithacus rubecula,,أبو الحناء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Luscinia luscinia,,هزاز  أشرق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Luscinia megarhynchos,,العندليب,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Luscinia svecica,,المسهر( هازجة زرقاء الزور),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Irania guturalis,,أبو الحناء أبيض الحلق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phoenicurus erythronotus,,الحميراء المزينة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phoenicurus ochruros,,حميراء دبساء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phoenicurus phoenicurus,,الحميراء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Saxicola rubetra,,القليعي الأحمر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Saxicola  torquata,,القليعي المطوق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe isabellina,,الأبلق الرملي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe oenanthe,,أبو بليق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe  pleschanka,,الابلق المبقع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe hispanica,,الأبلق أسود الأذن,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe deserti,,أبلق البادية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe finschii,,الأبلق العربي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe xanthoprymna,,الأبلق أحمر الذيل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe picata,,الأبلق الشرقي المبقع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe lugens,,الأبلق الحزين,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe monacha,,الأبلق المقلنس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe alboniger,,الأبلق الأسود أبيض الظهر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oenanthe leucopyga,,الأبلق أبيض العجز,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Monticola saxatilis,,سمنة الصخور,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Monticola solitarius,,سمنة الصخور الزرقاء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Turdus torquatus,,الشحرور,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Turdus merula,,الشحرور الشامي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Turdus obscurus,,السمنة أم الحاجب,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Turdus ruficollis,,السمنة سوداء الحلق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Turdus pilaris,,سمنة الحقول,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Turdus philomelos,,السمنة المصرية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Turdus iliacus,,السمنة حمراء الجناح,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Turdus viscivorus,,سمنة الدبق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Prinia gracilis,,الهازجة الرشيقة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Scotocerca inquieta,,نمنمة الشجر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Locustella naevia,,هازجة الجنادب,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Locustella luscinioides,,بلبل الغاب,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Acrocephalus melanopogon,,الهازجة المشوربة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Acrocephalus schoenobaenus,,هازجة السعد,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Acrocephalus palustris,,هازجة البطاح,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Acrocephalus scirpaceus,,هازجة القصب أبو دخنة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Acrocephalus stentoreus,,هازجة صاخبة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Acrocephalus arundinaceus,,هازجة القصب الكبير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hippolais pallida,,هازجة زيتونية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hippolais caligata,,الهازجة أم الحذاء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hippolais languida,,هازجة الأودية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Hippolais icterina,,الخنشوع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sylvia mystacea,,الهازجة الأسيوية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sylvia nana,,هازجة الصحراء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sylvia hortensis,,دخلة البساتين,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sylvia nisoria,,هازجة موشمة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sylvia curruca,,زريقة فيرانية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sylvia minula,,هازجة الصحراء القصيرة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sylvia althaea,,الهازجة بيضاء العنق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sylvia communis,,الهازجة الشائعة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sylvia borin,,هازجة الحدائق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sylvia atricapilla,,أبوقلنسوة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phylloscopus inornatus,,الهازجة صفراء الحاجب,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phylloscopus fuscatus,,الهازجة الداكنة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phylloscopus bonelli,,هازجة بونلي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phylloscopus sibilatrix,,صعوه الشمال,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phylloscopus neglectus,,هازجة الورق غير الملونة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phylloscopus collybita,,سكسكة الشرق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Phylloscopus trochilus,,هازجة الصفصاف,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Muscicapa cyanomelana,,خاطف الذباب الأبيض والأرزق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Muscicapa striata,,خاطف الذباب المبقع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ficedula parva,,خاطف الذباب أحمر الصدر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ficedula semitorquata,,خاطف الذباب متعدد الألوان,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ficedula hypoleuca,,خاطف الذباب الأبلق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Turdoides squamiceps,,الثرثارة العربية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Nectarinia asiatica,,التمير الأسيوي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Oriolus oriolus,,الصفارية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Lanius isabellinus,,النهس الأمغر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Lanius collurio,,الصرد أحمر الظهر,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Lanius vittatus,,الصرد الرمادي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Lanius minor,,الصريد,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Lanius excubitor,,الصرد الرمادي الكبير,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Lanius senator,,الدقناش الشامي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Lanius nubicus,,الدقناش القطبي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Dicrurus adsimilis,,غراب الملك,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Corvus splendens,,غراب المنزل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Corvus ruficollis,,غراب نوح,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sturnus vulgaris,,الزرزور,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sturnus contra,,المينا الشاحبة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sturnus pagodarum,,المينا البراهمينية,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Sturnus roseus,,السمرمر ( الزرزور الوردي),Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Acridotheres tristis,,غراب المينا,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Acridotheres ginginianus,,المينا الضفافي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Passer domesticus,,عصفور دوري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Passer hispaniolensis,,العصفور الأسباني,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Passer montanus,,العصفور الشجري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Petronia brachydactyla,,العصفور الصخري الشاحب,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Petronia xanthocollis,,العصفور أصفر الحلق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ploceus galbula,,الحباك الذهبي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Ploceus intermedius,,الحباك المقنع,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Amandava amandava,,العصفور الأحمر الهندي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Euodice malabarica,,العصفور الهندي فضي المنقار,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Fringilla coelebs,,العصفور الظالم,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Fringilla montifringilla,,الشرشور,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Carduelis carduelis,,الحسون الذهبي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Carduelis spinus,,حسون الشوك,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Carduelis cannabina,,التفاحي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Bucanetes githagineus,,الحسون البواق,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Carpodacus erythrinus,,الحسون الوردي,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Emberiza citrinella,,درسة صفراء,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Emberiza striolata,,درسة المنازل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Emberiza cineracea,,بلبل الشعير السوري,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Emberiza hortulana,,الأرطلان,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Emberiza rustica,,درسة الخمائل,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Emberiza pusilla,,الدرسة الصغيرة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Emberiza aureola,,درسة صفراء البطن,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Emberiza schoeniclus,,الدرسة,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Emberiza melanocephala,,درسة سوداء الرأس,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat
+Miliaria calandra,,درسة الحبوب,Aves,Aves,,,,,,,False,,MOCCAE via Bayanat

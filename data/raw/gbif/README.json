@@ -1,0 +1,11 @@
+{
+  "source": "GBIF.org occurrence and species APIs",
+  "query": {
+    "country": "AE",
+    "taxa": [
+      "Mammalia:CLASS",
+      "Squamata:CLASS"
+    ]
+  },
+  "citation": "GBIF.org (accessed via API). Individual records carry their own licenses (see 'license' column)."
+}

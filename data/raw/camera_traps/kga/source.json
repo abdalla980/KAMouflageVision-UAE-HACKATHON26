@@ -1,0 +1,9 @@
+{
+  "name": "Snapshot Kgalagadi (Kalahari desert, South Africa/Botswana)",
+  "metadata_url": "https://storage.googleapis.com/public-datasets-lila/snapshot-safari/KGA/SnapshotKgalagadi_S1_v1.0.json.zip",
+  "image_base": "https://storage.googleapis.com/public-datasets-lila/snapshot-safari/KGA/KGA_public/",
+  "info_url": "https://lila.science/datasets/snapshot-kgalagadi",
+  "license": "CDLA-Permissive-1.0 (https://cdla.io/permissive-1-0/)",
+  "images_downloaded": 300,
+  "images_failed": 0
+}

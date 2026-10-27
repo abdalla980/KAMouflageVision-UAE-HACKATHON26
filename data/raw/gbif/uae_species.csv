@@ -1,0 +1,150 @@
+gbif_species_key,scientific_name,common_name,class,order,family,genus,iucn_category,iucn_code,uae_record_count,taxon_group
+5220158,Gazella arabica,Arabian Gazelle,Mammalia,Artiodactyla,Bovidae,Gazella,VULNERABLE,VU,310,Mammalia
+2435035,Felis catus,Domestic Cat,Mammalia,Carnivora,Felidae,Felis,NOT_EVALUATED,NE,294,Mammalia
+9091848,Gazella marica,Arabian Sand Gazelle,Mammalia,Artiodactyla,Bovidae,Gazella,VULNERABLE,VU,222,Mammalia
+5220164,Oryx leucoryx,Arabian Oryx,Mammalia,Artiodactyla,Bovidae,Oryx,VULNERABLE,VU,213,Mammalia
+2437243,Funambulus pennantii,Northern Palm Squirrel,Mammalia,Rodentia,Sciuridae,Funambulus,LEAST_CONCERN,LC,196,Mammalia
+9055455,Camelus dromedarius,One-humped Camel,Mammalia,Artiodactyla,Camelidae,Camelus,NOT_EVALUATED,NE,127,Mammalia
+5219243,Vulpes vulpes,Red Fox,Mammalia,Carnivora,Canidae,Vulpes,LEAST_CONCERN,LC,126,Mammalia
+2437619,Dolichotis patagonum,Patagonian Mara,Mammalia,Rodentia,Caviidae,Dolichotis,NEAR_THREATENED,NT,90,Mammalia
+2437830,Gerbillus cheesmani,Cheesman's Gerbil,Mammalia,Rodentia,Muridae,Gerbillus,LEAST_CONCERN,LC,69,Mammalia
+2441056,Capra hircus,Goat,Mammalia,Artiodactyla,Bovidae,Capra,NOT_EVALUATED,NE,43,Mammalia
+2440891,Equus asinus,Donkey,Mammalia,Perissodactyla,Equidae,Equus,NOT_EVALUATED,NE,39,Mammalia
+2437145,Paraechinus aethiopicus,Desert Hedgehog,Mammalia,Erinaceomorpha,Erinaceidae,Paraechinus,LEAST_CONCERN,LC,36,Mammalia
+2436736,Lepus capensis,Cape Hare,Mammalia,Lagomorpha,Leporidae,Lepus,LEAST_CONCERN,LC,25,Mammalia
+2437788,Gerbillus nanus,Baluchistan Gerbil,Mammalia,Rodentia,Muridae,Gerbillus,LEAST_CONCERN,LC,18,Mammalia
+2441110,Ovis aries,Red Sheep,Mammalia,Artiodactyla,Bovidae,Ovis,NOT_EVALUATED,NE,17,Mammalia
+5218748,Rhinopoma muscatellum,Small Mouse-tailed Bat,Mammalia,Chiroptera,Rhinopomatidae,Rhinopoma,LEAST_CONCERN,LC,13,Mammalia
+5219173,Canis lupus,Gray Wolf,Mammalia,Carnivora,Canidae,Canis,LEAST_CONCERN,LC,12,Mammalia
+5219598,Procavia capensis,Rock Hyrax,Mammalia,Hyracoidea,Procaviidae,Procavia,LEAST_CONCERN,LC,11,Mammalia
+7429082,Mus musculus,House Mouse,Mammalia,Rodentia,Muridae,Mus,LEAST_CONCERN,LC,11,Mammalia
+2440506,Sousa plumbea,Indian humpback dolphin,Mammalia,Cetacea,Delphinidae,Sousa,ENDANGERED,EN,10,Mammalia
+5220173,Hemitragus jayakari,Arabian Tahr,Mammalia,Artiodactyla,Bovidae,Hemitragus,ENDANGERED,EN,10,Mammalia
+2436940,Oryctolagus cuniculus,European Rabbit,Mammalia,Lagomorpha,Leporidae,Oryctolagus,ENDANGERED,EN,9,Mammalia
+2441049,Capra nubiana,Nubian Ibex,Mammalia,Artiodactyla,Bovidae,Capra,VULNERABLE,VU,9,Mammalia
+5219235,Vulpes cana,Blanford's Fox,Mammalia,Carnivora,Canidae,Vulpes,LEAST_CONCERN,LC,8,Mammalia
+5219723,Meriones arimalius,Arabian Jird,Mammalia,Rodentia,Muridae,Meriones,LEAST_CONCERN,LC,8,Mammalia
+5219895,Jaculus jaculus,Lesser Egyptian Jerboa,Mammalia,Rodentia,Dipodidae,Jaculus,LEAST_CONCERN,LC,8,Mammalia
+5220149,Gazella dorcas,Dorcas Gazelle,Mammalia,Artiodactyla,Bovidae,Gazella,VULNERABLE,VU,8,Mammalia
+2440447,Tursiops truncatus,Bottlenose Dolphin,Mammalia,Cetacea,Delphinidae,Tursiops,LEAST_CONCERN,LC,7,Mammalia
+2441005,Ammotragus lervia,Barbary Sheep,Mammalia,Artiodactyla,Bovidae,Ammotragus,VULNERABLE,VU,7,Mammalia
+2437154,Paraechinus hypomelas,Brandt's Hedgehog,Mammalia,Erinaceomorpha,Erinaceidae,Paraechinus,LEAST_CONCERN,LC,6,Mammalia
+2439270,Rattus rattus,Black Rat,Mammalia,Rodentia,Muridae,Rattus,LEAST_CONCERN,LC,6,Mammalia
+5220165,Oryx dammah,Scimitar-horned Oryx,Mammalia,Artiodactyla,Bovidae,Oryx,ENDANGERED,EN,6,Mammalia
+8888736,Giraffa reticulata,Reticulated Giraffe,Mammalia,Artiodactyla,Giraffidae,Giraffa,NOT_EVALUATED,NE,6,Mammalia
+9729967,Dugong dugon,Dugong,Mammalia,Sirenia,Dugongidae,Dugong,VULNERABLE,VU,6,Mammalia
+8324617,Delphinus delphis,Short-beaked Common Dolphin,Mammalia,Cetacea,Delphinidae,Delphinus,LEAST_CONCERN,LC,5,Mammalia
+4264830,Acomys dimidiatus,Eastern Spiny Mouse,Mammalia,Rodentia,Muridae,Acomys,LEAST_CONCERN,LC,4,Mammalia
+8555521,Protohummus dango,,Mammalia,Rodentia,Thryonomyidae,Protohummus,NOT_EVALUATED,NE,4,Mammalia
+2432564,Vespertilio murinus,Particolored Bat,Mammalia,Chiroptera,Vespertilionidae,Vespertilio,LEAST_CONCERN,LC,3,Mammalia
+2432602,Asellia tridens,Geoffroy's Trident Leaf-nosed Bat,Mammalia,Chiroptera,Hipposideridae,Asellia,LEAST_CONCERN,LC,3,Mammalia
+2438783,Mus macedonicus,Macedonian Mouse,Mammalia,Rodentia,Muridae,Mus,LEAST_CONCERN,LC,3,Mammalia
+2440714,Balaenoptera edeni,Eden's whale,Mammalia,Cetacea,Balaenopteridae,Balaenoptera,LEAST_CONCERN,LC,3,Mammalia
+2441022,Bos taurus,Aurochs,Mammalia,Artiodactyla,Bovidae,Bos,NOT_EVALUATED,NE,3,Mammalia
+5219724,Meriones crassus,Sundevall's Jird,Mammalia,Rodentia,Muridae,Meriones,LEAST_CONCERN,LC,3,Mammalia
+5220146,Gazella subgutturosa,Goitered Gazelle,Mammalia,Artiodactyla,Bovidae,Gazella,VULNERABLE,VU,3,Mammalia
+5220154,Gazella gazella,Mountain Gazelle,Mammalia,Artiodactyla,Bovidae,Gazella,ENDANGERED,EN,3,Mammalia
+2434150,Ichneumia albicauda,White-tailed Mongoose,Mammalia,Carnivora,Herpestidae,Ichneumia,LEAST_CONCERN,LC,2,Mammalia
+2437246,Funambulus palmarum,Indian Palm Squirrel,Mammalia,Rodentia,Sciuridae,Funambulus,LEAST_CONCERN,LC,2,Mammalia
+2439261,Rattus norvegicus,Brown Rat,Mammalia,Rodentia,Muridae,Rattus,LEAST_CONCERN,LC,2,Mammalia
+2440455,Tursiops aduncus,Indo-Pacific Bottlenose Dolphin,Mammalia,Cetacea,Delphinidae,Tursiops,NEAR_THREATENED,NT,2,Mammalia
+2440735,Balaenoptera musculus,Blue Whale,Mammalia,Cetacea,Balaenopteridae,Balaenoptera,ENDANGERED,EN,2,Mammalia
+5218464,Pipistrellus kuhlii,Kuhl's Pipistrelle,Mammalia,Chiroptera,Vespertilionidae,Pipistrellus,LEAST_CONCERN,LC,2,Mammalia
+5218737,Taphozous nudiventris,Naked-rumped Tomb Bat,Mammalia,Chiroptera,Emballonuridae,Taphozous,LEAST_CONCERN,LC,2,Mammalia
+5218742,Taphozous perforatus,Egyptian Tomb Bat,Mammalia,Chiroptera,Emballonuridae,Taphozous,LEAST_CONCERN,LC,2,Mammalia
+5220136,Dama dama,Fallow Deer,Mammalia,Artiodactyla,Cervidae,Dama,LEAST_CONCERN,LC,2,Mammalia
+11119347,Prostrepsiceros libycus,,Mammalia,Artiodactyla,Bovidae,Prostrepsiceros,NOT_EVALUATED,NE,1,Mammalia
+2432382,Otonycteris hemprichii,Desert Long-eared Bat,Mammalia,Chiroptera,Vespertilionidae,Otonycteris,LEAST_CONCERN,LC,1,Mammalia
+2432470,Myotis emarginatus,Geoffroy's Myotis,Mammalia,Chiroptera,Vespertilionidae,Myotis,LEAST_CONCERN,LC,1,Mammalia
+2435010,Caracal caracal,Caracal,Mammalia,Carnivora,Felidae,Caracal,LEAST_CONCERN,LC,1,Mammalia
+2435506,Suncus etruscus,Etruscan Shrew,Mammalia,Soricomorpha,Soricidae,Suncus,LEAST_CONCERN,LC,1,Mammalia
+2436436,Homo sapiens,Human,Mammalia,Primates,Hominidae,Homo,NOT_EVALUATED,NE,1,Mammalia
+2440718,Balaenoptera physalus,Fin Whale,Mammalia,Cetacea,Balaenopteridae,Balaenoptera,VULNERABLE,VU,1,Mammalia
+2440934,Axis axis,Chital,Mammalia,Artiodactyla,Cervidae,Axis,LEAST_CONCERN,LC,1,Mammalia
+4971477,Propotamochoerus hysudricus,,Mammalia,Artiodactyla,Suidae,Propotamochoerus,NOT_EVALUATED,NE,1,Mammalia
+5218543,Lasiurus borealis,Eastern Red Bat,Mammalia,Chiroptera,Vespertilionidae,Lasiurus,LEAST_CONCERN,LC,1,Mammalia
+5219884,Hystrix indica,Indian Crested Porcupine,Mammalia,Rodentia,Hystricidae,Hystrix,LEAST_CONCERN,LC,1,Mammalia
+5220055,Stenella coeruleoalba,Striped Dolphin,Mammalia,Cetacea,Delphinidae,Stenella,LEAST_CONCERN,LC,1,Mammalia
+5220086,Megaptera novaeangliae,Humpback Whale,Mammalia,Cetacea,Balaenopteridae,Megaptera,LEAST_CONCERN,LC,1,Mammalia
+7964291,Felis silvestris,Wildcat,Mammalia,Carnivora,Felidae,Felis,LEAST_CONCERN,LC,1,Mammalia
+8123917,Physeter macrocephalus,Sperm Whale,Mammalia,Cetacea,Physeteridae,Physeter,VULNERABLE,VU,1,Mammalia
+8480590,Hexaprotodon sahabiensis,,Mammalia,Artiodactyla,Hippopotamidae,Hexaprotodon,NOT_EVALUATED,NE,1,Mammalia
+9469620,Hexaprotodon harvardi,,Mammalia,Artiodactyla,Hippopotamidae,Archaeopotamus,NOT_EVALUATED,NE,1,Mammalia
+9496545,Ochotona gobiensis,,Mammalia,Lagomorpha,Ochotonidae,Alloptox,NOT_EVALUATED,NE,1,Mammalia
+2447086,Trigonodactylus arabicus,Arabian Web-footed Sand Gecko,Squamata,,Gekkonidae,Trigonodactylus,LEAST_CONCERN,LC,419,Squamata
+5221495,Stenodactylus doriae,Dune Sand Gecko,Squamata,,Gekkonidae,Stenodactylus,LEAST_CONCERN,LC,360,Squamata
+2443876,Echis carinatus,Sindh Saw-scaled Viper,Squamata,,Viperidae,Echis,LEAST_CONCERN,LC,303,Squamata
+5960045,Hemidactylus flaviviridis,Common House Lizard,Squamata,,Gekkonidae,Hemidactylus,LEAST_CONCERN,LC,287,Squamata
+2447143,Bunopus tuberculatus,Baluch Ground Gecko,Squamata,,Gekkonidae,Bunopus,LEAST_CONCERN,LC,237,Squamata
+5816080,Hemidactylus robustus,Red Sea House Gecko,Squamata,,Gekkonidae,Hemidactylus,LEAST_CONCERN,LC,227,Squamata
+8751041,Pseudotrapelus jensvindumi,Hajar Rock Agama,Squamata,,Agamidae,Pseudotrapelus,NOT_EVALUATED,NE,195,Squamata
+5221015,Cerastes gasperettii,Arabian Sand Viper,Squamata,,Viperidae,Cerastes,LEAST_CONCERN,LC,179,Squamata
+2443882,Echis omanensis,Hajar Saw-scaled Viper,Squamata,,Viperidae,Echis,LEAST_CONCERN,LC,177,Squamata
+5225736,Eryx jayakari,Arabian Sand Boa,Squamata,,Boidae,Eryx,LEAST_CONCERN,LC,150,Squamata
+5226756,Acanthodactylus schmidti,Schmidt's Fringe-toed Lizard,Squamata,,Lacertidae,Acanthodactylus,LEAST_CONCERN,LC,145,Squamata
+2468644,Omanosaura jayakari,Jayakar Lizard,Squamata,,Lacertidae,Omanosaura,LEAST_CONCERN,LC,139,Squamata
+2466370,Phrynocephalus arabicus,Arabian Toadhead Agama,Squamata,,Agamidae,Phrynocephalus,LEAST_CONCERN,LC,113,Squamata
+5960604,Scincus mitranus,Arabian Sand Skink,Squamata,,Scincidae,Scincus,LEAST_CONCERN,LC,110,Squamata
+9460894,Ptyodactylus orlovi,Orlov's Fan-footed Gecko,Squamata,,Phyllodactylidae,Ptyodactylus,LEAST_CONCERN,LC,110,Squamata
+9336148,Trachydactylus hajarensis,سحلية الصخور المخططة,Squamata,,Gekkonidae,Trachydactylus,LEAST_CONCERN,LC,108,Squamata
+2448051,Cyrtopodion scabrum,Rough-tailed Gecko,Squamata,,Gekkonidae,Cyrtopodion,LEAST_CONCERN,LC,105,Squamata
+5221652,Pristurus celerrimus,Bar-tailed Semaphore Gecko,Squamata,,Sphaerodactylidae,Pristurus,LEAST_CONCERN,LC,89,Squamata
+9013567,Uromastyx aegyptia,Egyptian Mastigure,Squamata,,Agamidae,Uromastyx,VULNERABLE,VU,89,Squamata
+5223134,Platyceps rhodorachis,Wadi Racer,Squamata,,Colubridae,Platyceps,LEAST_CONCERN,LC,71,Squamata
+5225137,Chalcides ocellatus,Ocellated Skink,Squamata,,Scincidae,Chalcides,LEAST_CONCERN,LC,68,Squamata
+2447290,Asaccus gallagheri,Gallagher's Leaf-toed Gecko,Squamata,,Phyllodactylidae,Asaccus,LEAST_CONCERN,LC,65,Squamata
+2469299,Mesalina adramitana,Hadramaut Sand Lizard,Squamata,,Lacertidae,Mesalina,LEAST_CONCERN,LC,64,Squamata
+9355164,Stenodactylus leptocosymbotes,Eastern Sand Gecko,Squamata,,Gekkonidae,Stenodactylus,LEAST_CONCERN,LC,62,Squamata
+2447098,Teratoscincus keyserlingii,Wonder Gecko,Squamata,,Sphaerodactylidae,Teratoscincus,LEAST_CONCERN,LC,55,Squamata
+5960346,Hydrophis lapemoides,Arabian Gulf Sea Snake,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,48,Squamata
+5959488,Psammophis schokari,Forskal Sand Snake,Squamata,,Psammophiidae,Psammophis,LEAST_CONCERN,LC,46,Squamata
+2458605,Lytorhynchus diadema,Crowned Leaf-nosed Snake,Squamata,,Colubridae,Lytorhynchus,LEAST_CONCERN,LC,44,Squamata
+2450987,Diplometopon zarudnyi,Zarudnyi's Worm Lizard,Squamata,,Trogonophidae,Diplometopon,LEAST_CONCERN,LC,43,Squamata
+5221528,Hemidactylus turcicus,Turkish Gecko,Squamata,,Gekkonidae,Hemidactylus,LEAST_CONCERN,LC,41,Squamata
+5221656,Pristurus minimus,Small Semaphore Gecko,Squamata,,Sphaerodactylidae,Pristurus,LEAST_CONCERN,LC,41,Squamata
+5221684,Pristurus rupestris,Rock Semaphore Gecko,Squamata,,Sphaerodactylidae,Pristurus,LEAST_CONCERN,LC,40,Squamata
+2447065,Pseudoceramodactylus khobarensis,Gulf Sand Gecko,Squamata,,Gekkonidae,Pseudoceramodactylus,LEAST_CONCERN,LC,39,Squamata
+2468648,Omanosaura cyanura,Hajar Blue-tailed Lizard,Squamata,,Lacertidae,Omanosaura,LEAST_CONCERN,LC,36,Squamata
+9628941,Varanus griseus,Desert Monitor,Squamata,,Varanidae,Varanus,LEAST_CONCERN,LC,34,Squamata
+2447287,Asaccus caudivolvulus,Emirati Leaf-toed Gecko,Squamata,,Phyllodactylidae,Asaccus,CRITICALLY_ENDANGERED,CR,31,Squamata
+8050746,Myriopholis macrorhyncha,Hook-snouted Worm Snake,Squamata,,Leptotyphlopidae,Myriopholis,LEAST_CONCERN,LC,31,Squamata
+5225954,Trapelus flavimaculatus,Yellow-spotted Agama,Squamata,,Agamidae,Trapelus,LEAST_CONCERN,LC,29,Squamata
+8705240,Ptyodactylus hasselquistii,Fan-footed Gecko,Squamata,,Phyllodactylidae,Ptyodactylus,LEAST_CONCERN,LC,25,Squamata
+9132367,Asaccus gardneri,وزغة جاردنر ورقية الاصابع,Squamata,,Phyllodactylidae,Asaccus,LEAST_CONCERN,LC,25,Squamata
+9475968,Pseudotrapelus sinaitus,Sinai Agama,Squamata,,Agamidae,Pseudotrapelus,LEAST_CONCERN,LC,23,Squamata
+8337036,Trachylepis tessellata,Tessellated Mabuya,Squamata,,Scincidae,Trachylepis,LEAST_CONCERN,LC,22,Squamata
+5221487,Stenodactylus slevini,Slevin's Sand Gecko,Squamata,,Gekkonidae,Stenodactylus,LEAST_CONCERN,LC,19,Squamata
+5226719,Acanthodactylus gongrorhynchatus,Saudi Fringe-fingered Lizard,Squamata,,Lacertidae,Acanthodactylus,DATA_DEFICIENT,DD,18,Squamata
+2469301,Mesalina brevirostris,Blanford's Short-Nosed Desert Lizard,Squamata,,Lacertidae,Mesalina,LEAST_CONCERN,LC,17,Squamata
+7474301,Malpolon moilensis,Moila Snake,Squamata,,Psammophiidae,Malpolon,LEAST_CONCERN,LC,17,Squamata
+7674056,Hydrophis platurus,Pelagic Sea Snake,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,17,Squamata
+9520341,Ptyodactylus ruusaljibalicus,Ruus al Jibal fan-footed gecko,Squamata,,Phyllodactylidae,Ptyodactylus,LEAST_CONCERN,LC,16,Squamata
+5226745,Acanthodactylus blanfordii,Blanford's Fringe-fingered Lizard,Squamata,,Lacertidae,Acanthodactylus,LEAST_CONCERN,LC,15,Squamata
+8745259,Asaccus margaritae,Margarita’s Leaf-toed Gecko,Squamata,,Phyllodactylidae,Asaccus,LEAST_CONCERN,LC,12,Squamata
+2457437,Telescopus dhara,Arabian Cat Snake,Squamata,,Colubridae,Telescopus,LEAST_CONCERN,LC,10,Squamata
+2443833,Pseudocerastes persicus,Persian Horned Viper,Squamata,,Viperidae,Pseudocerastes,LEAST_CONCERN,LC,9,Squamata
+2466362,Phrynocephalus maculatus,Blacktail Toadhead Agama,Squamata,,Agamidae,Phrynocephalus,LEAST_CONCERN,LC,9,Squamata
+2447147,Bunopus blanfordii,Blanford’s Rock Gecko,Squamata,,Gekkonidae,Bunopus,LEAST_CONCERN,LC,8,Squamata
+5226727,Acanthodactylus boskianus,Bosc's Fringe-toed lizard,Squamata,,Lacertidae,Acanthodactylus,LEAST_CONCERN,LC,8,Squamata
+5959882,Hemidactylus persicus,Persia Leaf-toed Gecko,Squamata,,Gekkonidae,Hemidactylus,LEAST_CONCERN,LC,8,Squamata
+5221490,Stenodactylus leptocosymbotus,East sand gecko,Squamata,,Gekkonidae,Stenodactylus,NOT_EVALUATED,NE,7,Squamata
+5789639,Hydrophis ornatus,Ornate Sea Snake,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,7,Squamata
+9150197,Spalerosophis diadema,Diadem Snake,Squamata,,Colubridae,Spalerosophis,LEAST_CONCERN,LC,7,Squamata
+9623013,Ablepharus pannonicus,Asian Snake-eyed Skink,Squamata,,Scincidae,Ablepharus,LEAST_CONCERN,LC,6,Squamata
+2443854,Echis coloratus,Palestine Saw-scaled Viper,Squamata,,Viperidae,Echis,LEAST_CONCERN,LC,5,Squamata
+5226742,Acanthodactylus opheodurus,Snake-tailed Fringe-toed Lizard,Squamata,,Lacertidae,Acanthodactylus,LEAST_CONCERN,LC,5,Squamata
+2447091,Teratoscincus scincus,Common Wonder Gecko,Squamata,,Sphaerodactylidae,Teratoscincus,LEAST_CONCERN,LC,3,Squamata
+5960617,Scincus conirostris,Sandfish Skink,Squamata,,Scincidae,Scincus,NOT_EVALUATED,NE,3,Squamata
+8961476,Scincus scincus,Sandfish Skink,Squamata,,Scincidae,Scincus,LEAST_CONCERN,LC,3,Squamata
+2459658,Iguana iguana,Green Iguana,Squamata,,Iguanidae,Iguana,LEAST_CONCERN,LC,2,Squamata
+5960375,Hydrophis cyanocinctus,Annulated Sea Snake,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,2,Squamata
+7606013,Hydrophis curtus,Short Sea Snake,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,2,Squamata
+9357542,Indotyphlops braminus,Brahminy blindsnake,Squamata,,Typhlopidae,Indotyphlops,LEAST_CONCERN,LC,2,Squamata
+10979564,Heremites septemtaeniatus,Southern Grass Skink,Squamata,,Scincidae,Heremites,LEAST_CONCERN,LC,1,Squamata
+2443858,Echis pyramidum,Egyptian Saw-scaled Viper,Squamata,,Viperidae,Echis,LEAST_CONCERN,LC,1,Squamata
+2449734,Hydrophis gracilis,Common Small-headed Sea Snake,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,1,Squamata
+5221659,Pristurus carteri,Carter’s Semaphore Gecko,Squamata,,Sphaerodactylidae,Pristurus,LEAST_CONCERN,LC,1,Squamata
+5223128,Platyceps ventromaculatus,Hardwicke's Rat Snake,Squamata,,Colubridae,Platyceps,LEAST_CONCERN,LC,1,Squamata
+5226712,Acanthodactylus haasi,Haas's Fringe-toed Lizard,Squamata,,Lacertidae,Acanthodactylus,LEAST_CONCERN,LC,1,Squamata
+5960401,Hydrophis spiralis,Yellow Sea Snake,Squamata,,Elapidae,Hydrophis,LEAST_CONCERN,LC,1,Squamata
+8909697,Cerastes cerastes,Desert Horned Viper,Squamata,,Viperidae,Cerastes,LEAST_CONCERN,LC,1,Squamata

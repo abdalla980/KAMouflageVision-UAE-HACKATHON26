@@ -1,0 +1,36 @@
+camera_id,reserve,reserve_ar,emirate,latitude,longitude,source_location,simulated
+CAM-AH-01,Al Houbara,الحبارى,Abu Dhabi,23.96129,53.07295,kar:A02,True
+CAM-AH-02,Al Houbara,الحبارى,Abu Dhabi,23.97298,53.04377,kar:D03,True
+CAM-AH-03,Al Houbara,الحبارى,Abu Dhabi,23.97689,53.04893,kga:A03,True
+CAM-AH-04,Al Houbara,الحبارى,Abu Dhabi,24.00002,53.01246,kga:A11,True
+CAM-AH-05,Al Houbara,الحبارى,Abu Dhabi,23.98076,53.05378,kga:B08,True
+CAM-AM-01,Al Marzoum (Al Ghadha),المرزوم (الغضا),Abu Dhabi,23.9255,54.34713,kar:B01,True
+CAM-AM-02,Al Marzoum (Al Ghadha),المرزوم (الغضا),Abu Dhabi,23.93326,54.25228,kar:D04,True
+CAM-AM-03,Al Marzoum (Al Ghadha),المرزوم (الغضا),Abu Dhabi,24.00157,54.28629,kga:A04,True
+CAM-AM-04,Al Marzoum (Al Ghadha),المرزوم (الغضا),Abu Dhabi,23.90248,54.28054,kga:B01,True
+CAM-AM-05,Al Marzoum (Al Ghadha),المرزوم (الغضا),Abu Dhabi,23.98129,54.32175,kga:B09,True
+CAM-AO-01,Arabian Oryx,المها العربي,Abu Dhabi,23.04571,54.72455,kar:A01,True
+CAM-AO-02,Arabian Oryx,المها العربي,Abu Dhabi,23.03937,54.83125,kar:D01,True
+CAM-AO-03,Arabian Oryx,المها العربي,Abu Dhabi,23.08073,54.79339,kga:A02,True
+CAM-AO-04,Arabian Oryx,المها العربي,Abu Dhabi,23.05168,54.72754,kga:A10,True
+CAM-AO-05,Arabian Oryx,المها العربي,Abu Dhabi,22.98439,54.76518,kga:B07,True
+CAM-AW-01,Al Wathba,محمية الوثبة,Abu Dhabi,24.25715,54.59901,kar:B03,True
+CAM-AW-02,Al Wathba,محمية الوثبة,Abu Dhabi,24.25926,54.60302,kar:E02,True
+CAM-AW-03,Al Wathba,محمية الوثبة,Abu Dhabi,24.25659,54.60188,kga:A06,True
+CAM-AW-04,Al Wathba,محمية الوثبة,Abu Dhabi,24.25952,54.59792,kga:B03,True
+CAM-DDCR-01,Dubai Desert Conservation Reserve (Al Maha),محمية دبي الصحراوية (المها),Dubai,24.84118,55.68096,kar:C02,True
+CAM-DDCR-02,Dubai Desert Conservation Reserve (Al Maha),محمية دبي الصحراوية (المها),Dubai,24.84526,55.68089,kar:E03,True
+CAM-DDCR-03,Dubai Desert Conservation Reserve (Al Maha),محمية دبي الصحراوية (المها),Dubai,24.84607,55.65369,kga:A07,True
+CAM-DDCR-04,Dubai Desert Conservation Reserve (Al Maha),محمية دبي الصحراوية (المها),Dubai,24.86453,55.67706,kga:B04,True
+CAM-JH-01,Jabel Hafit,جبل حفيت,Abu Dhabi,24.0973,55.76658,kar:C04,True
+CAM-JH-02,Jabel Hafit,جبل حفيت,Abu Dhabi,24.09009,55.76004,kga:A01,True
+CAM-JH-03,Jabel Hafit,جبل حفيت,Abu Dhabi,24.10225,55.75183,kga:A09,True
+CAM-JH-04,Jabel Hafit,جبل حفيت,Abu Dhabi,24.10249,55.76604,kga:B06,True
+CAM-QAS-01,Qaser Al Sarab,قصر السراب,Abu Dhabi,22.84872,54.28072,kar:B02,True
+CAM-QAS-02,Qaser Al Sarab,قصر السراب,Abu Dhabi,22.81591,54.27839,kar:E01,True
+CAM-QAS-03,Qaser Al Sarab,قصر السراب,Abu Dhabi,22.83178,54.29718,kga:A05,True
+CAM-QAS-04,Qaser Al Sarab,قصر السراب,Abu Dhabi,22.85569,54.29157,kga:B02,True
+CAM-WW-01,The Wadi Wurayah,محمية متنزه وادي الوريعة الوطني,Fujairah,25.43222,56.25589,kar:C03,True
+CAM-WW-02,The Wadi Wurayah,محمية متنزه وادي الوريعة الوطني,Fujairah,25.45314,56.26033,kar:F02,True
+CAM-WW-03,The Wadi Wurayah,محمية متنزه وادي الوريعة الوطني,Fujairah,25.42956,56.22725,kga:A08,True
+CAM-WW-04,The Wadi Wurayah,محمية متنزه وادي الوريعة الوطني,Fujairah,25.43967,56.25647,kga:B05,True
