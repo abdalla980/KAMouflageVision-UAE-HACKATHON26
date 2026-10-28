@@ -7,9 +7,9 @@ import plotly.express as px
 import pydeck as pdk
 import streamlit as st
 
-from lib import (COLORS, SECONDS_PER_IMAGE, SPECIES_PALETTE, display_species, iucn_for, load_cameras, load_gbif_occurrences,
-                 load_protected_areas, load_species_reference, observations, require_predictions, setup_page,
-                 uae_counterparts, uae_mode, uae_only)
+from lib import (COLORS, SECONDS_PER_IMAGE, SPECIES_PALETTE, display_species, iucn_for, load_cameras,
+                 load_gbif_occurrences, load_protected_areas, model_label, observations, require_predictions,
+                 setup_page, uae_counterparts, uae_mode, uae_only)
 
 setup_page("Insights Dashboard", "Validated observations across monitored habitats: where each species is, "
                                  "when it is active, and where cameras are missing.")
@@ -78,8 +78,8 @@ st.pydeck_chart(pdk.Deck(layers=layers, map_style="light",
                          initial_view_state=pdk.ViewState(latitude=24.0, longitude=54.6, zoom=6.3),
                          tooltip={"text": "{label}"}), height=480)
 m1, m2 = st.columns([3, 2])
-m1.caption("🟢 camera (size = observations) · 🟡 reserve with cameras · ⚪ reserve without cameras. "
-           "Reserves are MOCCAE protected areas (Bayanat); camera positions are simulated.")
+m1.caption("Green cameras (size = observations) · gold reserves with coverage · grey reserves with no cameras. "
+           "Reserve boundaries are MOCCAE protected areas from Bayanat.")
 gaps = land[~land["covered"]].sort_values("area_km2", ascending=False)
 with m2.expander(f"{len(gaps)} terrestrial reserves without cameras"):
     st.dataframe(gaps[["name", "emirate", "area_km2"]].rename(columns={"area_km2": "km²"}),
@@ -144,7 +144,7 @@ export = pd.DataFrame({
     "sourceSpecies": obs["final_species"],
     "classificationMethod": obs["method"].map({"AI (auto)": "machine", "Expert": "human"}),
     "classificationProbability": obs["seq_conf"].round(3),
-    "classifiedBy": obs["review_by"].where(obs["method"] == "Expert", obs["model_version"]),
+    "classifiedBy": obs["review_by"].where(obs["method"] == "Expert", obs["model_version"].map(model_label)),
 })
 st.download_button("Download validated observations (CSV, Camtrap DP-style)", export.to_csv(index=False),
                    file_name="kamouflage_validated_observations.csv", mime="text/csv", type="primary",

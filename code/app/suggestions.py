@@ -168,3 +168,65 @@ def review_hints(item, burst, uae_mode=True):
         hints.append(("Possible threatened species", f"If confirmed, this is a {top_iucn} species record. "
                       "Double-check before validating."))
     return hints
+
+
+def answer_question(question, df, suggestions, uae_mode=True):
+    """Grounded reply for the advisor. Every number comes from the observation tables."""
+    q = question.lower()
+    obs = observations(df)
+    if not obs.empty:
+        obs["shown"] = obs["final_species"].map(lambda s: display_species(s, uae_mode))
+    pending = int(df[df["effective_status"] == "needs_review"]["seq_id"].nunique())
+    n_img = len(df)
+    empty_share = (df["detection"] == "empty").mean() if n_img else 0
+
+    def related(prefixes):
+        return [s for s in suggestions if any(str(s["id"]).startswith(p) for p in prefixes)]
+
+    def bullets(items):
+        return "\n".join(f"- **{s['title']}.** {s['evidence']} {s['action']}" for s in items)
+
+    if any(w in q for w in ("review", "first", "queue", "backlog", "uncertain", "next")):
+        items = related(["backlog"])
+        lead = f"The review queue has **{pending}** bursts, already ordered least-confident first."
+        return lead + ("\n\n" + bullets(items) if items else "\n\nOpen the review queue and confirm or correct each burst. Decisions are stored with the reviewer and time.")
+
+    if any(w in q for w in ("clock", "misconfig", "time stamp", "timestamp", "wrong time")):
+        items = related(["clock-", "cam-"])
+        if not items:
+            return "No camera in this batch has a daylight photo stamped at night, and uncertain-photo rates are within the normal range."
+        return "These deployments need a field check:\n\n" + bullets(items)
+
+    if any(w in q for w in ("camera", "place", "coverage", "where", "gap", "deploy")):
+        items = related(["gap-", "cam-"])
+        if not items:
+            return "Every large terrestrial reserve in this workspace already has at least one camera."
+        return "Coverage from the observation database:\n\n" + bullets(items[:3])
+
+    if any(w in q for w in ("threat", "endanger", "iucn", "oryx", "gazelle", "red list", "vulnerable")):
+        items = related(["threat-", "missing"])
+        if not items:
+            return "No threatened species are in the validated set yet. Finish the review queue before the next Red List extract."
+        return "Threatened species in the observation database:\n\n" + bullets(items[:4])
+
+    if any(w in q for w in ("night", "nocturnal", "hour", "when", "active")):
+        if obs.empty:
+            return "No validated observations yet, so activity-by-hour is empty. Confirm the review queue first."
+        night = obs.groupby("shown")["is_night"].mean().sort_values(ascending=False)
+        top = ", ".join(f"{name} ({share:.0%} at night)" for name, share in night.head(4).items())
+        return (f"Activity is computed from **{len(obs)}** validated observations. "
+                f"The most nocturnal species in this batch: {top}. "
+                f"Empty frames are **{empty_share:.0%}** of the archive, so those hours are not inflated by blank triggers.")
+
+    words = [w for w in q.split() if len(w) > 3]
+    hits = [s for s in suggestions if any(w in s["title"].lower() or w in s["evidence"].lower() for w in words)]
+    if hits:
+        return "From the observation database:\n\n" + bullets(hits[:3])
+
+    species = obs["shown"].value_counts().head(5) if not obs.empty else None
+    species_line = ""
+    if species is not None and len(species):
+        species_line = " Top species: " + ", ".join(f"{n} ({c})" for n, c in species.items()) + "."
+    return (f"The observation database holds **{n_img}** frames and **{len(obs)}** validated observations. "
+            f"**{pending}** bursts are still in review. Empty frames filtered: **{empty_share:.0%}**."
+            f"{species_line} Ask what to review first, where to add cameras, or which threatened species were recorded.")

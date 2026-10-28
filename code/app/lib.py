@@ -2,12 +2,13 @@
 
 import io
 import re
-from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
 import streamlit as st
-from PIL import Image, ImageDraw, ImageOps
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageOps
+
+from store import PIPELINE_MODELS, load_reviews_db, model_label, save_review_db
 
 APP_DIR = Path(__file__).resolve().parent
 REPO_DIR = APP_DIR.parents[1]
@@ -155,19 +156,11 @@ def load_predictions():
 
 
 def load_reviews():
-    cols = ["seq_id", "decision", "final_species", "reviewer", "timestamp"]
-    if not REVIEWS_CSV.exists():
-        return pd.DataFrame(columns=cols)
-    return pd.read_csv(REVIEWS_CSV, dtype=str).fillna("")
+    return load_reviews_db()
 
 
 def save_review(seq_id, decision, final_species, reviewer):
-    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-    reviews = load_reviews()
-    reviews = reviews[reviews["seq_id"] != seq_id]
-    row = {"seq_id": seq_id, "decision": decision, "final_species": final_species,
-           "reviewer": reviewer or "expert", "timestamp": datetime.now(timezone.utc).isoformat(timespec="seconds")}
-    pd.concat([reviews, pd.DataFrame([row])], ignore_index=True).to_csv(REVIEWS_CSV, index=False)
+    save_review_db(seq_id, decision, final_species, reviewer or "MOCCAE expert")
 
 
 def merged():
@@ -214,13 +207,26 @@ def require_predictions():
 # ---------------------------------------------------------------- images
 
 def enhance(im):
-    """Brighten dark / IR frames and stretch contrast (a light-weight stand-in for CLAHE)."""
+    """AI view: pull the animal out of sand, scrub and infrared flash.
+
+    Camera-trap night frames are often bright grey from the IR flash, so a
+    darkness check never fired and the toggle looked unchanged. This always
+    stretches the brightness channel, then sharpens edges.
+    """
+    im = im.convert("RGB")
     gray = ImageOps.grayscale(im)
-    mean = sum(i * c for i, c in enumerate(gray.histogram())) / max(gray.width * gray.height, 1)
-    if mean < 70:  # dark night / IR frame
-        eq = ImageOps.equalize(im)
-        return Image.blend(im, eq, 0.75)
-    return ImageOps.autocontrast(im, cutoff=1)
+    pixels = max(gray.width * gray.height, 1)
+    mean = sum(i * c for i, c in enumerate(gray.histogram())) / pixels
+    h, s, v = im.convert("HSV").split()
+    v = ImageOps.autocontrast(v, cutoff=1)
+    if mean < 120:
+        v = ImageOps.equalize(v)
+        lift = 1.2 if mean < 80 else 1.08
+        v = v.point(lambda p, lift=lift: min(255, int(p * lift)))
+    out = Image.merge("HSV", (h, s, v)).convert("RGB")
+    out = ImageEnhance.Contrast(out).enhance(1.5 if mean < 120 else 1.32)
+    out = ImageEnhance.Sharpness(out).enhance(1.85)
+    return out.filter(ImageFilter.UnsharpMask(radius=1.6, percent=90, threshold=2))
 
 
 def draw_bbox(im, bbox, color=COLORS["gold_light"]):
@@ -238,6 +244,7 @@ def draw_bbox(im, bbox, color=COLORS["gold_light"]):
 
 @st.cache_data(max_entries=400)
 def image_bytes(path, max_side=640, enhanced=False, bbox=""):
+    # enhance-v2: brightness stretch plus sharpen, including IR-flash frames
     im = Image.open(path).convert("RGB")
     im.thumbnail((max_side, max_side))
     if enhanced:
@@ -261,8 +268,12 @@ def setup_page(title, subtitle=""):
     st.logo(str(LOGO), size="large")
     st.markdown(CSS, unsafe_allow_html=True)
     st.markdown(
-        f'<div class="kv-header"><div class="kv-title">{title}</div>'
-        f'<div class="kv-sub">{subtitle}</div></div>', unsafe_allow_html=True)
+        f'<div class="kv-header">'
+        f'<div class="kv-kicker">رؤية كاموفلاج · MOCCAE monitoring workspace</div>'
+        f'<div class="kv-title">{title}</div>'
+        f'<div class="kv-sub">{subtitle}</div>'
+        f'</div>',
+        unsafe_allow_html=True)
 
 
 SECONDS_PER_IMAGE = 8  # assumed manual review time; explained on the About page
@@ -280,25 +291,90 @@ def uae_only():
 
 CSS = f"""
 <style>
-.kv-header {{
-  background: linear-gradient(120deg, {COLORS['green_dark']} 0%, {COLORS['green']} 70%, {COLORS['green_light']} 100%);
-  border-bottom: 4px solid {COLORS['gold']};
-  border-radius: 14px; padding: 18px 24px; margin-bottom: 18px;
+html, body, [class*="css"] {{
+  font-family: "Segoe UI", "Segoe UI Variable", system-ui, sans-serif;
 }}
-.kv-title {{ color: {COLORS['sand_light']}; font-size: 1.7rem; font-weight: 700; letter-spacing: .2px; }}
-.kv-sub {{ color: {COLORS['gold_light']}; font-size: .95rem; margin-top: 2px; }}
+.stApp {{ background: {COLORS['sand_light']}; }}
+.block-container {{ padding-top: 1.1rem; max-width: 1240px; }}
+header[data-testid="stHeader"] {{ background: transparent; }}
+footer, #MainMenu {{ visibility: hidden; height: 0; }}
+.kv-header {{
+  background: linear-gradient(115deg, {COLORS['green_dark']} 0%, {COLORS['green']} 62%, #2E6B52 100%);
+  border-bottom: 4px solid {COLORS['gold']};
+  border-radius: 16px; padding: 18px 24px 16px; margin-bottom: 16px;
+  box-shadow: 0 10px 28px rgba(20, 39, 31, 0.16);
+}}
+.kv-kicker {{
+  color: {COLORS['gold_light']}; font-size: .78rem; letter-spacing: .08em;
+  text-transform: none; font-weight: 600; margin-bottom: 2px;
+}}
+.kv-title {{ color: {COLORS['sand_light']}; font-size: 1.65rem; font-weight: 700; letter-spacing: .2px; }}
+.kv-sub {{ color: #E7F2EB; font-size: .95rem; margin-top: 3px; max-width: 920px; line-height: 1.4; }}
+.kv-pills {{ display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }}
+.kv-pill {{
+  background: rgba(247, 243, 234, 0.12); color: {COLORS['sand_light']};
+  border: 1px solid rgba(216, 182, 106, 0.45); border-radius: 999px;
+  padding: 4px 10px; font-size: .75rem; font-weight: 600; white-space: nowrap;
+}}
+.dot {{
+  width: 8px; height: 8px; border-radius: 50%; background: #8FDBA8;
+  display: inline-block; margin-right: 6px; vertical-align: middle;
+  box-shadow: 0 0 0 0 rgba(143, 219, 168, 0.7); animation: kvpulse 1.8s infinite;
+}}
+@keyframes kvpulse {{
+  70% {{ box-shadow: 0 0 0 6px rgba(143, 219, 168, 0); }}
+}}
 .kv-note {{
-  background: {COLORS['sand']}; border-left: 4px solid {COLORS['gold']}; border-radius: 8px;
-  padding: 10px 12px; font-size: .8rem; color: {COLORS['text']}; margin-top: 8px;
+  background: white; border-left: 4px solid {COLORS['gold']}; border-radius: 8px;
+  padding: 10px 14px; font-size: .86rem; color: {COLORS['text']}; margin-top: 8px;
 }}
 .kv-card-meta {{ color: {COLORS['muted']}; font-size: .78rem; line-height: 1.35; }}
 .kv-species {{ font-weight: 700; color: {COLORS['text']}; font-size: .95rem; }}
+.kv-steps {{ display: flex; gap: 6px; margin: 4px 0 12px; }}
+.kv-step {{
+  flex: 1; background: white; border-radius: 10px; padding: 8px 4px; text-align: center;
+  font-size: .72rem; color: {COLORS['muted']}; border-top: 3px solid {COLORS['sand']};
+  box-shadow: 0 1px 2px rgba(20,39,31,.05);
+}}
+.kv-step.done {{ border-top-color: {COLORS['green']}; color: {COLORS['green']}; font-weight: 700; }}
+.kv-step.active {{ border-top-color: {COLORS['gold']}; color: {COLORS['green_dark']}; font-weight: 700; }}
+.kv-log {{
+  background: {COLORS['green_dark']}; color: {COLORS['sand']}; border-radius: 12px;
+  padding: 12px 14px; font-family: Consolas, "Cascadia Mono", ui-monospace, monospace;
+  font-size: .8rem; line-height: 1.55; min-height: 6.6rem;
+  border: 1px solid rgba(182, 138, 53, .45);
+}}
+.kv-log b {{ color: {COLORS['gold_light']}; font-weight: 700; }}
 div[data-testid="stMetric"] {{
   background: white; border: 1px solid {COLORS['sand']}; border-top: 4px solid {COLORS['gold']};
   border-radius: 12px; padding: 12px 16px;
+  box-shadow: 0 1px 2px rgba(20, 39, 31, 0.04);
 }}
 div[data-testid="stMetricValue"] {{ color: {COLORS['green']}; }}
-section[data-testid="stSidebar"] {{ border-right: 3px solid {COLORS['gold']}; }}
+img.stLogo {{
+  height: 78px !important; width: 78px !important; margin: 4px 0 2px 4px;
+}}
+[data-testid="stSidebarHeader"], .stSidebarHeader {{
+  height: auto !important; min-height: 96px; padding: 12px 8px 4px 12px !important;
+}}
+section[data-testid="stSidebar"] {{
+  background: {COLORS['green_dark']}; border-right: 3px solid {COLORS['gold']};
+}}
+section[data-testid="stSidebar"] a,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] label {{
+  color: {COLORS['sand_light']} !important;
+}}
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] a {{
+  border-radius: 8px;
+}}
+button[data-testid="stBaseButton-primary"] {{
+  background: {COLORS['green']} !important; border-color: {COLORS['green']} !important; color: white !important;
+}}
+button[data-testid="stBaseButton-primary"]:hover {{
+  background: {COLORS['green_dark']} !important; border-color: {COLORS['green_dark']} !important;
+}}
 [data-testid="stToolbarActions"], [data-testid="stAppDeployButton"], [data-testid="stMainMenu"],
 [data-testid="stDecoration"] {{ display: none; }}
 </style>

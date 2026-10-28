@@ -2,7 +2,7 @@
 
 import streamlit as st
 
-from suggestions import build_suggestions
+from suggestions import answer_question, build_suggestions
 from lib import COLORS, require_predictions, setup_page, uae_mode
 
 setup_page("AI Advisor", "Suggestions on what to review first, where cameras are missing and which records "
@@ -13,9 +13,10 @@ PRIORITY = {"High": "#B23A3A", "Medium": "#C98A1B", "Info": COLORS["green"]}
 state = st.session_state.setdefault("advisor_state", {})
 
 st.markdown(
-    f"<div class='kv-note' style='margin-bottom:14px'><b>Preview.</b> Each suggestion is calculated from the "
-    f"observations in this app and shows the evidence behind it. The conversational assistant below is a design "
-    f"preview and is not connected to a language model yet.</div>", unsafe_allow_html=True)
+    "<div class='kv-note' style='margin-bottom:14px'><b>Grounded in the observation database.</b> "
+    "Every suggestion cites the records it used. The assistant answers from those same records, "
+    "on this workspace, with no image sent to an external service.</div>",
+    unsafe_allow_html=True)
 
 with st.spinner("Analysing observations ..."):
     suggestions = build_suggestions(df, uae_mode())
@@ -63,42 +64,35 @@ with tab_s:
                     state.pop(s["id"])
                     st.rerun()
 
-# ---------------------------------------------------------------- assistant (UI preview)
-KEYWORDS = {
-    "camera": ["gap-", "cam-", "clock-"], "place": ["gap-"], "coverage": ["gap-"], "where": ["gap-", "threat-"],
-    "review": ["backlog"], "first": ["backlog"], "threat": ["threat-", "missing"], "endangered": ["threat-", "missing"],
-    "oryx": ["threat-"], "gazelle": ["threat-"], "missing": ["missing"], "clock": ["clock-"], "night": ["clock-", "backlog"],
-}
+# ---------------------------------------------------------------- assistant
 PROMPTS = ["What should I review first?", "Where should we add cameras?", "Which threatened species did we record?",
            "Are any cameras misconfigured?"]
 
 with tab_chat:
-    chat = st.session_state.setdefault("advisor_chat", [])
-    st.caption("Ask about your observations. Answers will be grounded in this app's data and run on UAE-hosted "
-               "infrastructure.")
+    if "advisor_chat" not in st.session_state:
+        pending = int(df[df["effective_status"] == "needs_review"]["seq_id"].nunique())
+        st.session_state["advisor_chat"] = [{
+            "role": "assistant",
+            "content": (f"Observation database is online. **{pending}** bursts are waiting in review. "
+                        "Ask what to review first, where cameras are missing, or which threatened species were recorded."),
+        }]
+    chat = st.session_state["advisor_chat"]
+    st.caption("Answers use this workspace only: classifications, reviews, reserves and camera deployments.")
     picked = st.pills("Try asking", PROMPTS, selection_mode="single", key="advisor_prompt")
 
     for msg in chat:
         with st.chat_message(msg["role"], avatar=":material/person:" if msg["role"] == "user" else ":material/eco:"):
             st.markdown(msg["content"])
 
-    question = st.chat_input("Ask the assistant about species, cameras or the review queue")
+    question = st.chat_input("Ask about species, cameras or the review queue")
     question = question or (picked if picked and st.session_state.get("_last_pick") != picked else None)
     if picked:
         st.session_state["_last_pick"] = picked
     if question:
-        q = question.lower()
-        prefixes = {p for word, ps in KEYWORDS.items() if word in q for p in ps}
-        related = [s for s in suggestions if any(s["id"].startswith(p) for p in prefixes)][:3]
-        answer = "_The assistant is not connected yet._ "
-        if related:
-            answer += "These suggestions are related to your question:\n\n" + "\n".join(
-                f"- **{s['title']}**: {s['action']}" for s in related)
-        else:
-            answer += "Once connected, it will answer from the observation database and cite the records it used."
+        answer = answer_question(question, df, suggestions, uae_mode())
         chat += [{"role": "user", "content": question}, {"role": "assistant", "content": answer}]
         st.rerun()
 
-    if chat and st.button("Clear conversation", icon=":material/delete:"):
-        chat.clear()
+    if len(chat) > 1 and st.button("Clear conversation", icon=":material/delete:"):
+        del st.session_state["advisor_chat"]
         st.rerun()

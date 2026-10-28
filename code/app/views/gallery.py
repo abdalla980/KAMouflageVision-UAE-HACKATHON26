@@ -2,7 +2,8 @@
 
 import streamlit as st
 
-from lib import STATUS, badge, display_species, image_bytes, require_predictions, setup_page, uae_mode
+from lib import (STATUS, badge, display_species, image_bytes, model_label, require_predictions,
+                 setup_page, uae_mode)
 
 setup_page("Gallery", "Every photo with the AI's result. Switch on enhancement to see camouflaged and "
                       "night-time animals the way the AI sees them.")
@@ -11,15 +12,15 @@ df = require_predictions()
 df["shown_species"] = df["final_species"].map(lambda s: display_species(s, uae_mode()))
 
 # ---------------------------------------------------------------- filters
-f1, f2, f3, f4 = st.columns([2, 2, 4, 1.6])
+f1, f2, f3 = st.columns([2, 2, 4])
 reserves = f1.multiselect("Reserve", sorted(df["reserve"].unique()))
 species = f2.multiselect("Species", sorted(s for s in df["shown_species"].unique() if s))
 status_keys = ["auto_accepted", "needs_review", "validated", "empty", "rejected"]
 statuses = f3.pills("Status", status_keys, format_func=lambda k: STATUS[k][0], selection_mode="multi",
                     default=["auto_accepted", "needs_review", "validated"])
-with f4:
-    night_only = st.toggle("Night only", value=False)
-    enhanced = st.toggle("Enhance (AI view)", value=False, help="Brightens dark/IR frames and stretches contrast.")
+t1, t2, _ = st.columns([1.2, 1.4, 4])
+night_only = t1.toggle("Night only", value=False)
+enhanced = t2.toggle("Enhance (AI view)", value=False)
 
 view = df
 if reserves:
@@ -30,7 +31,12 @@ if statuses:
     view = view[view["effective_status"].isin(statuses)]
 if night_only:
     view = view[view["is_night"]]
-view = view.sort_values(["datetime", "frame_num"])
+focus = st.session_state.get("processed_camera")
+if focus:
+    view = view.assign(_focus=view["camera_id"].ne(focus))
+    view = view.sort_values(["_focus", "datetime", "frame_num"]).drop(columns="_focus")
+else:
+    view = view.sort_values(["datetime", "frame_num"])
 
 # ---------------------------------------------------------------- detail dialog
 
@@ -50,8 +56,7 @@ def detail(row):
     if row["top3"]:
         st.caption("Top candidates: " + " · ".join(
             f"{display_species(c.split(':')[0], uae_mode())} {float(c.split(':')[1]):.0%}" for c in row["top3"].split("|")))
-    st.caption(f"Source: {row['dataset'].upper()} {row['image_id']} · ground truth (burst): {row['ground_truth']}"
-               + (f" · UAE counterpart: {row['uae_counterpart']} ({row['uae_match']})" if row['uae_counterpart'] == row['uae_counterpart'] else ""))
+    st.caption(f"{model_label(row['model_version'])} · burst {row['seq_id']} · stored in the observation database")
     if len(burst) > 1:
         st.markdown(f"**All {len(burst)} frames in this burst**")
         cols = st.columns(len(burst))

@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>body{margin:0;background:#F7F3EA;font-family:Arial,Helvetica,sans-serif} #d{padding:10px} #d svg{width:1460px !important;height:auto !important;max-width:none !important}</style>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script></head><body>
+<div id="d"><pre class="mermaid">
+flowchart LR
+    B["Burst"] --> E["Enhance<br/>night / IR"] --> D{"Detect<br/>MegaDetector V6"}
+    D -- "empty" --> X["Filtered out"]
+    D -- "person / vehicle" --> P["Blurred"]
+    D -- "animal" --> C["Classify<br/>SpeciesNet<br/>UAE species"] --> V["Burst vote"] --> S{"Confidence"}
+    S -- "≥ 90%" --> A["Auto-accepted"]
+    S -- "< 90%" --> R["Expert review"]
+</pre></div>
+<script>
+mermaid.initialize({startOnLoad:true, theme:'base', flowchart:{htmlLabels:true, curve:'basis', nodeSpacing:40, rankSpacing:55},
+ themeVariables:{fontFamily:'Arial, Helvetica, sans-serif', fontSize:'18px', primaryColor:'#FFFFFF', primaryBorderColor:'#1F5C45',
+ primaryTextColor:'#1B2A23', lineColor:'#1F5C45', clusterBkg:'#E9DFC8', clusterBorder:'#B68A35', edgeLabelBackground:'#F7F3EA', titleColor:'#1F5C45'}});
+</script></body></html>

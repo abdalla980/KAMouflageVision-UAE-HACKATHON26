@@ -4,8 +4,8 @@ import pandas as pd
 import streamlit as st
 
 from suggestions import review_hints
-from lib import (badge, display_species, image_bytes, load_reviews, require_predictions, save_review,
-                 setup_page, uae_mode)
+from lib import (badge, display_species, image_bytes, load_reviews, model_label, require_predictions,
+                 save_review, setup_page, uae_mode)
 
 setup_page("Review Queue", "Only the bursts the AI is unsure about. One click turns an AI suggestion into a "
                            "scientifically validated observation.")
@@ -33,8 +33,13 @@ order = st.sidebar.radio("Queue order", ["Least confident first", "Oldest first"
 if order == "Oldest first":
     queue = queue.sort_values("datetime")
 # Skipped bursts stay in the queue but move to the back.
+# The camera just imported stays at the front, in whichever order was chosen.
 skipped = set(reviews.loc[reviews["decision"] == "skipped", "seq_id"])
 queue = pd.concat([queue[~queue["seq_id"].isin(skipped)], queue[queue["seq_id"].isin(skipped)]])
+focus = st.session_state.get("processed_camera")
+if focus and focus in set(queue["camera_id"]):
+    front = queue["camera_id"].eq(focus) & ~queue["seq_id"].isin(skipped)
+    queue = pd.concat([queue[front], queue[~front]])
 item = queue.iloc[0]
 burst = df[df["seq_id"] == item["seq_id"]].sort_values("frame_num").reset_index(drop=True)
 
@@ -78,23 +83,24 @@ with right:
     c1, c2 = st.columns(2)
     if c1.button("Confirm", type="primary", icon=":material/check_circle:", width="stretch"):
         decision = "confirm" if names and choice == names[0] else "correct"
-        save_review(item["seq_id"], decision, choice, "Expert")
-        st.toast(f"Validated: {display_species(choice, uae_mode())}", icon="✅")
+        save_review(item["seq_id"], decision, choice, "MOCCAE expert")
+        st.toast(f"Saved to observation database: {display_species(choice, uae_mode())}", icon="✅")
         st.rerun()
     if c2.button("No animal", icon=":material/block:", width="stretch"):
-        save_review(item["seq_id"], "not_animal", "", "Expert")
-        st.toast("Marked as false trigger", icon="🚫")
+        save_review(item["seq_id"], "not_animal", "", "MOCCAE expert")
+        st.toast("False trigger saved to the observation database", icon="🚫")
         st.rerun()
     if st.button("Skip for now", icon=":material/skip_next:", width="stretch"):
-        save_review(item["seq_id"], "skipped", "", "Expert")
+        save_review(item["seq_id"], "skipped", "", "MOCCAE expert")
         st.rerun()
-    st.caption("Picking a different species than the AI's first choice records a **correction**, which is "
-               "used to retrain the model later.")
+    st.caption("A different species than the model's first choice is stored as a **correction** for the next training round.")
 
-    with st.expander("Demo ground truth"):
-        st.write(f"Burst label: `{item['ground_truth']}`")
-        if item["uae_counterpart"] == item["uae_counterpart"]:
-            st.write(f"UAE counterpart: {item['uae_counterpart']} ({item['uae_match']})")
+    with st.expander("Audit trail"):
+        st.write(f"Model: {model_label(item['model_version'])}")
+        st.write(f"Burst: `{item['seq_id']}`")
+        st.write(f"Camera: {item['camera_id']} · {item['reserve']}")
+        st.write(f"Detector: {item['detection']} ({item['det_conf']:.0%})")
+        st.write("Decision, reviewer and timestamp are written to the observation database.")
 
 if not reviews.empty:
     with st.expander(f"Review history ({done_today})"):

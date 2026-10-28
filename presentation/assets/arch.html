@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>body{margin:0;background:#F7F3EA;font-family:Arial,Helvetica,sans-serif} #d{padding:10px} #d svg{width:1460px !important;height:auto !important;max-width:none !important}</style>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script></head><body>
+<div id="d"><pre class="mermaid">
+flowchart LR
+    CAM["Camera traps<br/>bursts of 3–10 frames"] --> ING
+
+    subgraph UAE["Runs inside the UAE"]
+        ING["Ingest<br/>memory card or LTE<br/>EXIF time, camera ID"] --> AI
+        AI["AI pipeline<br/>enhance · detect · classify<br/>combine burst · route"]
+        AI -- "≥ 90%" --> DB[("Observation DB<br/>PostgreSQL + PostGIS")]
+        AI -- "< 90%" --> REV["Expert review<br/>confirm / correct"]
+        REV -- "validated" --> DB
+        REV -. "corrections retrain" .-> AI
+        DB --> DASH["Dashboard<br/>map · activity · gaps"]
+    end
+
+    DASH --> EXP["Export<br/>Camtrap DP"]
+</pre></div>
+<script>
+mermaid.initialize({startOnLoad:true, theme:'base', flowchart:{htmlLabels:true, curve:'basis', nodeSpacing:40, rankSpacing:55},
+ themeVariables:{fontFamily:'Arial, Helvetica, sans-serif', fontSize:'18px', primaryColor:'#FFFFFF', primaryBorderColor:'#1F5C45',
+ primaryTextColor:'#1B2A23', lineColor:'#1F5C45', clusterBkg:'#E9DFC8', clusterBorder:'#B68A35', edgeLabelBackground:'#F7F3EA', titleColor:'#1F5C45'}});
+</script></body></html>

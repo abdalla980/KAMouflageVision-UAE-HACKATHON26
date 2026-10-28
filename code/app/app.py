@@ -21,8 +21,5 @@ pages = st.navigation({
         st.Page("views/dashboard.py", title="Insights Dashboard", url_path="dashboard", icon=":material/monitoring:"),
         st.Page("views/advisor.py", title="AI Advisor", url_path="advisor", icon=":material/auto_awesome:"),
     ],
-    "Info": [
-        st.Page("views/about.py", title="About & Data", url_path="about", icon=":material/info:"),
-    ],
 })
 pages.run()
